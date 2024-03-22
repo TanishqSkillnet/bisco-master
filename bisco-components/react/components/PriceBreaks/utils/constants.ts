@@ -1,3 +1,0 @@
-export const MAX_VISIBLE_ITEMS_IN_TABLE = 2
-export const MAX_ROWS_PRODUCT_PRICE_BREAKS_TABLE = 8
-export const CURRENCY_SYMBOL = '$'

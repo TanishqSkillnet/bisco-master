@@ -1,3 +1,0 @@
-import MinicartQuantitySelector from './components/MinicartQuantitySelector/MinicartQuantitySelector'
-
-export default MinicartQuantitySelector

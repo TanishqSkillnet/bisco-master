@@ -1,3 +1,0 @@
-import ProductFieldHighlights from './components/ProductFieldHilights/ProductFieldHighlights'
-
-export default ProductFieldHighlights

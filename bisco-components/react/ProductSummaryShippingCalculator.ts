@@ -1,3 +1,0 @@
-import ProductSummaryShippingCalculator from './components/ShippingCalculator/ProductSummaryShippingCalculator'
-
-export default ProductSummaryShippingCalculator
