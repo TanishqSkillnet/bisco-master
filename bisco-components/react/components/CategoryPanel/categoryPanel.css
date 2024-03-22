@@ -2,11 +2,7 @@
   --border-color: #e3e4e6;
   --blue: #1346d8;
 }
-.test {
-}
-.productList {
 
-}
 .productList > div > div > div > div {
   border: 1px solid var(--border-color);
 }
@@ -41,15 +37,11 @@
   transform: translate(0, -50%);
 }
 
-.categoryPanelHeaderRow {}
-
-.categoryPanelItemRow {}
-
 .categoryPanelContainer {
   min-height: 0.625rem;
   min-width: 0.625rem;
-  
-  
+
+
 }
 
 .containerImg {
@@ -87,7 +79,7 @@
 .clearLink {
   text-decoration: inherit;
   color: inherit;
-  
+
 }
 
 .element {
@@ -108,18 +100,6 @@
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
-
-.imageOuterContainer {}
-
-.imageInnerContainer {}
-
-.infoContainer {}
-
-.nameContainer {}
-
-.nameHeading {}
-
-.nameSpan {}
 
 .categoryPanelContainer {
   display:flex;
@@ -150,7 +130,7 @@
 }
 
 .categoryHeader h4{
-  
+
 }
 
 .gallerySection{
@@ -173,7 +153,7 @@
 
 .itemCard a{
  text-align:center;
- 
+
 }
 
 .itemCard img {
@@ -181,7 +161,7 @@
 }
 
 .itemCard img:hover {
-  border: 1px solid #008DD9; 
+  border: 1px solid #008DD9;
 }
 
 .categoryImage{
@@ -194,7 +174,7 @@
   height: 200px;
   border: 1px solid gray;
 }
-.galleryParent h4{ 
+.galleryParent h4{
   text-align: left;
   color: #008DD9;
   font-weight: normal;

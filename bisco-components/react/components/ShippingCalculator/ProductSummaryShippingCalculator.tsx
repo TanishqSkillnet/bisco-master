@@ -8,25 +8,11 @@ import { useProductSummary } from 'vtex.product-summary-context/ProductSummaryCo
 import ShippingCalculator from './ShippingCalculator'
 import styles from './shippingCalculator.css'
 
-interface Seller {
-  sellerDefault: boolean;
-  sellerId: string
-}
-
 const ProductSummaryShippingCalculator = () => {
   const valuesFromContext = useProductSummary()
   const itemId = path(['selectedItem', 'itemId'], valuesFromContext) as string
   const quantityFromContext = path(['selectedQuantity'], valuesFromContext) as number
-  const sellers = path(['selectedItem', 'sellers'], valuesFromContext) as Seller []
-
-  let sellerId = ''
-
-  const defaultSeller = sellers?.find((seller:Seller) => seller.sellerDefault)
-  if (defaultSeller) {
-    sellerId = defaultSeller.sellerId
-  } else {
-    sellerId = sellers.length >= 0 ? sellers[0]?.sellerId : ''
-  }
+  const sellerId = path(['selectedItem', 'sellers', 0, 'sellerId'], valuesFromContext) as string
 
   const valuesFromZipCodeContext = useZipCode()
   const dispatch = useZipCodeDispatch()

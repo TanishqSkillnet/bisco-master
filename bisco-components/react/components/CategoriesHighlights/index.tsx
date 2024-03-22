@@ -14,7 +14,7 @@ import {
   ITEMS_PER_ROW,
   RECTANGULAR,
   SQUARED,
-} from './utils/constants'
+} from './utils/Constants'
 import { documentSerializer } from './utils/DocumentSerializer'
 import { MDSearchResult, ProductResult } from './utils/interfaces'
 import { getItemInfo } from './utils/ProductSerializer'
@@ -140,7 +140,7 @@ class CategoriesHighlights extends Component<Props> {
     }
 
     return (
-      <Query query={FACET_PRODUCTS} variables={facetProductParams}>
+      <Query query={FACET_PRODUCTS} variables={facetProductParams} fetchPolicy="cache-and-network">
         {({ loading, error, data }: MDSearchResult) => {
           if (loading) { return <Spinner /> }
           if (error) { return <div> <FormattedMessage id= 'store/bisco-components.category-gallery-category-error' defaultMessage='Failed to load category'/></div> }
@@ -151,22 +151,29 @@ class CategoriesHighlights extends Component<Props> {
               field: 'reference',
               value: refId,
             },
+
+
           }
 
           return refId? (
-              <Query query={PRODUCT_IMAGE} variables={queryParams}>
+              <Query query={PRODUCT_IMAGE} variables={queryParams} fetchPolicy="cache-and-network" >
                 {({ loading, error, data }: ProductResult) => {
+
                   if (loading) { return <Spinner /> }
                   if (error) { return <div><FormattedMessage id= 'store/bisco-components.category-gallery-image-error' defaultMessage='Failed to load category image'/></div> }
                   const productInfo = getItemInfo(
                     path(['product'], data),
                     refId ? (refId as string) : ''
                   )
+
+
                   category.image =
                     productInfo && productInfo.imageUrl ? productInfo.imageUrl : ''
                   return this.showCategoryCard(category, cardShape, key)
+
                 }}
               </Query>
+
             ): this.showCategoryCard(category, cardShape, key)
         }}
       </Query>

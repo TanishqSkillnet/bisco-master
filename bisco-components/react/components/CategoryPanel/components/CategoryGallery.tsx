@@ -1,3 +1,4 @@
+'use client'
 import React, { Component , Fragment } from 'react'
 import { CategoryItem, FacetImage } from '../utils/interfaces'
 import CategoryPanelItem from './CategoryPanelItem'
@@ -41,13 +42,12 @@ class CategoryGallery extends Component<Props> {
  public roundHalf = (num: number) => Math.round(num * 2) / 2
 
   public render() {
-    
     const {
       items,
       parent,
       facetImages,
     } = this.props
-    
+
     return (
       items.length !== 0 && (
         <>

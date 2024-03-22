@@ -48,8 +48,8 @@ class Title extends React.Component<Props> {
     })
 
     return (
-      <div className={`${styles.titleContainer} flex justify-between`}>
-        <div className={`${styles.titleBox} w-100 ma1 c-muted-1 bb b--muted-4`}>
+      <div className={`flex justify-between`}>
+        <div className={`w-100 ma1 c-muted-1 bb b--muted-4`}>
           {this.getHeaderContentByLevel(level, content, titleClasses)}
         </div>
       </div>

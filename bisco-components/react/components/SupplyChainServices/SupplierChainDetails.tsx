@@ -13,7 +13,7 @@ class SupplierChainDetails extends Component<Props> {
     const list: string[] = listContent ? listContent.split('|') : []
 
     return (
-      <div className={`${supplierChain.supplierChainServiceDetailListContainer} fl w-100  pa2`}>
+      <section className={`${supplierChain.supplierChainServiceDetailListContainer} fl w-100  pa2`}>
         <div
           className={`${supplierChain.supplierChainServiceDetailListHeaderContainer} bg-white pv4`}>
           <span className="t-heading-4">{title}</span>
@@ -23,11 +23,11 @@ class SupplierChainDetails extends Component<Props> {
             {list &&
               list.length > 0 &&
               list.map(item => (
-                <li className={supplierChain.supplierChainServiceDetailListItem}>{item}</li>
+                <li>{item}</li>
               ))}
           </ul>
         </div>
-      </div>
+      </section>
     )
   }
 }

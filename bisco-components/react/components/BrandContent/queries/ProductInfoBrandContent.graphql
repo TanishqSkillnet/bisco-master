@@ -2,6 +2,7 @@ query ProductInfoBrandContent($identifier: ProductUniqueIdentifier) {
   product(identifier: $identifier)
   @context(provider: "vtex.search-graphql"){
     productName
+    description
     productId
     linkText
     items {

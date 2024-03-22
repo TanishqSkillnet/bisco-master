@@ -1,6 +1,6 @@
 import { VideoSlider } from 'biscoind.video-slider'
 import { compose, equals, find, last, pathOr, prop, propEq, propOr } from 'ramda'
-import React, { useState } from 'react'
+import React, { useState , useMemo} from 'react'
 import { useQuery } from 'react-apollo'
 import { useDevice } from 'vtex.device-detector'
 import { Tab, Tabs } from 'vtex.styleguide'
@@ -61,18 +61,24 @@ const DEFAULT_MAX_ITEMS = 10
 const DEFAULT_ITEMS_PER_PAGE = 5
 const DEFAULT_MIN_ITEMS_PER_PAGE = 1
 
+
+
+
 const BrandContent = ({
-                        brandSlug, noOfProducts, autoplay,
-                        autoplaySpeed,
-                        gap,
-                        itemsPerPage,
-                        showArrows,
-                        showDots,
-                        width,
-                        maxItems,
-                        minItemsPerPage,
-                      }: Props) => {
+  brandSlug, noOfProducts, autoplay,
+  autoplaySpeed,
+  gap,
+  itemsPerPage,
+  showArrows,
+  showDots,
+  width,
+  maxItems,
+  minItemsPerPage,
+}: Props) => {
   const [currentTab, setCurrentTab] = useState(1)
+  const apolloClientOptions = useMemo(() => ({
+    fetchPolicy: 'cache-and-network', // Specify the default fetch policy for all queries
+  }), []);
   const { isMobile } = useDevice()
   const intl = useIntl()
   const handleTabChange = (tabIndex: number) => {
@@ -81,7 +87,7 @@ const BrandContent = ({
   const {
     culture: { language },
   } = useRuntime()
-  const { data: brandList, loading: brandListLoading, error: brandListError } = useQuery(getBrandList)
+  const { data: brandList, loading: brandListLoading, error: brandListError } = useQuery(getBrandList,apolloClientOptions)
   const brand: Brand | undefined = find(
     compose(
       equals(brandSlug),
@@ -90,27 +96,30 @@ const BrandContent = ({
     pathOr([], ['brands'], brandList)
   )
   const { data: brandContents, loading: brandContentsLoading, error: brandContentError } = useQuery(getDocuments, {
+    ...apolloClientOptions,
     skip: !brand,
     variables: {
       acronym: 'BrandContent_v2',
       fields: ['brandId', 'description', 'newProducts', 'videos'],
       schema: 'brand-content-schema-v3',
       where: `(brandId=${brand ? brand.id : null}) AND (locale=${language})`,
+
     },
   })
+
   if (brandListLoading) {
-    return <BrandContentLoader/>
+    return <BrandContentLoader />
   }
   if (brandListError || !pathOr([], ['brands'], brandList)) {
     return <p>{intl.formatMessage(messages.brandListError)}</p>
   }
 
   if (brand === undefined) {
-    return <div/>
+    return <div />
   }
 
   if (brandContentsLoading) {
-    return <BrandContentLoader/>
+    return <BrandContentLoader />
   }
   if (brandContentError || !brandContents) {
     return <p>{intl.formatMessage(messages.brandContentError)}</p>
@@ -118,8 +127,9 @@ const BrandContent = ({
 
   const fields: MDField[] = prop('fields', last((brandContents.documents || []) as any[]))
   if (!fields) {
-    return <div/>
+    return <div />
   }
+
   const description: string = pathOr('', ['value'], find(
     propEq('key', 'description'),
     fields
@@ -131,71 +141,71 @@ const BrandContent = ({
     pathOr('[]', ['value'], find(propEq('key', 'videos'), fields))
   )
   return (
-    <div className={`${styles.brandGalleryContainer} pb5 bb b--muted-4`}>
+    <section className={`${styles.brandGalleryContainer} pb5 bb b--muted-4`}>
       <div className="mw9 center ph3-ns">
         <div className="cf ph2-ns">
           <div className="fl w-100 pa2">
             <Tabs>
               <Tab label={intl.formatMessage(messages.brandContentAbout)} active={currentTab === 1} onClick={() => handleTabChange(1)}>
                 <div className={`${styles.brandGalleryDescription} flex w-100 pa3 pa5-ns`}>
-                  <div className="fl w-100 w-30-ns pa2">
-                    <BrandImage brand={brand}/>
+                  <div className="fl w-100 w-30-ns pa2 px-5 py-5">
+                    <BrandImage brand={brand} />
                   </div>
                   {description && (
                     <div className="fl w-100 w-70-ns pa2">
                       <h2 className={styles.brandName}>{brand.name}</h2>
                       <p
-                        className={`${
-                          styles.brandGalleryDescriptionTextContent
-                        } lh-copy`}>
+                        className={`${styles.brandGalleryDescriptionTextContent
+                          } lh-copy`}>
                         {description}
                       </p>
                     </div>
                   )}
                 </div>
               </Tab>
-              <Tab label={intl.formatMessage(messages.brandContentVideo)} active={currentTab === 2} onClick={() => handleTabChange(2)}>
-                <div className={styles.brandGalleryVideos}>
-                  {videos && (
-                    <VideoSlider
-                      videos={videos.map(video => ({
-                        videoTitle: video.title,
-                        videoUrl: video.url,
-                      }))}
-                      videoHeight={380}
-                      videoMobileHeight={260}
-                    />
-                  )}
-                </div>
-              </Tab>
-              <Tab label={intl.formatMessage(messages.brandContentNewProducts)} active={currentTab === 3} onClick={() => handleTabChange(3)}>
-                <div
-                  className={`${
-                    styles.brandGalleryProductShelf
-                  } flex flex-row flex-wrap items-stretch bn ph1`}>
-                  {newProducts && (
-                    <ProductCarousel
-                      productIds={newProducts.map(product => product.productId)}
-                      noOfProducts={noOfProducts}
-                      autoplay={autoplay}
-                      autoplaySpeed={autoplaySpeed}
-                      showArrows={showArrows}
-                      showDots={showDots}
-                      width={width}
-                      itemsPerPage={itemsPerPage}
-                      gap={gap}
-                      minItemsPerPage={minItemsPerPage}
-                      maxItems={maxItems}
-                      isMobile={isMobile}
-                    />
-                  )}
-                </div>
-              </Tab>
+              {videos.length > 0 ?
+                <Tab label={intl.formatMessage(messages.brandContentVideo)} active={currentTab === 2} onClick={() => handleTabChange(2)}>
+                  <div className={styles.brandGalleryVideos}>
+                    {videos && (
+                      <VideoSlider
+                        videos={videos.map(video => ({
+                          videoTitle: video.title,
+                          videoUrl: video.url,
+                        }))}
+                        videoHeight={380}
+                        videoMobileHeight={260}
+                      />
+                    )}
+                  </div>
+                </Tab> : <></>}
+              {newProducts?.length > 0 ?
+                <Tab label={intl.formatMessage(messages.brandContentNewProducts)} active={currentTab === 3} onClick={() => handleTabChange(3)}>
+                  <div
+                    className={`${styles.brandGalleryProductShelf
+                      } flex flex-row flex-wrap items-stretch bn ph1`}>
+                    {newProducts && (
+                      <ProductCarousel
+                        productIds={newProducts.map(product => product.productId)}
+                        noOfProducts={noOfProducts}
+                        autoplay={autoplay}
+                        autoplaySpeed={autoplaySpeed}
+                        showArrows={showArrows}
+                        showDots={showDots}
+                        width={width}
+                        itemsPerPage={itemsPerPage}
+                        gap={gap}
+                        minItemsPerPage={minItemsPerPage}
+                        maxItems={maxItems}
+                        isMobile={isMobile}
+                      />
+                    )}
+                  </div>
+                </Tab> : <></>}
             </Tabs>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

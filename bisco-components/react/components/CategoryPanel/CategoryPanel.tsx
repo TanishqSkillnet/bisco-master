@@ -131,7 +131,7 @@ class CategoryPanel extends Component<Props> {
       where: `facetType=category`,
     }
     return canUseDOM ? (
-      <Query query={FACET_IMAGES} variables={facetProductParams}>
+      <Query query={FACET_IMAGES} variables={facetProductParams}  fetchPolicy="cache-and-network" >
         {({ loading, error, data }: MDSearchResult) => {
           if (loading) return <Loader />
 
@@ -143,6 +143,7 @@ class CategoryPanel extends Component<Props> {
 
           return (
             <div className={`${styles.categoryPanelContainer}`}>
+              <h1>udsahdsaudsdshjdshjbdashbj</h1>
               {tree.sort((a,b)=>a.name.localeCompare(b.name)).map(category => {
                 return this.renderCategoryShelf(
                   category,

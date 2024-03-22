@@ -1,12 +1,12 @@
 .productShippingCalculatorContainer {
   border-left: 0.5rem solid;
   padding: 1px 0 1px;
-  box-shadow: 0 3px 3px rgba(0,0,0,0.19);
-  -moz-box-shadow: 0 3px 3px rgba(0,0,0,0.19);
-  -webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.19);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.19);
 }
 
-.productShippingCalculatorContainer > div {
+.productShippingCalculatorContainer>div {
   text-align: left;
   margin: 10px;
 }
@@ -19,7 +19,7 @@
   border-color: green !important;
 }
 
-.ProductSummaryShippingCalculatorWrapper{
+.ProductSummaryShippingCalculatorWrapper {
   width: 100%;
   cursor: default;
 }
@@ -33,32 +33,36 @@
   z-index: 3;
 }
 
-.zipCodeEditBox > div {
+.zipCodeEditBox>div {
   text-align: right;
   margin: 7px 7px 0 0;
 
 }
 
-.zipCodeEditBox > div:first-child span {
+.zipCodeEditBox>div:first-child span {
   cursor: pointer;
 }
 
-.zipCodeInputEditBox > label {
+.zipCodeInputEditBox>label {
   float: left;
   width: 60%;
   margin: 0 10px 10px 10px;
 }
 
-.zipCodeInputEditBox > label > span {
+.zipCodeInputEditBox>label>span {
   text-align: left;
 }
 
-.zipCodeInputEditBox > button {
+.zipCodeInputEditBox>button {
   width: 32%;
   margin-top: 22px;
+}
+.postalCodeLink {
+  padding-left: 10px !important;
 }
 
 .postalCodeLink a {
   color: blue;
   cursor: pointer;
+  padding-left: 10px !important;
 }

@@ -13,27 +13,27 @@ interface Props {
 }
 
 const messages = defineMessages({
-    specifications: {
-      defaultMessage: 'Specifications',
-      id: 'store/bisco-components.specifications',
-    },
-    error: {
-      defaultMessage: 'Error',
-      id: 'store/bisco-components.summary-specification.error',
-    },
-    noSpecificationFound: {
-      defaultMessage: 'No Specification Found',
-      id: 'store/bisco-components.summary-specification.no-specification',
-    },
-    specification: {
-      defaultMessage: 'Specification',
-      id: 'store/bisco-components.specification',
-    },
-    property: {
-      defaultMessage: 'Property',
-      id: 'store/bisco-components.property',
-    },
+  specifications: {
+    defaultMessage: 'Specifications',
+    id: 'store/bisco-components.specifications',
   },
+  error: {
+    defaultMessage: 'Error',
+    id: 'store/bisco-components.summary-specification.error',
+  },
+  noSpecificationFound: {
+    defaultMessage: 'No Specification Found',
+    id: 'store/bisco-components.summary-specification.no-specification',
+  },
+  specification: {
+    defaultMessage: 'Specification',
+    id: 'store/bisco-components.specification',
+  },
+  property: {
+    defaultMessage: 'Property',
+    id: 'store/bisco-components.property',
+  },
+},
 )
 
 const ProductSummarySpecifications = (props: Props) => {
@@ -113,59 +113,60 @@ const ProductSummarySpecifications = (props: Props) => {
   }
 
   return (
-    <div>
-      <Query
-        query={productSpecifications}
-        variables={{ identifier: { field: 'id', value: product.productId } }}>
-        {({ data, loading, error }: any) => {
-          if (error) {
-            return <p>{intl.formatMessage(messages.error)}</p>
-          }
 
-          const listHighlights = highlights(
-            data?.product?.properties,
-            propOr([], 'generalProperties', product)
-          )
-          const tableItems = listHighlights.map((highlight: any) => ({
-            property: highlight.name,
-            specifications: highlight.values.join(', '),
-          }))
+    <Query
+      query={productSpecifications}
+      variables={{ identifier: { field: 'id', value: product.productId } }}
+      fetchPolicy="cache-and-network">
+      {({ data, loading, error }: any) => {
+        if (error) {
+          return <p>{intl.formatMessage(messages.error)}</p>
+        }
 
-          const specificationTable =
-            tableItems.length > 0 ? (
-              <div className={styles.specificationModal}>
-                <Table
-                  schema={defaultSchema}
-                  items={tableItems}
-                  density="medium"
-                  emptyStateLabel={intl.formatMessage(messages.noSpecificationFound)}
-                />
-              </div>
-            ) : (
-              <div />
-            )
+        const listHighlights = highlights(
+          data?.product?.properties,
+          propOr([], 'generalProperties', product)
+        )
+        const tableItems = listHighlights.map((highlight: any) => ({
+          property: highlight.name,
+          specifications: highlight.values.join(', '),
+        }))
 
-          return !showAllSpecifications ? (
-            specificationTable
-          ) : (
-            <div>
-              <span className="mr4 db" onClick={clickPreventPropagation}>
-                <Button
-                  variation="primary"
-                  size="small"
-                  disabled={loading || tableItems.length == 0}
-                  onClick={openSpecificationModal}>
-                  {intl.formatMessage(messages.specifications)}
-                </Button>
-              </span>
-              <Modal isOpen={isModalOpen} onClose={closeSpecificationModal}>
-                {specificationTable}
-              </Modal>
+        const specificationTable =
+          tableItems.length > 0 ? (
+            <div className={styles.specificationModal}>
+              <Table
+                schema={defaultSchema}
+                items={tableItems}
+                density="medium"
+                emptyStateLabel={intl.formatMessage(messages.noSpecificationFound)}
+              />
             </div>
+          ) : (
+            <div />
           )
-        }}
-      </Query>
-    </div>
+
+        return !showAllSpecifications ? (
+          specificationTable
+        ) : (
+          <div>
+            <span className="mr4 db" onClick={clickPreventPropagation}>
+              <Button
+                variation="primary"
+                size="small"
+                disabled={loading || tableItems.length == 0}
+                onClick={openSpecificationModal}>
+                {intl.formatMessage(messages.specifications)}
+              </Button>
+            </span>
+            <Modal isOpen={isModalOpen} onClose={closeSpecificationModal}>
+              {specificationTable}
+            </Modal>
+          </div>
+        )
+      }}
+    </Query>
+
   )
 }
 

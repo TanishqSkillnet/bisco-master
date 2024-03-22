@@ -22,5 +22,5 @@
     "enable": false
   },
   "exclude": ["node_modules", "**/*.test.ts"],
-  "include": ["./**/*.ts", "./typings/*.d.ts", "components/PriceBreaks/SearchPrices/Loader.tsx", "components/PriceBreaks/SearchPrices/ProductSummaryPriceWrapper.tsx"]
+  "include": ["./**/*.ts", "./typings/*.d.ts", "components/PriceBreaks/SearchPrices/Loader.tsx", "components/PriceBreaks/SearchPrices/ProductSummaryPriceWrapper.tsx", "HelloWorld.tsx"]
 }

@@ -52,7 +52,7 @@ const ProductCarousel = (props: Props) => {
   const [currentSlide, setCurrentSlide] = useState(0)
   const handles = useCssHandles(CSS_HANDLES)
   const {
-    height = 480,
+    height = 375,
     autoplay = true,
     showDots = true,
     showArrows = true,
