@@ -1,7 +1,7 @@
 {
   "name": "bisco-components",
   "vendor": "biscoind",
-  "version": "0.3.63",
+  "version": "0.4.0",
   "title": "Bisco Store Components",
   "description": "Bisco store components",
   "scripts": {
