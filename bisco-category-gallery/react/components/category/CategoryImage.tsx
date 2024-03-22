@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { pathOr } from 'ramda'
 import { useCssHandles } from 'vtex.css-handles'
 import CategoryCardContext from '../../CategoryCardContext'
@@ -16,6 +16,8 @@ interface Props {
 }
 
 const CategoryImage = ({ placeholderImage }: Props) => {
+  const [checkImage, setCheckImage] = useState(false);
+
   const cssHandles = useCssHandles(CSS_HANDLES)
 
   const { useCategoryState } = CategoryCardContext
@@ -26,11 +28,12 @@ const CategoryImage = ({ placeholderImage }: Props) => {
 
   return category && !isLoading ? (
     <div className={`${cssHandles.categoryImageContainer} flex items-center`}>
-      {imageUrl && imageUrl !== '' ? (
+      {!checkImage && imageUrl && imageUrl !== '' ? (
         <img
           className={`${cssHandles.categoryImage} w-100`}
           alt={`actual-${pathOr('image', ['name'], category)}`}
           src={imageUrl}
+          onError={() => setCheckImage(true)}
         />
       ) : placeholderImage && placeholderImage !== '' ? (
         <img

@@ -37,7 +37,7 @@
     "@types/ramda": "types/npm-ramda#dist",
     "@types/unorm": "^1.3.27",
     "@types/url-parse": "^1.4.3",
-    "@vtex/api": "6.45.24",
+    "@vtex/api": "6.46.1",
     "@vtex/test-tools": "^1.2.0",
     "@vtex/tsconfig": "^0.2.0",
     "eslint": "^5.15.3",
