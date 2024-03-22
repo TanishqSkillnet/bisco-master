@@ -1,0 +1,14 @@
+{
+  "admin/editor.flyout-menu.title": "フライアウト カテゴリ メニュー",
+  "admin/editor.flyout-menu.description": "フライアウト カテゴリ メニュー",
+  "admin/editor.flyout-menu.disposition-type.title": "メニューの位置",
+  "admin/editor.flyout-menu.show-departments-category.title": "部門のカテゴリを表示する",
+  "admin/editor.flyout-menu.show-subcategories.title": "サブカテゴリーを表示",
+  "admin/editor.flyout-menu.no-of-categories.title": "表示可能なカテゴリの数",
+  "admin/editor.flyout-menu.no-of-departments.title": "表示される部門の数",
+  "admin/editor.flyout-menu.no-of-subcategories.title": "表示されるサブカテゴリの数",
+  "editor.flyout-menu.title": "フライアウト カテゴリ メニュー",
+  "category-menu.departments.title": "部門",
+  "category-menu.all-category.title": "すべてを見る",
+  "category-menu.all-products": "すべての製品"
+}

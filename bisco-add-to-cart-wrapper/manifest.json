@@ -1,0 +1,26 @@
+{
+  "vendor": "biscoind",
+  "name": "bisco-add-to-cart-wrapper",
+  "version": "0.0.2",
+  "title": "Bisco Add-to-cart Wrapper",
+  "description": "Bisco Add-to-cart Wrapper",
+  "builders": {
+    "react": "3.x",
+    "store": "0.x",
+    "messages": "1.x",
+    "docs": "0.x"
+  },
+  "dependencies": {
+    "vtex.product-context": "0.x",
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.rich-text": "0.x",
+    "vtex.styleguide": "9.x",
+    "vtex.search-graphql": "0.x",
+    "vtex.product-list": "0.x",
+    "vtex.css-handles": "0.x",
+    "biscoind.bisco-graphql": "0.x"
+  },
+  "registries": ["smartcheckout"],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

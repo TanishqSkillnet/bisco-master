@@ -1,0 +1,5 @@
+mutation submitQuickQuote ($dataObject: DataObjectInput) {
+  submitQuickQuote(dataObject: $dataObject) {
+    submitQuickQuoteResponse
+  }
+}

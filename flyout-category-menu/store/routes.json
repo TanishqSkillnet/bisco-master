@@ -1,0 +1,6 @@
+{
+  "store.update-vbase-category-tree": {
+    "title": "Update vbase Category Tree",
+    "path": "/internal/update-vbase-category-tree/:treeLevel"
+  }
+}

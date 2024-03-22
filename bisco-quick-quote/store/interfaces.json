@@ -1,0 +1,14 @@
+{
+  "quick-quote": {
+    "component": "QuickQuote"
+  },
+  "product-quote": {
+    "component": "ProductQuoteWrapper"
+  },
+  "product-summary-quote": {
+    "component": "ProductSummaryQuoteWrapper"
+  },
+  "pixel.quick-quote": {
+    "component": "index"
+  }
+}

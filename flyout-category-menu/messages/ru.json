@@ -1,0 +1,14 @@
+{
+  "admin/editor.flyout-menu.title": "Выпадающее меню категорий",
+  "admin/editor.flyout-menu.description": "Выпадающее меню категорий",
+  "admin/editor.flyout-menu.disposition-type.title": "Положение меню",
+  "admin/editor.flyout-menu.show-departments-category.title": "Показать категорию отделов",
+  "admin/editor.flyout-menu.show-subcategories.title": "Показать подкатегории",
+  "admin/editor.flyout-menu.no-of-categories.title": "Количество видимых категорий",
+  "admin/editor.flyout-menu.no-of-departments.title": "Количество видимых отделов",
+  "admin/editor.flyout-menu.no-of-subcategories.title": "Количество видимых подкатегорий",
+  "editor.flyout-menu.title": "Выпадающее меню категорий",
+  "category-menu.departments.title": "Департаменты",
+  "category-menu.all-category.title": "Увидеть все",
+  "category-menu.all-products": "Все продукты"
+}

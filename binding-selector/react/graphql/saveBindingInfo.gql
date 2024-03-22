@@ -1,0 +1,7 @@
+#import './bindingInfoFragment.gql'
+
+mutation saveBindingInfo($data: [BindingsInput]) {
+  saveBindingInfo(data: $data) {
+    ...BindingInfoFragment
+  }
+}

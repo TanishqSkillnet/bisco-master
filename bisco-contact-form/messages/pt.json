@@ -1,0 +1,16 @@
+{
+  "store/contact-form.form.company": "Empresa",
+  "store/contact-form.form.country": "País",
+  "store/contact-form.form.email": "O email",
+  "store/contact-form.form.firstName": "Primeiro nome",
+  "store/contact-form.form.lastName": "Último nome",
+  "store/contact-form.form.message": "mensagem",
+  "store/contact-form.form.phoneNumber": "Número de telefone",
+  "store/contact-form.form.postalCode": "Código postal",
+  "store/contact-form.form.topic": "Tópico",
+  "store/contact-form.form.submit": "Enviar",
+  "store/contact-form.form.success": "Sua pergunta foi enviada com sucesso.",
+  "store/contact-form.form.error": "Ocorreu um erro ao enviar sua consulta. Tente novamente.",
+  "store/contact-form.form.corporate-office": "Escritório corporativo: ",
+  "store/contact-form.form.contact-us": "Contate-nos"
+}

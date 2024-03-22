@@ -1,0 +1,13 @@
+type Document {
+  productRefId: String,
+  id: String,
+  linkUrl: String,
+  linkText: String,
+  mediaType: String,
+  locale: String
+}
+
+type Query {
+  getMediaLeadDocuments(where: String):[Document]
+}
+

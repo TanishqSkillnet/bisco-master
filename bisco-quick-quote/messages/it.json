@@ -1,0 +1,21 @@
+{
+  "test": "test",
+  "alert.success": "Preventivo aggiunto con successo.",
+  "alert.error": "Qualcosa è andato storto durante l'aggiunta della citazione.",
+  "bisco-quick-quote.quick-quote": "Preventivo veloce",
+  "bisco-quick-quote.submit": "Invia",
+  "bisco-quick-quote.get-a-quick-response": "Ottieni una risposta rapida da Bisco",
+  "bisco-quick-quote.first-name":"Nome di battesimo",
+  "bisco-quick-quote.need-by-date": "Bisogno per data",
+  "bisco-quick-quote.quantity": "Quantità (per pezzo)",
+  "bisco-quick-quote.competitor": "Concorrente",
+  "bisco-quick-quote.target-price": "Prezzo indicativo (per pezzo)",
+  "bisco-quick-quote.brand-name": "Marchio",
+  "bisco-quick-quote.product-name":"nome del prodotto",
+  "bisco-quick-quote.postal-code":"Codice Postale",
+  "bisco-quick-quote.country": "Paese",
+  "bisco-quick-quote.company": "Azienda",
+  "bisco-quick-quote.phone": "Telefono",
+  "bisco-quick-quote.email": "E-mail",
+  "bisco-quick-quote.last-name": "Cognome"
+}

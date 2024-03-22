@@ -1,0 +1,21 @@
+{
+  "editor.about.title": "About",
+  "editor.about.description": "About page",
+  "editor.about.sectionTitle": "About",
+  "editor.aboutUs.title": "About Us",
+  "editor.aboutUs.description": "About us page",
+  "editor.aboutUs.video": "Video",
+  "editor.aboutUs.image": "Image",
+  "editor.history.title": "History",
+  "editor.history.description": "History page",
+  "editor.history.sampleText": "Sample text",
+  "editor.news.title": "News",
+  "editor.news.description": "News page",
+  "editor.news.sampleText": "Sample text",
+  "editor.whyChoose.title": "Why Choose",
+  "editor.whyChoose.description": "Why Choose Page",
+  "editor.whyChoose.sampleText": "Sample text",
+  "editor.executiveTeam.title": "Executive Team",
+  "editor.executiveTeam.description": "Executive Team Page",
+  "editor.executiveTeam.sampleText": "Sample text"
+}

@@ -1,0 +1,40 @@
+type Query {
+  """
+    Returns categories tree
+    """
+    categoriesTree(
+      """
+      Category tree level. Default: 3
+      """
+      treeLevel: Int = 3
+      locale: String
+    ): [Category] @cacheControl(scope: PUBLIC, maxAge: LONG)
+
+    viewSynchronizerSchedule: Schedule
+}
+
+type Mutation {
+  updateVbaseCategoryTree(
+      """
+      Category tree level. Default: 3
+      """
+      treeLevel: Int = 3
+    ): String @cacheControl(scope: PRIVATE, maxAge: LONG)
+
+  createSynchronizerSchedule(
+    expression: String = "0 0 * * *"
+    endDate: String = "2030-11-26T23:29:00"
+    treeLevel: Int = 3
+  ): Schedule
+
+  deleteSynchronizerSchedule: Boolean
+
+  googleTranslation(
+    targetLanguage: String
+    text: String
+  ):String
+
+  translateVbaseCategoryTree(
+    targetLocal: String
+  ): String @cacheControl(scope: PRIVATE, maxAge: LONG)
+}

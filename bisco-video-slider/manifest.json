@@ -1,0 +1,28 @@
+{
+  "name": "video-slider",
+  "vendor": "biscoind",
+  "version": "0.1.1",
+  "title": "Video Slider",
+  "description": "This is a slider which can slide videos",
+  "defaultLocale": "en-US",
+  "scripts": {
+    "prereleasy": "bash pre.sh"
+  },
+  "builders": {
+    "messages": "1.x",
+    "store": "0.x",
+    "react": "3.x"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.store-components": "3.x",
+    "vtex.slider": "0.x",
+    "vtex.store-icons": "0.x",
+    "vtex.device-detector": "0.x"
+  },
+  "mustUpdateAt": "2020-04-16",
+  "registries": [
+    "smartcheckout"
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

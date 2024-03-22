@@ -1,0 +1,20 @@
+query Product($identifier:  ProductUniqueIdentifier){
+  product(identifier: $identifier) {
+    cacheId
+    productName
+    productId
+    linkText
+    brand
+    items {
+      itemId
+      name
+      referenceId {
+        Key
+        Value
+      }
+      images(quantity: 10) {
+        imageUrl
+      }
+    }
+  }
+}

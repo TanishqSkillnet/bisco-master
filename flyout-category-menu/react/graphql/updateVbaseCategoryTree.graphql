@@ -1,0 +1,3 @@
+mutation updateVbaseCategoryTree($treeLevel: Int) {
+  updateVbaseCategoryTree(treeLevel: $treeLevel)
+}

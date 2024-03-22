@@ -1,0 +1,39 @@
+{
+  "name": "media-lead",
+  "vendor": "biscoind",
+  "version": "0.1.8-beta.7",
+  "title": "Media links",
+  "description": "Media links with media lead",
+  "builders": {
+    "messages": "1.x",
+    "react": "3.x",
+    "store": "0.x",
+    "styles": "2.x",
+    "graphql": "1.x",
+    "node": "6.x"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.product-context": "0.x",
+    "vtex.store-resources": "0.x",
+    "vtex.css-handles": "1.x"
+  },
+  "policies": [
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "api.vtex.com",
+        "path": "/api/dataentities/*"
+      }
+    },
+    {
+      "name": "POWER_USER_DS"
+    }
+  ],
+  "mustUpdateAt": "2020-07-10",
+  "registries": [
+    "smartcheckout"
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

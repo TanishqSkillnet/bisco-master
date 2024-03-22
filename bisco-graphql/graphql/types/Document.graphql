@@ -1,0 +1,24 @@
+type Field {
+  key: String
+  value: String
+}
+
+type Document {
+  """ id is used as cacheId """
+  cacheId: ID
+  id: String
+  fields: [Field]
+}
+
+type Pagination {
+  page: Int!
+  perPage: Int!
+  total: Int!
+  from: Int
+  to: Int
+}
+
+type DocumentsPage {
+  items: [Document]
+  pagination: Pagination
+}

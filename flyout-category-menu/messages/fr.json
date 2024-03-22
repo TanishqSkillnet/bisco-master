@@ -1,0 +1,14 @@
+{
+  "admin/editor.flyout-menu.title": "Menu déroulant des catégories",
+  "admin/editor.flyout-menu.description": "Menu déroulant des catégories",
+  "admin/editor.flyout-menu.disposition-type.title": "Emplacement des menus",
+  "admin/editor.flyout-menu.show-departments-category.title": "Afficher la catégorie des départements",
+  "admin/editor.flyout-menu.show-subcategories.title": "Afficher les sous-catégories",
+  "admin/editor.flyout-menu.no-of-categories.title": "Nombre de catégories visibles",
+  "admin/editor.flyout-menu.no-of-departments.title": "Nombre de départements visibles",
+  "admin/editor.flyout-menu.no-of-subcategories.title": "Nombre de sous-catégories visibles",
+  "editor.flyout-menu.title": "Menu déroulant des catégories",
+  "category-menu.departments.title": "Départements",
+  "category-menu.all-category.title": "Voir tout",
+  "category-menu.all-products": "Tous les produits"
+}

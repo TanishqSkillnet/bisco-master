@@ -1,0 +1,30 @@
+{
+  "about": {
+    "allowed": [
+      "about-us-section",
+      "history-section",
+      "news-section",
+      "why-choose-section",
+      "executive-team"
+    ],
+    "component": "index"
+  },
+  "about-us-section": {
+    "allowed": [
+      "rich-text"
+    ],
+    "component": "AboutUs"
+  },
+  "history-section": {
+    "component": "History"
+  },
+  "news-section": {
+    "component": "News"
+  },
+  "why-choose-section": {
+    "component": "WhyChoose"
+  },
+  "executive-team": {
+    "component": "ExecutiveTeam"
+  }
+}

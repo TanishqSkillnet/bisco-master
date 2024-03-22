@@ -1,0 +1,16 @@
+{
+  "store/contact-form.form.company": "Company",
+  "store/contact-form.form.country": "Country",
+  "store/contact-form.form.email": "Email",
+  "store/contact-form.form.firstName": "First Name",
+  "store/contact-form.form.lastName": "Last Name",
+  "store/contact-form.form.message": "Message",
+  "store/contact-form.form.phoneNumber": "Phone Number",
+  "store/contact-form.form.postalCode": "Postal Code",
+  "store/contact-form.form.topic": "Topic",
+  "store/contact-form.form.submit": "Submit",
+  "store/contact-form.form.success": "Your inquiry has been successfully submitted.",
+  "store/contact-form.form.error": "Something went wrong while submitting your inquiry, please try again.",
+  "store/contact-form.form.corporate-office": "Corporate Office: ",
+  "store/contact-form.form.contact-us": "Contact US"
+}

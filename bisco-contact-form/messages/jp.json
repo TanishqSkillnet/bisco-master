@@ -1,0 +1,16 @@
+{
+  "store/contact-form.form.company": "会社",
+  "store/contact-form.form.country": "国",
+  "store/contact-form.form.email": "Eメール",
+  "store/contact-form.form.firstName": "ファーストネーム",
+  "store/contact-form.form.lastName": "苗字",
+  "store/contact-form.form.message": "メッセージ",
+  "store/contact-form.form.phoneNumber": "電話番号",
+  "store/contact-form.form.postalCode": "郵便番号",
+  "store/contact-form.form.topic": "トピック",
+  "store/contact-form.form.submit": "送信",
+  "store/contact-form.form.success": "お問い合わせは正常に送信されました。",
+  "store/contact-form.form.error": "お問い合わせの送信中に問題が発生しました。もう一度お試しください。",
+  "store/contact-form.form.corporate-office": "企業のオフィス：",
+  "store/contact-form.form.contact-us": "お問い合わせ"
+}
