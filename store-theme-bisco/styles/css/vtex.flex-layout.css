@@ -301,3 +301,122 @@
     overflow-x: auto;
   }
 }
+.flexRowContent--fasteners-main-row :global(.vtex-button),
+.flexRowContent--electronic-connectors-main-row :global(.vtex-button),
+.flexRowContent--hardware-main-row :global(.vtex-button){
+  display: none;
+}
+
+.flexRowContent--hardware-main-row,
+.flexRowContent--electronic-connectors-main-row,
+.flexRowContent--fasteners-main-row {
+  justify-content: space-around;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1024px){
+  .flexRow--fasteners-main-row :global(.vtex-store-components-3-x-container) {
+    padding-left:0rem;
+    padding-right:0rem;
+  }
+  .flexRow--electronic-connectors-main-row :global(.vtex-store-components-3-x-container) {
+    padding-left:0rem;
+    padding-right:0rem;
+  }
+  .flexRow--hardware-main-row :global(.vtex-store-components-3-x-container) {
+    padding-left:0rem;
+    padding-right:0rem;
+  }
+}
+
+@media only screen and (max-width: 1023px){
+  .flexRowContent--fasteners-main-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 50% !important;
+  }
+  .flexRowContent--electronic-connectors-main-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 50% !important;
+  }
+  .flexRowContent--hardware-main-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 50% !important;
+  }
+}
+
+
+@media only screen and (max-width: 768px){
+  .flexRow--fasteners-main-row :global(.vtex-store-components-3-x-container) {
+    padding-left:0rem;
+    padding-right:0rem;
+  }
+  .flexRow--electronic-connectors-main-row :global(.vtex-store-components-3-x-container) {
+    padding-left:0rem;
+    padding-right:0rem;
+  }
+  .flexRow--hardware-main-row :global(.vtex-store-components-3-x-container) {
+    padding-left:0rem;
+    padding-right:0rem;
+  }
+
+  .flexRowContent--sub-row1,
+  .flexRowContent--sub-row2,
+  .flexRowContent--sub-row3 {
+    display: flex;
+  }
+
+}
+
+@media only screen and (max-width: 767px){
+  .flexRowContent--fasteners-main-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+  }
+
+  .flexRowContent--electronic-connectors-main-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+  }
+
+  .flexRowContent--hardware-main-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 425px){
+  .flexRowContent--sub-row1 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    margin: 5px;
+  }
+
+  .flexRowContent--sub-row2 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    margin: 5px;
+  }
+
+  .flexRowContent--sub-row3 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  .flexRowContent--fasteners-main-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    max-height: 165px;
+  }
+
+  .flexRowContent--electronic-connectors-main-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    max-height: 165px;
+  }
+
+  .flexRowContent--hardware-main-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    max-height: 165px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .flexRowContent--fasteners-main-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    max-height: 160px;
+  }
+
+  .flexRowContent--electronic-connectors-main-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    max-height: 170px;
+  }
+
+  .flexRowContent--hardware-main-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    max-height: 170px;
+  }
+}

@@ -11,9 +11,7 @@
   "scripts": {
     "postreleasy": "vtex publish --verbose"
   },
-  "blocks": {
-    "shelf-components.default-shelf": "0.x"
-  },
+
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",

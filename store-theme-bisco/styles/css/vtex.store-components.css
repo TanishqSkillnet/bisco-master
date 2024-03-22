@@ -464,3 +464,350 @@ p {
 .productImageTag--zoom {
   display: none;
 }
+
+/* */
+
+.infoCardContainer--info-card-fasteners-1,
+.infoCardContainer--info-card-fasteners-2,
+.infoCardContainer--info-card-fasteners-3,
+.infoCardContainer--info-card-fasteners-4,
+.infoCardContainer--info-card-fasteners-5,
+.infoCardContainer--info-card-fasteners-6 {
+  flex-direction: column-reverse;
+  transition: transform .25s;
+  margin: 20px 10px 10px 10px;
+  padding: 0;
+  justify-content: right;
+}
+
+.infoCardTextContainer--info-card-fasteners-1,
+.infoCardTextContainer--info-card-fasteners-2,
+.infoCardTextContainer--info-card-fasteners-3,
+.infoCardTextContainer--info-card-fasteners-4,
+.infoCardTextContainer--info-card-fasteners-5,
+.infoCardTextContainer--info-card-fasteners-6 {
+  width: unset !important;
+  padding-left:0;
+  padding-right:0;
+}
+
+.infoCardImageContainer--info-card-fasteners-1,
+.infoCardImageContainer--info-card-fasteners-2,
+.infoCardImageContainer--info-card-fasteners-3,
+.infoCardImageContainer--info-card-fasteners-4,
+.infoCardImageContainer--info-card-fasteners-5,
+.infoCardImageContainer--info-card-fasteners-6 {
+  width: 100% !important;
+}
+
+.infoCardContainer--info-card-fasteners-1:hover,
+.infoCardContainer--info-card-fasteners-2:hover,
+.infoCardContainer--info-card-fasteners-3:hover,
+.infoCardContainer--info-card-fasteners-4:hover,
+.infoCardContainer--info-card-fasteners-5:hover,
+.infoCardContainer--info-card-fasteners-6:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
+  height: 195px;
+}
+
+.infoCardSubhead--info-card-fasteners-1,
+.infoCardSubhead--info-card-fasteners-2,
+.infoCardSubhead--info-card-fasteners-3,
+.infoCardSubhead--info-card-fasteners-4,
+.infoCardSubhead--info-card-fasteners-5,
+.infoCardSubhead--info-card-fasteners-6 {
+  margin-top: 0rem;
+  color: #727273;
+}
+
+.infoCardImage--info-card-fasteners-1,
+.infoCardImage--info-card-fasteners-2,
+.infoCardImage--info-card-fasteners-3,
+.infoCardImage--info-card-fasteners-4,
+.infoCardImage--info-card-fasteners-5,
+.infoCardImage--info-card-fasteners-6 {
+  height: 158px;
+  width: 18.075rem;
+}
+
+/*  */
+
+.infoCardContainer--info-card-electronic-connectors-1,
+.infoCardContainer--info-card-electronic-connectors-2,
+.infoCardContainer--info-card-electronic-connectors-3,
+.infoCardContainer--info-card-electronic-connectors-4,
+.infoCardContainer--info-card-electronic-connectors-5,
+.infoCardContainer--info-card-electronic-connectors-6 {
+  flex-direction: column-reverse;
+  transition: transform .25s;
+  margin: 20px 10px 10px 10px;
+  padding: 0;
+  justify-content: right;
+}
+
+.infoCardTextContainer--info-card-electronic-connectors-1,
+.infoCardTextContainer--info-card-electronic-connectors-2,
+.infoCardTextContainer--info-card-electronic-connectors-3,
+.infoCardTextContainer--info-card-electronic-connectors-4,
+.infoCardTextContainer--info-card-electronic-connectors-5,
+.infoCardTextContainer--info-card-electronic-connectors-6 {
+  width: unset !important;
+  padding-left:0;
+  padding-right:0;
+}
+
+.infoCardImageContainer--info-card-electronic-connectors-1,
+.infoCardImageContainer--info-card-electronic-connectors-2,
+.infoCardImageContainer--info-card-electronic-connectors-3,
+.infoCardImageContainer--info-card-electronic-connectors-4,
+.infoCardImageContainer--info-card-electronic-connectors-5,
+.infoCardImageContainer--info-card-electronic-connectors-6 {
+  width: 100% !important;
+}
+
+.infoCardContainer--info-card-electronic-connectors-1:hover,
+.infoCardContainer--info-card-electronic-connectors-2:hover,
+.infoCardContainer--info-card-electronic-connectors-3:hover,
+.infoCardContainer--info-card-electronic-connectors-4:hover,
+.infoCardContainer--info-card-electronic-connectors-5:hover,
+.infoCardContainer--info-card-electronic-connectors-6:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
+  height: 195px;
+}
+
+.infoCardSubhead--info-card-electronic-connectors-1,
+.infoCardSubhead--info-card-electronic-connectors-2,
+.infoCardSubhead--info-card-electronic-connectors-3,
+.infoCardSubhead--info-card-electronic-connectors-4,
+.infoCardSubhead--info-card-electronic-connectors-5,
+.infoCardSubhead--info-card-electronic-connectors-6 {
+  margin-top: 0rem;
+  color: #727273;
+}
+
+.infoCardImage--info-card-electronic-connectors-1,
+.infoCardImage--info-card-electronic-connectors-2,
+.infoCardImage--info-card-electronic-connectors-3,
+.infoCardImage--info-card-electronic-connectors-4,
+.infoCardImage--info-card-electronic-connectors-5,
+.infoCardImage--info-card-electronic-connectors-6 {
+  height: 158px;
+  width: 18.075rem;
+}
+
+/*  */
+
+.infoCardContainer--info-card-hardware-1,
+.infoCardContainer--info-card-hardware-2,
+.infoCardContainer--info-card-hardware-3,
+.infoCardContainer--info-card-hardware-4,
+.infoCardContainer--info-card-hardware-5,
+.infoCardContainer--info-card-hardware-6 {
+  flex-direction: column-reverse;
+  transition: transform .25s;
+  margin: 20px 10px 10px 10px;
+  padding: 0;
+  justify-content: right;
+}
+
+.infoCardTextContainer--info-card-hardware-1,
+.infoCardTextContainer--info-card-hardware-2,
+.infoCardTextContainer--info-card-hardware-3,
+.infoCardTextContainer--info-card-hardware-4,
+.infoCardTextContainer--info-card-hardware-5,
+.infoCardTextContainer--info-card-hardware-6 {
+  width: unset !important;
+  padding-left:0;
+  padding-right:0;
+}
+
+.infoCardImageContainer--info-card-hardware-1,
+.infoCardImageContainer--info-card-hardware-2,
+.infoCardImageContainer--info-card-hardware-3,
+.infoCardImageContainer--info-card-hardware-4,
+.infoCardImageContainer--info-card-hardware-5,
+.infoCardImageContainer--info-card-hardware-6 {
+  width: 100% !important;
+}
+
+.infoCardContainer--info-card-hardware-1:hover,
+.infoCardContainer--info-card-hardware-2:hover,
+.infoCardContainer--info-card-hardware-3:hover,
+.infoCardContainer--info-card-hardware-4:hover,
+.infoCardContainer--info-card-hardware-5:hover,
+.infoCardContainer--info-card-hardware-6:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
+  height: 195px;
+}
+
+.infoCardSubhead--info-card-hardware-1,
+.infoCardSubhead--info-card-hardware-2,
+.infoCardSubhead--info-card-hardware-3,
+.infoCardSubhead--info-card-hardware-4,
+.infoCardSubhead--info-card-hardware-5,
+.infoCardSubhead--info-card-hardware-6 {
+  margin-top: 0rem;
+  color: #727273;
+}
+
+.infoCardImage--info-card-hardware-1,
+.infoCardImage--info-card-hardware-2,
+.infoCardImage--info-card-hardware-3,
+.infoCardImage--info-card-hardware-4,
+.infoCardImage--info-card-hardware-5,
+.infoCardImage--info-card-hardware-6 {
+  height: 158px;
+  width: 18.075rem;
+}
+
+/*  */
+
+
+@media only screen and (max-width: 1024px) {
+  .infoCardContainer--info-card-fasteners-1,
+  .infoCardContainer--info-card-fasteners-2,
+  .infoCardContainer--info-card-fasteners-3,
+  .infoCardContainer--info-card-fasteners-4,
+  .infoCardContainer--info-card-fasteners-5,
+  .infoCardContainer--info-card-fasteners-6 {
+    margin: 8px;
+  }
+
+  .infoCardImage--info-card-fasteners-1,
+  .infoCardImage--info-card-fasteners-2,
+  .infoCardImage--info-card-fasteners-3,
+  .infoCardImage--info-card-fasteners-4,
+  .infoCardImage--info-card-fasteners-5,
+  .infoCardImage--info-card-fasteners-6 {
+    height: 120px;
+  }
+
+  .infoCardContainer--info-card-electronic-connectors-1,
+  .infoCardContainer--info-card-electronic-connectors-2,
+  .infoCardContainer--info-card-electronic-connectors-3,
+  .infoCardContainer--info-card-electronic-connectors-4,
+  .infoCardContainer--info-card-electronic-connectors-5,
+  .infoCardContainer--info-card-electronic-connectors-6 {
+    margin: 8px;
+  }
+
+  .infoCardImage--info-card-electronic-connectors-1,
+  .infoCardImage--info-card-electronic-connectors-2,
+  .infoCardImage--info-card-electronic-connectors-3,
+  .infoCardImage--info-card-electronic-connectors-4,
+  .infoCardImage--info-card-electronic-connectors-5,
+  .infoCardImage--info-card-electronic-connectors-6 {
+    height: 120px;
+  }
+
+  .infoCardContainer--info-card-hardware-1,
+  .infoCardContainer--info-card-hardware-2,
+  .infoCardContainer--info-card-hardware-3,
+  .infoCardContainer--info-card-hardware-4,
+  .infoCardContainer--info-card-hardware-5,
+  .infoCardContainer--info-card-hardware-6 {
+    margin: 8px;
+  }
+
+  .infoCardImage--info-card-hardware-1,
+  .infoCardImage--info-card-hardware-2,
+  .infoCardImage--info-card-hardware-3,
+  .infoCardImage--info-card-hardware-4,
+  .infoCardImage--info-card-hardware-5,
+  .infoCardImage--info-card-hardware-6 {
+    height: 120px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .infoCardContainer--info-card-fasteners-1,
+  .infoCardContainer--info-card-fasteners-2,
+  .infoCardContainer--info-card-fasteners-3,
+  .infoCardContainer--info-card-fasteners-4,
+  .infoCardContainer--info-card-fasteners-5,
+  .infoCardContainer--info-card-fasteners-6 {
+    margin: 8px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .infoCardImage--info-card-fasteners-1,
+  .infoCardImage--info-card-fasteners-2,
+  .infoCardImage--info-card-fasteners-3,
+  .infoCardImage--info-card-fasteners-4,
+  .infoCardImage--info-card-fasteners-5,
+  .infoCardImage--info-card-fasteners-6 {
+    object-fit: cover;
+  }
+
+  .infoCardContainer--info-card-electronic-connectors-1,
+  .infoCardContainer--info-card-electronic-connectors-2,
+  .infoCardContainer--info-card-electronic-connectors-3,
+  .infoCardContainer--info-card-electronic-connectors-4,
+  .infoCardContainer--info-card-electronic-connectors-5,
+  .infoCardContainer--info-card-electronic-connectors-6 {
+    margin: 8px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .infoCardImage--info-card-electronic-connectors-1,
+  .infoCardImage--info-card-electronic-connectors-2,
+  .infoCardImage--info-card-electronic-connectors-3,
+  .infoCardImage--info-card-electronic-connectors-4,
+  .infoCardImage--info-card-electronic-connectors-5,
+  .infoCardImage--info-card-electronic-connectors-6 {
+    object-fit: cover;
+  }
+
+  .infoCardContainer--info-card-hardware-1,
+  .infoCardContainer--info-card-hardware-2,
+  .infoCardContainer--info-card-hardware-3,
+  .infoCardContainer--info-card-hardware-4,
+  .infoCardContainer--info-card-hardware-5,
+  .infoCardContainer--info-card-hardware-6 {
+    margin: 8px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .infoCardImage--info-card-hardware-1,
+  .infoCardImage--info-card-hardware-2,
+  .infoCardImage--info-card-hardware-3,
+  .infoCardImage--info-card-hardware-4,
+  .infoCardImage--info-card-hardware-5,
+  .infoCardImage--info-card-hardware-6 {
+    object-fit: cover;
+  }
+}
+
+
+.infoCardCallActionContainer--info-card-fasteners-1,
+.infoCardCallActionContainer--info-card-fasteners-2,
+.infoCardCallActionContainer--info-card-fasteners-3,
+.infoCardCallActionContainer--info-card-fasteners-4,
+.infoCardCallActionContainer--info-card-fasteners-5,
+.infoCardCallActionContainer--info-card-fasteners-6 {
+  display: none;
+}
+
+.infoCardCallActionContainer--info-card-electronic-connectors-1,
+.infoCardCallActionContainer--info-card-electronic-connectors-2,
+.infoCardCallActionContainer--info-card-electronic-connectors-3,
+.infoCardCallActionContainer--info-card-electronic-connectors-4,
+.infoCardCallActionContainer--info-card-electronic-connectors-5,
+.infoCardCallActionContainer--info-card-electronic-connectors-6 {
+  display: none;
+}
+
+.infoCardCallActionContainer--info-card-hardware-1,
+.infoCardCallActionContainer--info-card-hardware-2,
+.infoCardCallActionContainer--info-card-hardware-3,
+.infoCardCallActionContainer--info-card-hardware-4,
+.infoCardCallActionContainer--info-card-hardware-5,
+.infoCardCallActionContainer--info-card-hardware-6 {
+  display: none;
+}
