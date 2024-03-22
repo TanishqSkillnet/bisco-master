@@ -1,0 +1,11 @@
+{
+  "about": {
+    "blocks": [
+      "about-us-section",
+      "history-section",
+      "news-section",
+      "why-choose-section",
+      "executive-team"
+    ]
+  }
+}

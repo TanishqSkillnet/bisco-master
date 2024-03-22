@@ -1,0 +1,35 @@
+{
+  "store.custom.biscoind#manufacturers": {
+    "path": "/manufacturers"
+  },
+  "store.custom.biscoind#supplierChain": {
+    "path": "/services"
+  },
+  "store.custom.biscoind#warehouseLocations": {
+    "path": "/locations"
+  },
+  "store.custom.biscoind#about": {
+    "path": "/about"
+  },
+  "store.custom.biscoind#contact": {
+    "path": "/contact"
+  },
+  "store.custom.biscoind#as9100": {
+    "path": "/as9100-certificate"
+  },
+  "store.custom.biscoind#as9120": {
+    "path": "/as9120-certificate"
+  },
+  "store.custom.biscoind#ac0056b": {
+    "path": "/ac0056b-certificate"
+  },
+  "store.custom.biscoind#privacy-policy": {
+    "path": "/privacy-policy"
+  },
+  "store.custom.biscoind#terms-conditions": {
+    "path": "/terms-conditions"
+  },
+  "store.custom.biscoind#conflict-minerals": {
+    "path": "/conflict-minerals-statement"
+  }
+}

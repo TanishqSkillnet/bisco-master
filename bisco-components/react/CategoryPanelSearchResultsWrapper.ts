@@ -1,0 +1,3 @@
+import CategoryPanelSearchResultsWrapper from './components/CategoryPanel/CategoryPanelSearchResultsWrapper'
+
+export default CategoryPanelSearchResultsWrapper

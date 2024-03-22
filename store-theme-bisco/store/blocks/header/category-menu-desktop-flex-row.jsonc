@@ -1,0 +1,431 @@
+{
+  "flex-layout.row#category-inserts-14": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-inserts-14",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-standoffs-16": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-standoffs-16",
+      "vtex.menu@2.x:menu#category-level2-chunk-2-standoffs-16",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-caps-and-plugs-13": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-nuts-13",
+      "vtex.menu@2.x:menu#category-level2-chunk-2-nuts-13",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-screws-and-bolts-17": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-screws-and-bolts-17",
+      "vtex.menu@2.x:menu#category-level2-chunk-2-screws-and-bolts-17",
+      "vtex.menu@2.x:menu#category-level2-chunk-3-screws-and-bolts-17",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#department-fasteners-2": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "department-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-caps-and-plugs-13",
+      "vtex.menu@2.x:menu#category-inserts-14",
+      "vtex.menu@2.x:menu#category-screws-and-bolts-17",
+      "vtex.menu@2.x:menu#category-standoffs-16",
+      "vtex.menu@2.x:menu#category-washers-153"
+
+    ]
+  },
+  "flex-layout.row#category-washers-153": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-washers-153",
+      "vtex.menu@2.x:menu#category-level2-chunk-2-washers-153",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-grommets-and-bushings-157": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-grommets-and-bushings-157",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-mounting-hardware-155": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-mounting-hardware-155",
+      "vtex.menu@2.x:menu#category-level2-chunk-2-mounting-hardware-155",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-casters-21": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-casters-21",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-knobs-156": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-knobs-156",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#department-hardware-5": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "department-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-casters-21",
+      "vtex.menu@2.x:menu#category-grommets-and-bushings-157",
+      "vtex.menu@2.x:menu#category-knobs-156",
+      "vtex.menu@2.x:menu#category-mounting-hardware-155"
+
+    ]
+  },
+  "flex-layout.row#category-hinges-6": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-hinges-6",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-locks-3": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-locks-3",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-handles-12": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-handles-12",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#department-door-and-access-hardware-1": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "department-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-drawer-slides-2324",
+      "vtex.menu@2.x:menu#category-handles-12",
+      "vtex.menu@2.x:menu#category-hinges-6",
+      "vtex.menu@2.x:menu#category-latches-4",
+      "vtex.menu@2.x:menu#category-locks-3"
+    ]
+  },
+  "flex-layout.row#category-latches-4": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-latches-4",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-drawer-slides-2324": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-drawer-slides-7",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-circular-connectors-187": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-circular-connectors-187",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#department-electronic-connectors-81": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "department-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-circular-connectors-187",
+      "vtex.menu@2.x:menu#category-power-connectors-188",
+      "vtex.menu@2.x:menu#category-terminal-block-components-191",
+      "vtex.menu@2.x:menu#category-terminal-blocks-190",
+      "vtex.menu@2.x:menu#category-terminals-189"
+    ]
+  },
+  "flex-layout.row#category-terminal-blocks-190": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-terminal-blocks-190",
+      "vtex.menu@2.x:menu#category-level2-chunk-2-terminal-blocks-190",
+      "vtex.menu@2.x:menu#category-level2-chunk-3-terminal-blocks-190",
+      "vtex.menu@2.x:menu#category-level2-chunk-4-terminal-blocks-190",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-terminals-189": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-terminals-189",
+      "vtex.menu@2.x:menu#category-level2-chunk-2-terminals-189",
+      "vtex.menu@2.x:menu#category-level2-chunk-3-terminals-189",
+      "vtex.menu@2.x:menu#category-level2-chunk-4-terminals-189",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-terminal-block-components-191": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-terminal-block-components-191",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-power-connectors-188": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-power-connectors-188",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#department-enclosures-racks-and-cabinets-93": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "department-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-cabinets-271",
+      "vtex.menu@2.x:menu#category-card-guides-and-retainers-270",
+      "vtex.menu@2.x:menu#category-ejectors-272",
+      "vtex.menu@2.x:menu#category-enclosure-and-rack-components-269",
+      "vtex.menu@2.x:menu#category-subracks-and-subrack-accessories-267"
+    ]
+  },
+  "flex-layout.row#category-cabinets-271": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-cabinets-271",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-ejectors-272": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-ejectors-272",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-enclosure-and-rack-components-269": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-enclosure-and-rack-components-269",
+      "vtex.menu@2.x:menu#category-level2-chunk-2-enclosure-and-rack-components-269",
+      "vtex.menu@2.x:menu#category-level2-chunk-3-enclosure-and-rack-components-269",
+      "vtex.menu@2.x:menu#category-level2-chunk-4-enclosure-and-rack-components-269",
+//       "vtex.menu@2.x:menu#category-level2-chunk-5-enclosure-and-rack-components-269",
+//       "vtex.menu@2.x:menu#category-level2-chunk-6-enclosure-and-rack-components-269",
+//       "vtex.menu@2.x:menu#category-level2-chunk-7-enclosure-and-rack-components-269",
+//       "vtex.menu@2.x:menu#category-level2-chunk-8-enclosure-and-rack-components-269",
+//       "vtex.menu@2.x:menu#category-level2-chunk-9-enclosure-and-rack-components-269",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-card-guides-and-retainers-270": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-card-guides-and-retainers-270",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-subracks-and-subrack-accessories-267": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-subracks-and-subrack-accessories-267",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-cable-and-wire-management-294": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-cable-and-wire-management-294",
+      "vtex.menu@2.x:menu#category-level2-chunk-2-cable-and-wire-management-294",
+      "vtex.menu@2.x:menu#category-level2-chunk-3-cable-and-wire-management-294",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-clamps-297": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-clamps-297",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#department-wire-and-cable-125": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "department-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-cable-ties-295",
+      "vtex.menu@2.x:menu#category-cable-and-wire-management-294",
+      "vtex.menu@2.x:menu#category-cables-296",
+      "vtex.menu@2.x:menu#category-clamps-297",
+      "vtex.menu@2.x:menu#category-wire-and-cable-accessories-292"
+    ]
+  },
+  "flex-layout.row#category-cable-ties-295": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-cable-ties-295",
+      "vtex.menu@2.x:menu#category-level2-chunk-2-cable-ties-295",
+      "vtex.menu@2.x:menu#category-level2-chunk-3-cable-ties-295",
+      "vtex.menu@2.x:menu#category-level2-chunk-4-cable-ties-295",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-cables-296": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-cables-296",
+      "info-card#category-menu"
+    ]
+  },
+  "flex-layout.row#category-wire-and-cable-accessories-292": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "category-menu-flex-row",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-level2-chunk-1-wire-and-cable-accessories-292",
+      "info-card#category-menu"
+    ]
+  }
+}

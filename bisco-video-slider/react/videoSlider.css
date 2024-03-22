@@ -1,0 +1,75 @@
+.container {
+  min-height: 0.625rem;
+  min-width: 0.625rem;
+  max-width: 96rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 3rem;
+}
+
+.containerImg {
+  max-height: inherit;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+}
+
+.arrowsContainerWrapper {
+}
+
+.arrow {
+}
+
+.arrowsContainer {
+  box-sizing: content-box;
+}
+
+.arrowLeft {
+  margin-top: 30rem;
+  margin-left: 7.5rem;
+}
+.arrowRight {
+}
+
+@media only screen and (min-width: 25em) {
+  .arrowLeft {
+    margin-left: 10rem;
+  }
+}
+
+@media only screen and (min-width: 25em) and (max-width: 40em) {
+  .arrowLeft {
+    margin-left: 11rem;
+  }
+}
+
+@media only screen and (min-width: 40em) {
+  .arrowLeft {
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+
+.sliderRoot {
+}
+.sliderFrame {
+}
+.slide {
+}
+.activeDot {
+}
+.notActiveDot {
+}
+
+.videoContainer {
+  height: inherit;
+}
+
+.videoContainer html,
+.videoContainer body {
+  touch-action: auto;
+}

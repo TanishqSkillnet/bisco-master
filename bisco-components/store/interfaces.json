@@ -1,0 +1,78 @@
+{
+  "brand-content": {
+    "component": "BrandContent"
+  },
+  "brand-content.search": {
+    "component": "BrandContentSearchResultWrapper"
+  },
+  "categories-highlights": {
+    "component": "CategoriesHighlights"
+  },
+  "category-panel": {
+    "component": "CategoryPanel"
+  },
+  "category-panel.search": {
+    "component": "CategoryPanelSearchResultsWrapper"
+  },
+  "price-breaks": {
+    "component": "ProductSummaryPriceWrapper"
+  },
+  "supply-chain-services": {
+    "component": "SupplyChainServices"
+  },
+  "rich-text.title": {
+    "allowed": [
+      "rich-text"
+    ],
+    "component": "Title"
+  },
+  "product-price-breaks": {
+    "component": "ProductPriceBreaksWrapper"
+  },
+  "button": {
+    "component": "Button"
+  },
+  "product-shipping-calculator": {
+    "component": "ShippingCalculatorWrapper"
+  },
+  "product-field-highlights": {
+    "component": "ProductFieldHighlights"
+  },
+  "available-inventory": {
+    "component": "AvailableInventory"
+  },
+  "product-available-inventory": {
+    "component": "ProductAvailableInventory"
+  },
+  "scroll-up-button": {
+    "component": "ScrollUpButton"
+  },
+  "product-summary-specifications": {
+    "component": "ProductSummarySpecifications"
+  },
+  "product-summary-field-highlights": {
+    "component": "ProductSummaryFieldHighlights"
+  },
+  "product-summary-description-overlay": {
+    "component": "ProductSummaryDescriptionOverlay"
+  },
+  "product-summary-shipping-calculator": {
+    "component": "ProductSummaryShippingCalculator"
+  },
+  "product-summary-available-inventory": {
+    "component": "ProductSummaryAvailableInventory"
+  },
+  "buy-button-wrapper": {
+    "allowed": ["product-summary-buy-button"],
+    "component": "BuyButtonWrapper"
+  },
+  "product-summary-name-custom": {
+    "component": "ProductSummaryNameWrapper"
+  },
+  "quantity-selector":{
+    "component": "QtySelect"
+  },
+  "minicart-quantity-selector":{
+    "component": "MinicartQuantitySelector"
+  }
+}

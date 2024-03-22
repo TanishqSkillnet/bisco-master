@@ -1,0 +1,18 @@
+.productFieldHighlightsContainer {
+  margin: 10px 0;
+}
+
+.productFieldHighlightsFieldWrapper {
+  text-align: left;
+}
+
+.productFieldHighlightsFieldName {
+}
+
+.productFieldHighlightsFieldValue {
+}
+
+.ProductSummaryFieldHighlightsWrapper {
+  cursor: default;
+  width: 100%;
+}

@@ -1,0 +1,11 @@
+{
+  "flyout-category-menu": {
+    "component": "index"
+  },
+  "store.update-vbase-category-tree": {
+    "required": ["update-vbase-category-tree"]
+  },
+  "update-vbase-category-tree": {
+    "component": "UpdateVbaseCategoryTree"
+  }
+}

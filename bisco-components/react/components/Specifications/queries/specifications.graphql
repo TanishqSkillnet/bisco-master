@@ -1,0 +1,9 @@
+query Specifications($identifier: ProductUniqueIdentifier) {
+  product(identifier: $identifier)
+  @context(provider: "vtex.search-graphql"){
+      properties {
+      name
+      values
+    }
+  }
+}

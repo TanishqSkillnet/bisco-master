@@ -1,0 +1,53 @@
+input BindingsInput {
+  bindingId: String
+  show: Boolean
+  translatedLocales: [BindingsTranslationInput]
+  externalRedirectData: ExternalRedirectDataInput
+  customFlagData: CustomFlagDataInput
+}
+
+input BindingsTranslationInput {
+  id: String
+  label: String
+  defaultLocale: String
+  canonicalBaseAddress: String
+  salesChannel: String
+  hide: Boolean
+}
+
+input ExternalRedirectDataInput {
+  redirectUrl: Boolean
+  url: String
+}
+
+type BindingsTranslation {
+  id: String
+  label: String
+  defaultLocale: String
+  canonicalBaseAddress: String
+  salesChannel: String
+  hide: Boolean
+}
+
+type TranslatedInfoOutput {
+  bindingId: String
+  show: Boolean
+  translatedLocales: [BindingsTranslation]
+  externalRedirectData: ExternalRedirectData
+  customFlagData: CustomFlagData
+}
+
+type ExternalRedirectData {
+  redirectUrl: Boolean
+  url: String
+}
+
+input CustomFlagDataInput {
+  isCustom: Boolean
+  url: String
+}
+
+type CustomFlagData {
+  isCustom: Boolean
+  url: String
+}

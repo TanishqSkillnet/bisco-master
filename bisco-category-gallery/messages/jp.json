@@ -1,0 +1,13 @@
+{
+    "admin/category-gallery.title": "カテゴリーギャラリー",
+    "admin/category-gallery.description": "カテゴリーギャラリー",
+    "admin/category-gallery.tree-level.title": "ツリーレベル",
+    "admin/editor.category-gallery.title": "カテゴリ ギャラリー プレースホルダー画像",
+    "admin/editor.category-gallery.description": "プレースホルダー画像",
+    "admin/editor.category-gallery.image-placeholder.title": "画像のURL",
+    "admin/category-gallery.cards-per-page.title": "このカテゴリのコンテンツが見つかりませんでした",
+    "store/category-gallery.product-not-found": "このカテゴリのコンテンツが見つかりませんでした",
+    "admin/category-gallery.category-card.title": "カテゴリカード",
+    "admin/category-gallery.category-card.description": "カテゴリカードの構成",
+    "admin/category-gallery.category-card.isClickable.title": "クリック可能です"
+  }

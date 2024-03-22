@@ -1,0 +1,705 @@
+{
+  "menu-item#category-caps-and-plugs-13": {
+    "props": {
+      "id": "category-caps-and-plugs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/fasteners/caps-and-plugs",
+        "noFollow": true,
+        "tagTitle": "Caps and Plugs",
+        "text": "Caps and Plugs"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-caps-and-plugs-13"]
+  },
+  "menu-item#department-fasteners-2": {
+    "props": {
+      "id": "category-fasteners",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "departmentMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href":"#",
+        "noFollow": true,
+        "tagTitle": "Fasteners",
+        "text": "Fasteners"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department-fasteners-2"]
+  },
+  "menu-item#category-fasteners-2-see-all": {
+    "props": {
+      "id": "category-fasteners",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/fasteners",
+        "noFollow": true,
+        "tagTitle": "See All",
+        "text": "See All"
+      }
+    },
+    "blocks": []
+  },
+  "menu-item#category-screws-and-bolts-17": {
+    "props": {
+      "id": "category-screws-and-bolts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/fasteners/screws-and-bolts",
+        "noFollow": true,
+        "tagTitle": "Screws and Bolts",
+        "text": "Screws and Bolts"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-screws-and-bolts-17"]
+  },
+  "menu-item#category-inserts-14": {
+    "props": {
+      "id": "category-inserts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/fasteners/inserts",
+        "noFollow": true,
+        "tagTitle": "Inserts",
+        "text": "Inserts"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-inserts-14"]
+  },
+  "menu-item#category-standoffs-16": {
+    "props": {
+      "id": "category-standoffs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/fasteners/standoffs",
+        "noFollow": true,
+        "tagTitle": "Standoffs",
+        "text": "Standoffs"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-standoffs-16"]
+  },
+  "menu-item#category-washers-153": {
+    "props": {
+      "id": "category-washers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/fasteners/washers",
+        "noFollow": true,
+        "tagTitle": "Washers",
+        "text": "Washers"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-washers-153"]
+  },
+  "menu-item#department-hardware-5": {
+    "props": {
+      "id": "category-hardware",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "departmentMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href":"#",
+        "noFollow": true,
+        "tagTitle": "Hardware",
+        "text": "Hardware"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department-hardware-5"]
+  },
+  "menu-item#category-knobs-156": {
+    "props": {
+      "id": "category-knobs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/hardware/knobs",
+        "noFollow": true,
+        "tagTitle": "Knobs",
+        "text": "Knobs"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-knobs-156"]
+  },
+  "menu-item#category-casters-21": {
+    "props": {
+      "id": "category-casters",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/hardware/casters",
+        "noFollow": true,
+        "tagTitle": "Casters",
+        "text": "Casters"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-casters-21"]
+  },
+  "menu-item#category-grommets-and-bushings-157": {
+    "props": {
+      "id": "category-grommets-and-bushings",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/hardware/grommets-and-bushings",
+        "noFollow": true,
+        "tagTitle": "Grommets and Bushings",
+        "text": "Grommets and Bushings"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-grommets-and-bushings-157"]
+  },
+  "menu-item#category-mounting-hardware-155": {
+    "props": {
+      "id": "category-mounting-hardware",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/hardware/mounting-hardware",
+        "noFollow": true,
+        "tagTitle": "Mounting Hardware",
+        "text": "Mounting Hardware"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-mounting-hardware-155"]
+  },
+  "menu-item#category-hardware-5-see-all": {
+    "props": {
+      "id": "category-hardware",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/hardware",
+        "noFollow": true,
+        "tagTitle": "See All",
+        "text": "See All"
+      }
+    },
+    "blocks": []
+  },
+  "menu-item#category-drawer-slides-2324": {
+    "props": {
+      "id": "category-drawer-slides",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/door-and-access-hardware/drawer-slides",
+        "noFollow": true,
+        "tagTitle": "Drawer Slides",
+        "text": "Drawer Slides"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-drawer-slides-2324"]
+  },
+  "menu-item#category-locks-3": {
+    "props": {
+      "id": "category-locks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/door-and-access-hardware/locks",
+        "noFollow": true,
+        "tagTitle": "Locks",
+        "text": "Locks"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-locks-3"]
+  },
+  "menu-item#department-door-and-access-hardware-1": {
+    "props": {
+      "id": "category-door-and-access-hardware",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "departmentMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "href":"#",
+        "tagTitle": "Door and Access Hardware",
+        "text": "Door and Access Hardware"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department-door-and-access-hardware-1"]
+  },
+  "menu-item#category-latches-4": {
+    "props": {
+      "id": "category-latches",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/door-and-access-hardware/latches",
+        "noFollow": true,
+        "tagTitle": "Latches",
+        "text": "Latches"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-latches-4"]
+  },
+  "menu-item#category-door-and-access-hardware-1-see-all": {
+    "props": {
+      "id": "category-door-and-access-hardware",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/door-and-access-hardware",
+        "noFollow": true,
+        "tagTitle": "See All",
+        "text": "See All"
+      }
+    },
+    "blocks": []
+  },
+  "menu-item#category-handles-12": {
+    "props": {
+      "id": "category-handles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/door-and-access-hardware/handles",
+        "noFollow": true,
+        "tagTitle": "Handles",
+        "text": "Handles"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-handles-12"]
+  },
+  "menu-item#category-hinges-6": {
+    "props": {
+      "id": "category-hinges",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/door-and-access-hardware/hinges",
+        "noFollow": true,
+        "tagTitle": "Hinges",
+        "text": "Hinges"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-hinges-6"]
+  },
+  "menu-item#department-electronic-connectors-81": {
+    "props": {
+      "id": "category-electronic-connectors",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "departmentMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href":"#",
+        "noFollow": true,
+        "tagTitle": "Electronic Connectors",
+        "text": "Electronic Connectors"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department-electronic-connectors-81"]
+  },
+  "menu-item#category-terminals-189": {
+    "props": {
+      "id": "category-terminals",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronic-connectors/terminals",
+        "noFollow": true,
+        "tagTitle": "Terminals",
+        "text": "Terminals"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-terminals-189"]
+  },
+  "menu-item#category-circular-connectors-187": {
+    "props": {
+      "id": "category-circular-connectors",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronic-connectors/circular-connectors",
+        "noFollow": true,
+        "tagTitle": "Circular Connectors",
+        "text": "Circular Connectors"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-circular-connectors-187"]
+  },
+  "menu-item#category-terminal-blocks-190": {
+    "props": {
+      "id": "category-terminal-blocks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronic-connectors/terminal-blocks",
+        "noFollow": true,
+        "tagTitle": "Terminal Blocks",
+        "text": "Terminal Blocks"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-terminal-blocks-190"]
+  },
+  "menu-item#category-power-connectors-188": {
+    "props": {
+      "id": "category-power-connectors",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronic-connectors/power-connectors",
+        "noFollow": true,
+        "tagTitle": "Power Connectors",
+        "text": "Power Connectors"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-power-connectors-188"]
+  },
+  "menu-item#category-electronic-connectors-81-see-all": {
+    "props": {
+      "id": "category-electronic-connectors",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronic-connectors",
+        "noFollow": true,
+        "tagTitle": "See All",
+        "text": "See All"
+      }
+    },
+    "blocks": []
+  },
+  "menu-item#category-terminal-block-components-191": {
+    "props": {
+      "id": "category-terminal-block-components",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronic-connectors/terminal-block-components",
+        "noFollow": true,
+        "tagTitle": "Terminal Block Components",
+        "text": "Terminal Block Components"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-terminal-block-components-191"]
+  },
+  "menu-item#category-subracks-and-subrack-accessories-267": {
+    "props": {
+      "id": "category-subracks-and-subrack-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/enclosures-racks-and-cabinets/subracks-and-subrack-accessories",
+        "noFollow": true,
+        "tagTitle": "Subracks and Subrack Accessories",
+        "text": "Subracks and Subrack Accessories"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-subracks-and-subrack-accessories-267"
+    ]
+  },
+  "menu-item#department-enclosures-racks-and-cabinets-93": {
+    "props": {
+      "id": "category-enclosures-racks-and-cabinets",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "departmentMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href":"#",
+        "noFollow": true,
+        "tagTitle": "Enclosures, Racks, and Cabinets",
+        "text": "Enclosures, Racks, and Cabinets"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-enclosures-racks-and-cabinets-93"
+    ]
+  },
+  "menu-item#category-card-guides-and-retainers-270": {
+    "props": {
+      "id": "category-card-guides-and-retainers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/enclosures-racks-and-cabinets/card-guides-and-retainers",
+        "noFollow": true,
+        "tagTitle": "Card Guides and Retainers",
+        "text": "Card Guides and Retainers"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-card-guides-and-retainers-270"]
+  },
+  "menu-item#category-cabinets-271": {
+    "props": {
+      "id": "category-cabinets",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/enclosures-racks-and-cabinets/cabinets",
+        "noFollow": true,
+        "tagTitle": "Cabinets",
+        "text": "Cabinets"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-cabinets-271"]
+  },
+  "menu-item#category-ejectors-272": {
+    "props": {
+      "id": "category-ejectors",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/enclosures-racks-and-cabinets/ejectors",
+        "noFollow": true,
+        "tagTitle": "Ejectors",
+        "text": "Ejectors"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-ejectors-272"]
+  },
+  "menu-item#category-enclosures-racks-and-cabinets-93-see-all": {
+    "props": {
+      "id": "category-enclosures-racks-and-cabinets",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/enclosures-racks-and-cabinets",
+        "noFollow": true,
+        "tagTitle": "See All",
+        "text": "See All"
+      }
+    },
+    "blocks": []
+  },
+  "menu-item#category-enclosure-and-rack-components-269": {
+    "props": {
+      "id": "category-enclosure-and-rack-components",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/enclosures-racks-and-cabinets/enclosure-and-rack-components",
+        "noFollow": true,
+        "tagTitle": "Enclosure and Rack Components",
+        "text": "Enclosure and Rack Components"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-enclosure-and-rack-components-269"
+    ]
+  },
+  "menu-item#category-wire-and-cable-125-see-all": {
+    "props": {
+      "id": "category-wire-and-cable",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/wire-and-cable",
+        "noFollow": true,
+        "tagTitle": "See All",
+        "text": "See All"
+      }
+    },
+    "blocks": []
+  },
+  "menu-item#category-cable-and-wire-management-294": {
+    "props": {
+      "id": "category-cable-and-wire-management",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/wire-and-cable/cable-and-wire-management",
+        "noFollow": true,
+        "tagTitle": "Cable and Wire Management",
+        "text": "Cable and Wire Management"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-cable-and-wire-management-294"]
+  },
+  "menu-item#category-cables-296": {
+    "props": {
+      "id": "category-cables",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/wire-and-cable/cables",
+        "noFollow": true,
+        "tagTitle": "Cables",
+        "text": "Cables"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-cables-296"]
+  },
+  "menu-item#category-clamps-297": {
+    "props": {
+      "id": "category-clamps",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/wire-and-cable/clamps",
+        "noFollow": true,
+        "tagTitle": "Clamps",
+        "text": "Clamps"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-clamps-297"]
+  },
+  "menu-item#category-cable-ties-295": {
+    "props": {
+      "id": "category-cable-ties",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/wire-and-cable/cable-ties",
+        "noFollow": true,
+        "tagTitle": "Cable Ties",
+        "text": "Cable Ties"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-cable-ties-295"]
+  },
+  "menu-item#category-wire-and-cable-accessories-292": {
+    "props": {
+      "id": "category-wire-and-cable-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "categoryMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href": "/wire-and-cable/wire-and-cable-accessories",
+        "noFollow": true,
+        "tagTitle": "Wire and Cable Accessories",
+        "text": "Wire and Cable Accessories"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-wire-and-cable-accessories-292"]
+  },
+  "menu-item#department-wire-and-cable-125": {
+    "props": {
+      "id": "category-wire-and-cable",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "departmentMenuItem",
+      "itemProps": {
+        "type": "internal",
+        "href":"#",
+        "noFollow": true,
+        "tagTitle": "Wire and Cable",
+        "text": "Wire and Cable"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department-wire-and-cable-125"]
+  }
+}

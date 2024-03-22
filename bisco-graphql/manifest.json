@@ -1,0 +1,96 @@
+{
+  "name": "bisco-graphql",
+  "vendor": "biscoind",
+  "version": "0.1.10",
+  "title": "Bisco GraphQL",
+  "description": "GraphQL application for VTEX API",
+  "mustUpdateAt": "2022-01-04",
+  "categories": [],
+  "builders": {
+    "graphql": "1.x",
+    "node": "4.x"
+  },
+  "scripts": {
+    "prereleasy": "bash lint.sh"
+  },
+  "dependencies": {
+    "vtex.catalog-api-proxy": "0.x"
+  },
+  "credentialType": "absolute",
+  "policies": [
+    {
+      "name": "colossus-fire-event"
+    },
+    {
+      "name": "colossus-write-logs"
+    },
+    {
+      "name": "graphql-query"
+    },
+    {
+      "name": "read_prices"
+    },
+    {
+      "name": "LogisticsViewer"
+    },
+    {
+      "name": "vtex.catalog-api-proxy:catalog-proxy"
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "portal.vtexcommercestable.com.br",
+        "path": "/api/segments/*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "{{account}}.vtexcommercestable.com.br",
+        "path": "/api/rnb/pub/bundles/*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "{{account}}.vtexcommercestable.com.br",
+        "path": "/api/pricing/prices/*/fixed"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "logistics.vtexcommercestable.com.br",
+        "path": "/api/logistics/pvt/shipping/simulation?an={{account}}"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "{{account}}.vtexcommercestable.com.br",
+        "path": "/api/checkout/pub/orderForm/*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "api.vtex.com",
+        "path": "/{{account}}/dataentities/*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "vtexid.vtex.com.br",
+        "path": "/api/vtexid/pub/authenticated/*"
+      }
+    },
+    {
+      "name": "ADMIN_DS"
+    },
+    {
+      "name": "POWER_USER_DS"
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

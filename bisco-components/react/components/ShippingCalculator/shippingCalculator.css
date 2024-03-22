@@ -1,0 +1,64 @@
+.productShippingCalculatorContainer {
+  border-left: 0.5rem solid;
+  padding: 1px 0 1px;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.19);
+  -moz-box-shadow: 0 3px 3px rgba(0,0,0,0.19);
+  -webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.19);
+}
+
+.productShippingCalculatorContainer > div {
+  text-align: left;
+  margin: 10px;
+}
+
+.shippingError {
+  border-color: red !important;
+}
+
+.shippingSuccess {
+  border-color: green !important;
+}
+
+.ProductSummaryShippingCalculatorWrapper{
+  width: 100%;
+  cursor: default;
+}
+
+.zipCodeEditBox {
+  visibility: visible;
+  max-width: 18rem;
+  position: absolute;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+  background: white;
+  z-index: 3;
+}
+
+.zipCodeEditBox > div {
+  text-align: right;
+  margin: 7px 7px 0 0;
+
+}
+
+.zipCodeEditBox > div:first-child span {
+  cursor: pointer;
+}
+
+.zipCodeInputEditBox > label {
+  float: left;
+  width: 60%;
+  margin: 0 10px 10px 10px;
+}
+
+.zipCodeInputEditBox > label > span {
+  text-align: left;
+}
+
+.zipCodeInputEditBox > button {
+  width: 32%;
+  margin-top: 22px;
+}
+
+.postalCodeLink a {
+  color: blue;
+  cursor: pointer;
+}

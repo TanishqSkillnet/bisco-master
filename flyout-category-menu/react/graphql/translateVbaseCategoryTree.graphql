@@ -1,0 +1,3 @@
+mutation translateVbaseCategoryTree($targetLocal: String) {
+  translateVbaseCategoryTree(targetLocal: $targetLocal)
+}

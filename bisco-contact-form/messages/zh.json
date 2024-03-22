@@ -1,0 +1,16 @@
+{
+  "store/contact-form.form.company": "公司",
+  "store/contact-form.form.country": "國家",
+  "store/contact-form.form.email": "電子郵件",
+  "store/contact-form.form.firstName": "名",
+  "store/contact-form.form.lastName": "姓",
+  "store/contact-form.form.message": "信息",
+  "store/contact-form.form.phoneNumber": "電話號碼",
+  "store/contact-form.form.postalCode": "郵政編碼",
+  "store/contact-form.form.topic": "話題",
+  "store/contact-form.form.submit": "提交",
+  "store/contact-form.form.success": "您的詢問已成功提交。",
+  "store/contact-form.form.error": "提交您的詢問時出現問題，請重試。",
+  "store/contact-form.form.corporate-office": "公司總部企業辦公室：",
+  "store/contact-form.form.contact-us": "联系我们"
+}

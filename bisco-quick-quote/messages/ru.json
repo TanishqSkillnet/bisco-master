@@ -1,0 +1,21 @@
+{
+  "test": "test",
+  "alert.success": "Цитата успешно добавлена.",
+  "alert.error": "Что-то пошло не так при добавлении цитаты.",
+  "bisco-quick-quote.quick-quote": "Rápida citação",
+  "bisco-quick-quote.submit": "Представлять на рассмотрение",
+  "bisco-quick-quote.get-a-quick-response": "Получите быстрый ответ от Bisco",
+  "bisco-quick-quote.first-name":"Имя",
+  "bisco-quick-quote.need-by-date": "Нужно по дате",
+  "bisco-quick-quote.quantity": "Количество (за штуку)",
+  "bisco-quick-quote.competitor": "конкурент",
+  "bisco-quick-quote.target-price": "Целевая цена (за штуку)",
+  "bisco-quick-quote.brand-name": "Имя бренда",
+  "bisco-quick-quote.product-name":"наименование товара",
+  "bisco-quick-quote.postal-code":"Почтовый индекс",
+  "bisco-quick-quote.country": "Страна",
+  "bisco-quick-quote.company": "Компания",
+  "bisco-quick-quote.phone": "Телефон",
+  "bisco-quick-quote.email": "Электронная почта",
+  "bisco-quick-quote.last-name": "Фамилия"
+}

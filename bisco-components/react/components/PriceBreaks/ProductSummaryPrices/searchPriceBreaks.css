@@ -1,0 +1,110 @@
+.searchPriceBreaksWrapper{
+  width: 100%;
+}
+
+.priceBreaksArrowButton {
+  position: relative;
+  margin: 5px;
+  left: 45%;
+  display: block;
+  box-sizing: border-box;
+  height: 15px;
+  width: 15px;
+  border-style: solid;
+  border-color: #3f3f40;
+  border-width: 0px 1px 1px 0px;
+  transition: border-width 150ms ease-in-out;
+}
+
+.showMore {
+  transform: rotate(45deg);
+}
+
+.showMore:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+
+.showLess {
+  transform: rotate(225deg);
+}
+
+.showLess:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+.priceTable {
+  font-size: 0.8rem;
+  background: #ffffff;
+}
+.priceBreaksContainer {
+  position: unset;
+}
+
+.priceTableHead {
+  background-color: white;
+}
+
+.priceTableRow {
+  border: thin solid #3f3f40;
+}
+
+.priceTableDataRow {
+  font-weight: normal;
+  border-bottom: thin solid lightgray;
+}
+
+.priceTableLineText {
+  margin: unset;
+}
+
+.pricingTableFullHeader {
+  background-color: white;
+}
+.tableLessButton, .tableMoreButton{ 
+  font-size: small;
+  bottom: 0;
+  display: inline-block;
+  width: 100%;
+  left: 0;
+  padding: 5px;
+  vertical-align: bottom;
+  outline: 0;
+  border: solid 1px #efefef;
+  text-align: center;
+  cursor: pointer;
+}
+.priceTableQuantity{
+  width: 50%;
+  
+}
+.priceTablePrice{
+  width: 50%;
+  border-bottom: thin solid lightgray;
+}
+
+.priceTableQuantity:nth-child(even) {
+  background-color: white;
+  border: thin solid #3f3f40;
+}
+
+.priceTable{
+  padding: unset;
+  border-spacing: unset;
+  border-radius: .15rem;
+  border: solid 1px;
+  border-color: rgba(0,0,0,0.1);
+  table-layout: auto;
+  width: 100%;
+}
+
+.priceBreaksButtonContainer :global(.vtex-button) {
+  width: 100%;
+}
+
+.priceBreaksButtonContainer {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}

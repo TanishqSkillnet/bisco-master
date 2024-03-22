@@ -1,0 +1,3 @@
+import ProductSummaryDescriptionOverlay from './components/DescriptionOverlay/ProductSummaryDescriptionOverlay'
+
+export default ProductSummaryDescriptionOverlay 

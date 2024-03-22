@@ -1,0 +1,13 @@
+{
+    "admin/category-gallery.title": "Galleria delle categorie",
+    "admin/category-gallery.description": "Galleria delle categorie",
+    "admin/category-gallery.tree-level.title": "Livello dell'albero",
+    "admin/editor.category-gallery.title": "Categoria Galleria Immagine segnaposto",
+    "admin/editor.category-gallery.description": "Immagine segnaposto",
+    "admin/editor.category-gallery.image-placeholder.title": "URL dell'immagine",
+    "admin/category-gallery.cards-per-page.title": "oggetti per pagina",
+    "store/category-gallery.product-not-found": "Nessun contenuto trovato per questa categoria",
+    "admin/category-gallery.category-card.title": "Scheda di categoria",
+    "admin/category-gallery.category-card.description": "Configurazioni delle schede di categoria",
+    "admin/category-gallery.category-card.isClickable.title": "È cliccabile"
+  }

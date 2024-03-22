@@ -1,0 +1,3 @@
+import ProductSummaryAvailableInventory from './components/Inventory/ProductSummaryAvailableInventory'
+
+export default ProductSummaryAvailableInventory

@@ -1,0 +1,282 @@
+{
+  "vtex.menu@2.x:menu#category-washers-153": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-washers-153"]
+  },
+  "vtex.menu@2.x:menu#category-screws-and-bolts-17": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-screws-and-bolts-17"]
+  },
+  "vtex.menu@2.x:menu#category-inserts-14": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-inserts-14"]
+  },
+  "vtex.menu@2.x:menu#category-standoffs-16": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-standoffs-16"]
+  },
+  "vtex.menu@2.x:menu#category-fasteners-2-see-all": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-fasteners-2-see-all"]
+  },
+  "vtex.menu@2.x:menu#category-caps-and-plugs-13": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-caps-and-plugs-13"]
+  },
+  "vtex.menu@2.x:menu#category-casters-21": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-casters-21"]
+  },
+  "vtex.menu@2.x:menu#category-knobs-156": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-knobs-156"]
+  },
+  "vtex.menu@2.x:menu#category-grommets-and-bushings-157": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-grommets-and-bushings-157"]
+  },
+  "vtex.menu@2.x:menu#category-mounting-hardware-155": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-mounting-hardware-155"]
+  },
+  "vtex.menu@2.x:menu#category-hardware-5-see-all": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-hardware-5-see-all"]
+  },
+  "vtex.menu@2.x:menu#category-locks-3": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-locks-3"]
+  },
+  "vtex.menu@2.x:menu#category-drawer-slides-2324": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-drawer-slides-2324"]
+  },
+  "vtex.menu@2.x:menu#category-latches-4": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-latches-4"]
+  },
+  "vtex.menu@2.x:menu#category-handles-12": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-handles-12"]
+  },
+  "vtex.menu@2.x:menu#category-hinges-6": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-hinges-6"]
+  },
+  "vtex.menu@2.x:menu#category-door-and-access-hardware-1-see-all": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-door-and-access-hardware-1-see-all"]
+  },
+  "vtex.menu@2.x:menu#category-terminal-block-components-191": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-terminal-block-components-191"]
+  },
+  "vtex.menu@2.x:menu#category-electronic-connectors-81-see-all": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-electronic-connectors-81-see-all"]
+  },
+  "vtex.menu@2.x:menu#category-circular-connectors-187": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-circular-connectors-187"]
+  },
+  "vtex.menu@2.x:menu#category-terminal-blocks-190": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-terminal-blocks-190"]
+  },
+  "vtex.menu@2.x:menu#category-power-connectors-188": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-power-connectors-188"]
+  },
+  "vtex.menu@2.x:menu#category-terminals-189": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-terminals-189"]
+  },
+  "vtex.menu@2.x:menu#category-enclosures-racks-and-cabinets-93-see-all": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-enclosures-racks-and-cabinets-93-see-all"]
+  },
+  "vtex.menu@2.x:menu#category-cabinets-271": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-cabinets-271"]
+  },
+  "vtex.menu@2.x:menu#category-ejectors-272": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-ejectors-272"]
+  },
+  "vtex.menu@2.x:menu#category-enclosure-and-rack-components-269": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-enclosure-and-rack-components-269"]
+  },
+  "vtex.menu@2.x:menu#category-subracks-and-subrack-accessories-267": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-subracks-and-subrack-accessories-267"]
+  },
+  "vtex.menu@2.x:menu#category-card-guides-and-retainers-270": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-card-guides-and-retainers-270"]
+  },
+  "vtex.menu@2.x:menu#category-clamps-297": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-clamps-297"]
+  },
+  "vtex.menu@2.x:menu#category-wire-and-cable-125-see-all": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-wire-and-cable-125-see-all"]
+  },
+  "vtex.menu@2.x:menu#category-cable-and-wire-management-294": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-cable-and-wire-management-294"]
+  },
+  "vtex.menu@2.x:menu#category-cables-296": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-cables-296"]
+  },
+  "vtex.menu@2.x:menu#category-wire-and-cable-accessories-292": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-wire-and-cable-accessories-292"]
+  },
+  "vtex.menu@2.x:menu#category-cable-ties-295": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-block",
+      "width": "20%"
+    },
+    "children": ["menu-item#category-cable-ties-295"]
+  }
+}

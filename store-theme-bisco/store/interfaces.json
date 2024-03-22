@@ -1,0 +1,61 @@
+{
+  "store.home.biscoind": {
+    "allowed": ["categories-highlights"]
+  },
+  "store.product.biscoind": {
+    "around": ["zipCodeWrapper"],
+    "allowed": [
+      "button",
+      "product-price-breaks",
+      "product-shipping-calculator",
+      "product-field-highlights",
+      "product-quote",
+      "product-media-links",
+      "product-available-inventory",
+      "scroll-up-button"
+    ]
+  },
+  "store.custom.biscoind": {
+    "allowed": [
+      "video-slider",
+      "supply-chain-services",
+      "warehouse-locations",
+      "contact-form",
+      "about",
+      "manufacturers",
+      "iframe"
+    ]
+  },
+  "zipCodeWrapper": {
+    "component": "ZipCodeWrapper"
+  },
+  "search-result-layout.desktop.biscoind": {
+    "around": ["zipCodeWrapper"],
+    "allowed":["category-panel", "brand-content"]
+  },
+  "search-result-layout.mobile.biscoind": {
+    "around": ["zipCodeWrapper"]
+  },
+  "product-summary-column.biscoind": {
+    "allowed": [
+      "product-summary-column",
+      "product-summary-specifications",
+      "product-summary-field-highlights",
+      "product-summary-description-overlay",
+      "product-summary-shipping-calculator",
+      "product-summary-quote",
+      "price-breaks",
+      "product-summary-available-inventory"
+    ]
+  },
+  "header-row.biscoind": {
+    "allowed": [
+      "flyout-category-menu"
+    ]
+  },
+  "product-summary.shelf.biscoind": {
+    "allowed": [
+      "product-summary-name-custom"
+    ]
+  }
+}

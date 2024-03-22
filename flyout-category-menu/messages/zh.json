@@ -1,0 +1,14 @@
+{
+  "admin/editor.flyout-menu.title": "彈出類別菜單",
+  "admin/editor.flyout-menu.description": "彈出類別菜單",
+  "admin/editor.flyout-menu.disposition-type.title": "菜單位置",
+  "admin/editor.flyout-menu.show-departments-category.title": "顯示部門類別",
+  "admin/editor.flyout-menu.show-subcategories.title": "顯示子類別",
+  "admin/editor.flyout-menu.no-of-categories.title": "可見類別數量",
+  "admin/editor.flyout-menu.no-of-departments.title": "可見部門數量",
+  "admin/editor.flyout-menu.no-of-subcategories.title": "可見子類別數量",
+  "editor.flyout-menu.title": "彈出類別菜單",
+  "category-menu.departments.title": "部門",
+  "category-menu.all-category.title": "查看全部",
+  "category-menu.all-products": "所有產品"
+}

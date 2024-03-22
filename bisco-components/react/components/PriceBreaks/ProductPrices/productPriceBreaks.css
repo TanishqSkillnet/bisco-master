@@ -1,0 +1,117 @@
+.productPriceBreaksContainer {
+}
+
+.productPriceTable{
+  padding: unset;
+  table-layout: auto;
+  width: 100%;
+}
+
+.productPriceTable table, tr {
+
+}
+
+.colGroupQuantityBreak{
+  width: 30%;
+}
+
+.colGroupUnitPrice{
+  width: 30%;
+}
+
+.colGroupLeadTime{
+  width: 40%;
+}
+
+.productPricingTableTitle{
+  padding: 7px;
+}
+
+.productPriceTableMainHeader{
+}
+
+.productPriceTableHeader{
+  color: black;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+
+}
+.productPriceTableHeaderRow{
+  font-weight: bold;
+  color: white;
+}
+
+.productPriceTableHeaderRowData{
+  padding: 6px;
+  padding-left: 1rem;
+  color: black;
+  font-weight: bold;
+  border-top: solid 1px #e8e8e8;
+  border-bottom: solid 1px #e8e8e8;
+}
+
+.productPriceTableRow:nth-child(even) {
+}
+
+.productPriceTableRow th, td{
+  font-size: 0.95rem;
+}
+
+table, tr {
+}
+
+.productPriceTableDataRow {}
+
+.productPriceQuantityDataColumn {
+  min-height: 26px;
+  display: block;
+  padding-left: 1.0rem;
+  border-top: solid 1px #eee;
+  border-bottom: solid 1px #eee;
+  height: 100%;
+}
+
+.productPriceTableQuantities{}
+
+.productPriceTablePriceColumn{
+  padding-left: 2rem;
+  border-top: solid 1px #eee;
+  border-bottom: solid 1px #eee;
+}
+
+.productPriceTableLeadTimeColumn{
+  padding-left: 1rem;
+  border-top: solid 1px #eee;
+  border-bottom: solid 1px #eee;
+}
+
+.productPriceTableFooterRow{
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.productPriceTableFooterMinimumColumn{
+  padding: 10px;
+}
+
+.productPriceTableFooterUOMColumn{
+  padding: 10px;
+  text-align: right;
+}
+
+.productPriceTableFooterMultipleColumn{
+  padding: 10px;
+}
+
+
+.availableInventoryRow {
+  color:black;
+}
+
+.productPriceTableSpacerRow{
+  height: auto;
+}
+
+.priceBreaksButtonContainer :global(.vtex-button) {
+  width: 100%;
+}

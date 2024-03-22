@@ -1,0 +1,10 @@
+query Brands {
+  brands {
+    id
+    active
+    cacheId
+    slug
+    name
+    imageUrl
+  }
+}

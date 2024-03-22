@@ -1,0 +1,802 @@
+:root {
+  --spacing-none: 0;
+  --spacing-extra-small: 0.25rem;
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
+  --spacing-extra-large: 4rem;
+  --spacing-extra-extra-large: 8rem;
+  --spacing-extra-extra-extra-large: 16rem;
+}
+.notificationBarContainer {
+  background-color: #008DD9;
+  max-height: 48px;
+}
+.notificationContent {
+  vertical-align: middle;
+  font-weight: 600;
+}
+.squaredCategoriesHighlights:only-child,
+.rectangularCategoriesHighlights:only-child {
+  display: block;
+}
+
+.squaredCard,
+.rectangularCard {
+  height: 9.375rem;
+  margin: 5px 10px;
+}
+
+.squaredCard {
+  width: 9.375rem;
+}
+
+.rectangularCard {
+  width: 18.075rem;
+}
+
+.squaredCard,
+.rectangularCard a {
+  text-decoration: none;
+}
+
+.squaredCardImage {
+  width: 9.375rem;
+}
+
+.rectangularCardImage {
+  width: 18.075rem;
+}
+
+.logoContainer {
+  padding: 0;
+}
+
+.squaredCard {
+  box-shadow: unset;
+}
+
+.squaredCard:hover {
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+.titleContainer {
+  margin: auto;
+}
+
+.titleContainer h3 {
+  margin-left: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.titleBox {
+  margin-bottom: 12px;
+}
+
+.rectangularCategoriesHighlights {
+  margin: auto;
+}
+
+.rectangularCategoriesHighlights > div > div {
+  width: 100%;
+}
+
+.rectangularCard {
+  box-shadow: unset;
+  width: 45.2%;
+  margin: 5px;
+  text-align: center;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+.rectangularCard:hover {
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.logoContainer img {
+  width: 225px;
+  height: 75px;
+}
+
+
+.productDescriptionContainer {
+  margin-top: 4rem;
+  color: rgb(71, 71, 171);
+}
+
+.productDescriptionContainer h2 {
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.paragraph-product-documents-media p {
+  font-size: 1.25rem;
+}
+
+.contact-rep-certs, p {
+  font-size: 0.85rem;
+}
+
+.productBrandContainer {
+  margin: 0px 0 10px 0;
+}
+
+.productBrandContainer img {
+  object-fit: contain;
+  max-width:175px;
+}
+
+.productBrandName--product-brand-name {
+  color: black;
+  font-weight: bold;
+}
+
+.productFieldHighlightsFieldValue {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+  .rectangularCategoriesHighlights > div > div {
+    width: 50%;
+  }
+
+  .rectangularCard {
+    width: 45.83%;
+    margin: 8px;
+  }
+
+  .logoContainer img {
+    height: 75px;
+    width: 245px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .rectangularCategoriesHighlights > div > div {
+    width: 33.33%;
+  }
+
+  .rectangularCard {
+    width: 44.82%;
+    margin: 8px;
+  }
+
+  .logoContainer img {
+    height: 75px;
+    width: 225px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .titleContainer {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .rectangularCategoriesHighlights {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .rectangularCategoriesHighlights > div > div {
+    width: 33.33%;
+  }
+
+  .rectangularCard {
+    width: 44.85%;
+    height: 12.38rem;
+    margin: 20px 10px 10px 10px;
+  }
+
+  .logoContainer img {
+    height: 75px;
+    width: 225px;
+    padding: 7px;
+  }
+
+  .shippingContainer > div > label {
+    min-width: 88px;
+  }
+  .shippingContainer > div {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .productDescriptionContainer {
+    margin-top: 2rem;
+  }
+}
+
+.specificationsTableContainer,
+.productDescriptionContainer {
+  padding-left: var(--spacing-medium);
+  padding-right: var(--spacing-medium);
+  max-width: 90rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .specificationsTableContainer,
+  .productDescriptionContainer {
+    padding-left: var(--spacing-extra-large);
+    padding-right: var(--spacing-extra-large);
+  }
+}
+
+@media screen and (min-width: 80em) {
+  .specificationsTableContainer,
+  .productDescriptionContainer {
+    padding-left: var(--spacing-extra-small);
+    padding-right: var(--spacing-extra-small);
+  }
+}
+
+
+
+.showMoreButton {
+  color: white;
+  background-color: #134cd8;
+  padding: 7px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.specificationsTitle {
+  color: rgb(71, 71, 171);
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  padding-bottom: 1.5rem;
+}
+
+.specificationsTableContainer {
+  padding-top: var(--spacing-medium);
+}
+
+.specificationsTableContainer,
+.specificationsTable {
+}
+
+.specificationsTableContainer .fadeBottom {
+  background-image: none;
+}
+
+.specificationsTableContainer .pointerEventsAuto {
+}
+
+.specificationsTable th {
+  font-weight: bold;
+}
+
+.specificationTable td {
+  color: #979899;
+}
+
+.content {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.19);
+  padding: 0.25rem;
+}
+
+.content,
+.carouselGaleryThumbs .figure {
+  border: 1px solid;
+  border-spacing: unset;
+  border-radius: 0.15rem;
+  border-color: rgba(0, 0, 0, 0.2);
+  margin: 0;
+}
+
+.content, .productImageContainer {
+  border:none;
+  box-shadow: none;
+}
+
+.subscriberContainer .content {
+  box-shadow: none;
+  border: none;
+  padding: 0;
+}
+
+.imageElement--footerPaymentTerm,
+.imageElement--footerPaymentTermThirtyDays {
+  width: 2rem;
+  height: 2rem;
+}
+
+.imageElement--footerPaymentTerm {
+  height: unset;
+  width: 2.1rem;
+}
+
+.imageElement--footerPaymentTermThirtyDays {
+  display: none;
+}
+
+@media only screen and (min-width: 64em) {
+  .searchBarContainer {
+    max-width: 34rem;
+  }
+}
+
+@media only screen and (min-width: 70em) {
+  .searchBarContainer {
+    max-width: 40rem;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .searchBarContainer {
+    max-width: 45rem;
+  }
+}
+
+@media only screen and (min-width: 80em) {
+  .searchBarContainer {
+    max-width: 51rem;
+  }
+}
+
+@media only screen and (min-width: 85em) {
+  .searchBarContainer {
+    max-width: 56rem;
+  }
+}
+
+
+@media only screen and (min-width: 48em) {
+  .searchBarContainer {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+}
+.vtex-flex-layout-0-x-stretchChildrenWidth {
+  width: 40%;
+}
+
+.content--product-info-description {
+  border: none;
+  font-size: 0.85rem;
+}
+
+.productImageContainer {
+  border: none;
+}
+
+.productImageTag {
+  max-height:300px !important;
+}
+
+.productImagesGallerySlide {
+  border:none;
+}
+
+.buyButtonText {
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.quickQuoteContainer button {
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.biscoind-quick-quote-0-x-quickQuoteContainer {
+  font-weight: bold;
+}
+
+/* @media only screen and (min-width: 64em) {
+  .searchBarContainer {
+    padding-right: 6rem;
+    padding-left: 6rem;
+  }
+} */
+
+.logoLink .sizeDesktop{
+  max-width: 239px;
+  max-height: 89px;
+  min-width: 120px;
+  display: block;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group){
+  height: 38px;
+}
+
+.notificationContent--home-message{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  vertical-align: middle;
+  font-weight: 600;
+}
+
+:global(.vtex-store-header-2-x-headerRowContentContainer--main-header-mobile) .searchBarContainer {
+  max-width: 100% !important;
+}
+
+.imageElement--banner-image-slider {
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1300px) {
+  .imageElement--main-image-slider{
+    height: unset !important;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .imageElement--banner-image-slider-2{
+    margin-top: 0.75rem;
+  }
+}
+
+.productBrandLogoLink {
+  display: block;
+}
+
+.productImageTag--zoom {
+  display: none;
+}
+
+/* */
+
+.infoCardContainer--info-card-fasteners-1,
+.infoCardContainer--info-card-fasteners-2,
+.infoCardContainer--info-card-fasteners-3,
+.infoCardContainer--info-card-fasteners-4,
+.infoCardContainer--info-card-fasteners-5,
+.infoCardContainer--info-card-fasteners-6 {
+  flex-direction: column-reverse;
+  transition: transform .25s;
+  margin: 20px 10px 10px 10px;
+  padding: 0;
+  justify-content: right;
+}
+
+.infoCardTextContainer--info-card-fasteners-1,
+.infoCardTextContainer--info-card-fasteners-2,
+.infoCardTextContainer--info-card-fasteners-3,
+.infoCardTextContainer--info-card-fasteners-4,
+.infoCardTextContainer--info-card-fasteners-5,
+.infoCardTextContainer--info-card-fasteners-6 {
+  width: unset !important;
+  padding-left:0;
+  padding-right:0;
+}
+
+.infoCardImageContainer--info-card-fasteners-1,
+.infoCardImageContainer--info-card-fasteners-2,
+.infoCardImageContainer--info-card-fasteners-3,
+.infoCardImageContainer--info-card-fasteners-4,
+.infoCardImageContainer--info-card-fasteners-5,
+.infoCardImageContainer--info-card-fasteners-6 {
+  width: 100% !important;
+}
+
+.infoCardContainer--info-card-fasteners-1:hover,
+.infoCardContainer--info-card-fasteners-2:hover,
+.infoCardContainer--info-card-fasteners-3:hover,
+.infoCardContainer--info-card-fasteners-4:hover,
+.infoCardContainer--info-card-fasteners-5:hover,
+.infoCardContainer--info-card-fasteners-6:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
+  height: 195px;
+}
+
+.infoCardSubhead--info-card-fasteners-1,
+.infoCardSubhead--info-card-fasteners-2,
+.infoCardSubhead--info-card-fasteners-3,
+.infoCardSubhead--info-card-fasteners-4,
+.infoCardSubhead--info-card-fasteners-5,
+.infoCardSubhead--info-card-fasteners-6 {
+  margin-top: 0rem;
+  color: #727273;
+}
+
+.infoCardImage--info-card-fasteners-1,
+.infoCardImage--info-card-fasteners-2,
+.infoCardImage--info-card-fasteners-3,
+.infoCardImage--info-card-fasteners-4,
+.infoCardImage--info-card-fasteners-5,
+.infoCardImage--info-card-fasteners-6 {
+  height: 158px;
+  width: 18.075rem;
+}
+
+/*  */
+
+.infoCardContainer--info-card-electronic-connectors-1,
+.infoCardContainer--info-card-electronic-connectors-2,
+.infoCardContainer--info-card-electronic-connectors-3,
+.infoCardContainer--info-card-electronic-connectors-4,
+.infoCardContainer--info-card-electronic-connectors-5,
+.infoCardContainer--info-card-electronic-connectors-6 {
+  flex-direction: column-reverse;
+  transition: transform .25s;
+  margin: 20px 10px 10px 10px;
+  padding: 0;
+  justify-content: right;
+}
+
+.infoCardTextContainer--info-card-electronic-connectors-1,
+.infoCardTextContainer--info-card-electronic-connectors-2,
+.infoCardTextContainer--info-card-electronic-connectors-3,
+.infoCardTextContainer--info-card-electronic-connectors-4,
+.infoCardTextContainer--info-card-electronic-connectors-5,
+.infoCardTextContainer--info-card-electronic-connectors-6 {
+  width: unset !important;
+  padding-left:0;
+  padding-right:0;
+}
+
+.infoCardImageContainer--info-card-electronic-connectors-1,
+.infoCardImageContainer--info-card-electronic-connectors-2,
+.infoCardImageContainer--info-card-electronic-connectors-3,
+.infoCardImageContainer--info-card-electronic-connectors-4,
+.infoCardImageContainer--info-card-electronic-connectors-5,
+.infoCardImageContainer--info-card-electronic-connectors-6 {
+  width: 100% !important;
+}
+
+.infoCardContainer--info-card-electronic-connectors-1:hover,
+.infoCardContainer--info-card-electronic-connectors-2:hover,
+.infoCardContainer--info-card-electronic-connectors-3:hover,
+.infoCardContainer--info-card-electronic-connectors-4:hover,
+.infoCardContainer--info-card-electronic-connectors-5:hover,
+.infoCardContainer--info-card-electronic-connectors-6:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
+  height: 195px;
+}
+
+.infoCardSubhead--info-card-electronic-connectors-1,
+.infoCardSubhead--info-card-electronic-connectors-2,
+.infoCardSubhead--info-card-electronic-connectors-3,
+.infoCardSubhead--info-card-electronic-connectors-4,
+.infoCardSubhead--info-card-electronic-connectors-5,
+.infoCardSubhead--info-card-electronic-connectors-6 {
+  margin-top: 0rem;
+  color: #727273;
+}
+
+.infoCardImage--info-card-electronic-connectors-1,
+.infoCardImage--info-card-electronic-connectors-2,
+.infoCardImage--info-card-electronic-connectors-3,
+.infoCardImage--info-card-electronic-connectors-4,
+.infoCardImage--info-card-electronic-connectors-5,
+.infoCardImage--info-card-electronic-connectors-6 {
+  height: 158px;
+  width: 18.075rem;
+}
+
+/*  */
+
+.infoCardContainer--info-card-hardware-1,
+.infoCardContainer--info-card-hardware-2,
+.infoCardContainer--info-card-hardware-3,
+.infoCardContainer--info-card-hardware-4,
+.infoCardContainer--info-card-hardware-5,
+.infoCardContainer--info-card-hardware-6 {
+  flex-direction: column-reverse;
+  transition: transform .25s;
+  margin: 20px 10px 10px 10px;
+  padding: 0;
+  justify-content: right;
+}
+
+.infoCardTextContainer--info-card-hardware-1,
+.infoCardTextContainer--info-card-hardware-2,
+.infoCardTextContainer--info-card-hardware-3,
+.infoCardTextContainer--info-card-hardware-4,
+.infoCardTextContainer--info-card-hardware-5,
+.infoCardTextContainer--info-card-hardware-6 {
+  width: unset !important;
+  padding-left:0;
+  padding-right:0;
+}
+
+.infoCardImageContainer--info-card-hardware-1,
+.infoCardImageContainer--info-card-hardware-2,
+.infoCardImageContainer--info-card-hardware-3,
+.infoCardImageContainer--info-card-hardware-4,
+.infoCardImageContainer--info-card-hardware-5,
+.infoCardImageContainer--info-card-hardware-6 {
+  width: 100% !important;
+}
+
+.infoCardContainer--info-card-hardware-1:hover,
+.infoCardContainer--info-card-hardware-2:hover,
+.infoCardContainer--info-card-hardware-3:hover,
+.infoCardContainer--info-card-hardware-4:hover,
+.infoCardContainer--info-card-hardware-5:hover,
+.infoCardContainer--info-card-hardware-6:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
+  height: 195px;
+}
+
+.infoCardSubhead--info-card-hardware-1,
+.infoCardSubhead--info-card-hardware-2,
+.infoCardSubhead--info-card-hardware-3,
+.infoCardSubhead--info-card-hardware-4,
+.infoCardSubhead--info-card-hardware-5,
+.infoCardSubhead--info-card-hardware-6 {
+  margin-top: 0rem;
+  color: #727273;
+}
+
+.infoCardImage--info-card-hardware-1,
+.infoCardImage--info-card-hardware-2,
+.infoCardImage--info-card-hardware-3,
+.infoCardImage--info-card-hardware-4,
+.infoCardImage--info-card-hardware-5,
+.infoCardImage--info-card-hardware-6 {
+  height: 158px;
+  width: 18.075rem;
+}
+
+/*  */
+
+
+@media only screen and (max-width: 1024px) {
+  .infoCardContainer--info-card-fasteners-1,
+  .infoCardContainer--info-card-fasteners-2,
+  .infoCardContainer--info-card-fasteners-3,
+  .infoCardContainer--info-card-fasteners-4,
+  .infoCardContainer--info-card-fasteners-5,
+  .infoCardContainer--info-card-fasteners-6 {
+    margin: 8px;
+  }
+
+  .infoCardImage--info-card-fasteners-1,
+  .infoCardImage--info-card-fasteners-2,
+  .infoCardImage--info-card-fasteners-3,
+  .infoCardImage--info-card-fasteners-4,
+  .infoCardImage--info-card-fasteners-5,
+  .infoCardImage--info-card-fasteners-6 {
+    height: 120px;
+  }
+
+  .infoCardContainer--info-card-electronic-connectors-1,
+  .infoCardContainer--info-card-electronic-connectors-2,
+  .infoCardContainer--info-card-electronic-connectors-3,
+  .infoCardContainer--info-card-electronic-connectors-4,
+  .infoCardContainer--info-card-electronic-connectors-5,
+  .infoCardContainer--info-card-electronic-connectors-6 {
+    margin: 8px;
+  }
+
+  .infoCardImage--info-card-electronic-connectors-1,
+  .infoCardImage--info-card-electronic-connectors-2,
+  .infoCardImage--info-card-electronic-connectors-3,
+  .infoCardImage--info-card-electronic-connectors-4,
+  .infoCardImage--info-card-electronic-connectors-5,
+  .infoCardImage--info-card-electronic-connectors-6 {
+    height: 120px;
+  }
+
+  .infoCardContainer--info-card-hardware-1,
+  .infoCardContainer--info-card-hardware-2,
+  .infoCardContainer--info-card-hardware-3,
+  .infoCardContainer--info-card-hardware-4,
+  .infoCardContainer--info-card-hardware-5,
+  .infoCardContainer--info-card-hardware-6 {
+    margin: 8px;
+  }
+
+  .infoCardImage--info-card-hardware-1,
+  .infoCardImage--info-card-hardware-2,
+  .infoCardImage--info-card-hardware-3,
+  .infoCardImage--info-card-hardware-4,
+  .infoCardImage--info-card-hardware-5,
+  .infoCardImage--info-card-hardware-6 {
+    height: 120px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .infoCardContainer--info-card-fasteners-1,
+  .infoCardContainer--info-card-fasteners-2,
+  .infoCardContainer--info-card-fasteners-3,
+  .infoCardContainer--info-card-fasteners-4,
+  .infoCardContainer--info-card-fasteners-5,
+  .infoCardContainer--info-card-fasteners-6 {
+    margin: 8px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .infoCardImage--info-card-fasteners-1,
+  .infoCardImage--info-card-fasteners-2,
+  .infoCardImage--info-card-fasteners-3,
+  .infoCardImage--info-card-fasteners-4,
+  .infoCardImage--info-card-fasteners-5,
+  .infoCardImage--info-card-fasteners-6 {
+    object-fit: cover;
+  }
+
+  .infoCardContainer--info-card-electronic-connectors-1,
+  .infoCardContainer--info-card-electronic-connectors-2,
+  .infoCardContainer--info-card-electronic-connectors-3,
+  .infoCardContainer--info-card-electronic-connectors-4,
+  .infoCardContainer--info-card-electronic-connectors-5,
+  .infoCardContainer--info-card-electronic-connectors-6 {
+    margin: 8px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .infoCardImage--info-card-electronic-connectors-1,
+  .infoCardImage--info-card-electronic-connectors-2,
+  .infoCardImage--info-card-electronic-connectors-3,
+  .infoCardImage--info-card-electronic-connectors-4,
+  .infoCardImage--info-card-electronic-connectors-5,
+  .infoCardImage--info-card-electronic-connectors-6 {
+    object-fit: cover;
+  }
+
+  .infoCardContainer--info-card-hardware-1,
+  .infoCardContainer--info-card-hardware-2,
+  .infoCardContainer--info-card-hardware-3,
+  .infoCardContainer--info-card-hardware-4,
+  .infoCardContainer--info-card-hardware-5,
+  .infoCardContainer--info-card-hardware-6 {
+    margin: 8px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .infoCardImage--info-card-hardware-1,
+  .infoCardImage--info-card-hardware-2,
+  .infoCardImage--info-card-hardware-3,
+  .infoCardImage--info-card-hardware-4,
+  .infoCardImage--info-card-hardware-5,
+  .infoCardImage--info-card-hardware-6 {
+    object-fit: cover;
+  }
+}
+
+
+.infoCardCallActionContainer--info-card-fasteners-1,
+.infoCardCallActionContainer--info-card-fasteners-2,
+.infoCardCallActionContainer--info-card-fasteners-3,
+.infoCardCallActionContainer--info-card-fasteners-4,
+.infoCardCallActionContainer--info-card-fasteners-5,
+.infoCardCallActionContainer--info-card-fasteners-6 {
+  display: none;
+}
+
+.infoCardCallActionContainer--info-card-electronic-connectors-1,
+.infoCardCallActionContainer--info-card-electronic-connectors-2,
+.infoCardCallActionContainer--info-card-electronic-connectors-3,
+.infoCardCallActionContainer--info-card-electronic-connectors-4,
+.infoCardCallActionContainer--info-card-electronic-connectors-5,
+.infoCardCallActionContainer--info-card-electronic-connectors-6 {
+  display: none;
+}
+
+.infoCardCallActionContainer--info-card-hardware-1,
+.infoCardCallActionContainer--info-card-hardware-2,
+.infoCardCallActionContainer--info-card-hardware-3,
+.infoCardCallActionContainer--info-card-hardware-4,
+.infoCardCallActionContainer--info-card-hardware-5,
+.infoCardCallActionContainer--info-card-hardware-6 {
+  display: none;
+}

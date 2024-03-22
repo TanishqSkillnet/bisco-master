@@ -1,0 +1,40 @@
+{
+  "category-gallery": {
+    "blocks": ["category-card-custom"],
+    "props": {
+      "treeLevel": 1,
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 2,
+        "mobile": 1
+      }
+    }
+  },
+  "category-gallery.search": {
+    "blocks": ["category-card-custom"],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 2,
+        "mobile": 1
+      }
+    }
+  },
+  "category-card-custom": {
+    "children": [
+      "category-image-custom",
+      "category-name-custom"
+    ]
+  },
+  "category-image-custom": {
+    "props": {
+      "placeholderImage": "https://biscoind.vtexassets.com/arquivos/ids/1259836-500-auto?width=500&height=auto&aspect=true"
+    }
+  },
+  "category-banner": {
+    "blocks":[],
+     "props": {
+      "defaultImage": "https://biscoind.vtexassets.com/arquivos/ids/1259836-500-auto?width=500&height=auto&aspect=true"
+    }
+  }
+}

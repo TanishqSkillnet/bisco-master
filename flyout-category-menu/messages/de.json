@@ -1,0 +1,14 @@
+{
+  "admin/editor.flyout-menu.title": "Flyout-Kategoriemenü",
+  "admin/editor.flyout-menu.description": "Flyout-Kategoriemenü",
+  "admin/editor.flyout-menu.disposition-type.title": "Menüposition",
+  "admin/editor.flyout-menu.show-departments-category.title": "Zeigen Sie die Kategorie „Abteilungen“ an",
+  "admin/editor.flyout-menu.show-subcategories.title": "Unterkategorien anzeigen",
+  "admin/editor.flyout-menu.no-of-categories.title": "Anzahl der sichtbaren Kategorien",
+  "admin/editor.flyout-menu.no-of-departments.title": "Anzahl der sichtbaren Abteilungen",
+  "admin/editor.flyout-menu.no-of-subcategories.title": "Anzahl der sichtbaren Unterkategorien",
+  "editor.flyout-menu.title": "Flyout-Kategoriemenü",
+  "category-menu.departments.title": "Abteilungen",
+  "category-menu.all-category.title": "Alles sehen",
+  "category-menu.all-products": "Alle Produkte"
+}

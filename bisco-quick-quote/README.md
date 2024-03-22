@@ -1,0 +1,1 @@
+# VTEX Quick Quote Component

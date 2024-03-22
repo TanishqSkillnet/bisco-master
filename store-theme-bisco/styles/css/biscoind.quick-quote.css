@@ -1,0 +1,29 @@
+.quickQuoteContainer {
+  margin-left: 0.25rem;
+  margin-right: 0.5rem;
+}
+
+:global(.vtex-product-summary-2-x-column--product-shelf-mobile-column) .productSummaryQuoteWrapper {
+  margin-left: unset;
+  margin-right: unset;
+  width: 100%;
+}
+
+.quickQuoteContainer button {
+  font-weight: bold;
+  font-size: 0.85rem;
+
+}
+
+.quickQuoteContainer .vtex-button__label {
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .quickQuoteContainer {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "editor.about.title": "editor.about.title",
+  "editor.about.description": "editor.about.description",
+  "editor.about.sectionTitle": "editor.about.sectionTitle",
+  "editor.aboutUs.title": "editor.aboutUs.title",
+  "editor.aboutUs.description": "editor.aboutUs.description",
+  "editor.aboutUs.video": "editor.aboutUs.video",
+  "editor.aboutUs.image": "editor.aboutUs.image",
+  "editor.history.title": "editor.history.title",
+  "editor.history.description": "editor.history.description",
+  "editor.history.sampleText": "editor.history.sampleText",
+  "editor.news.title": "editor.news.title",
+  "editor.news.description": "editor.news.description",
+  "editor.news.sampleText": "editor.news.sampleText",
+  "editor.whyChoose.title": "editor.whyChoose.title",
+  "editor.whyChoose.description": "editor.whyChoose.description",
+  "editor.whyChoose.sampleText": "editor.whyChoose.sampleText",
+  "editor.executiveTeam.title": "editor.executiveTeam.title",
+  "editor.executiveTeam.description": "editor.executiveTeam.description",
+  "editor.executiveTeam.sampleText": "editor.executiveTeam.sampleText"
+}

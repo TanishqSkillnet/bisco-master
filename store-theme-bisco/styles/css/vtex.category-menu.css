@@ -1,0 +1,55 @@
+.itemsListContainer {
+  max-height: 36px;
+}
+
+.listItemContainer {
+  max-height: 22px;
+}
+
+.itemContainerUl {
+  display: unset;
+}
+
+.itemContainerLi {
+  display: block;
+}
+
+.firstLevelLink {
+  /* font-weight: 600; */
+}
+
+/* .listItemContainer {
+  max-height: 10px;
+} */
+
+.itemContainer {
+  /* display: block !important; */
+  /* position: relative; */
+}
+.parentUl {
+  display: block;
+}
+.parentLi {
+  width: 240px;
+  display: block;
+  background-color: rgba(226, 226, 226, 0.4);
+}
+.firstLevelUl {
+  padding-left: 0;
+}
+.firstLevelLi {
+  list-style: none;
+}
+.secondLevelUl {
+  padding: 0;
+  visibility: hidden;
+  position: absolute;
+  left: 300px;
+  top: 0;
+}
+/* .firstLevelLi:hover .secondLevelUl {
+  visibility: visible;
+} */
+.firstLevelUl:hover li {
+  visibility: visible;
+}

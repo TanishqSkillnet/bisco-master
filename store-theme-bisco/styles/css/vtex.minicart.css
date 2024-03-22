@@ -1,0 +1,12 @@
+.label {
+  color: #979899;
+}
+
+:global(.vtex-numeric-stepper__input){
+width: 4rem;
+}
+
+.minicartWrapperContainer {
+  height: 64px;
+  width: 64px;
+}

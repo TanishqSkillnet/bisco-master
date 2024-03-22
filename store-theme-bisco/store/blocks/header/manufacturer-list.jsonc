@@ -1,0 +1,1828 @@
+{
+  "submenu#manufacturer": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "manufacturer-sub-menu-l1"
+    },
+    "children": ["flex-layout.row#manufacturer-list"]
+  },
+  "flex-layout.row#manufacturer-list": {
+    "children": ["menu#manufacturers"],
+    "props": {
+      "blockClass": "manufacturer-sub-menu-row-l1"
+    }
+  },
+  "menu#manufacturers": {
+    "children": [
+      "menu-item#brands-a-z",
+      "menu-item#featuredBrands",
+      "menu-item#manufacturer-1",
+      "menu-item#manufacturer-2",
+      "menu-item#manufacturer-3",
+      "menu-item#manufacturer-4",
+      "menu-item#manufacturer-5",
+      "menu-item#manufacturer-6",
+      "menu-item#manufacturer-7",
+      "menu-item#manufacturer-8",
+      "menu-item#manufacturer-9"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "manufacturer-menu-l1"
+    }
+  },
+  "menu-item#brands-a-z": {
+    "props": {
+      "id": "menu-item-brands-a-z",
+      "blockClass": "manufacturer-menu-item-all-brands",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/manufacturers",
+        "noFollow": false,
+        "tagTitle": "Brands A-Z",
+        "text": "Brands A-Z"
+      }
+    }
+  },
+  "menu-item#featuredBrands": {
+
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "featuredBrands",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Featured Brands"
+      }
+    }
+  },
+
+  //Beging of manufacturer-1
+  "menu-item#manufacturer-1": {
+    "blocks": ["submenu#itemListManufacturer-1"],
+    "title":"Brand 1",
+    "props": {
+      "id": "menu-item-manufacturer-1",
+      "blockClass": "manufacturer-menu-item-l1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "visibility":true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/southco",
+        "noFollow": false,
+        "tagTitle": "Southco",
+        "text": "Southco"
+      },
+      "iconProps": {
+        "id": "nav-caret--right",
+        "size": 12,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary",
+        "iconPosition":"right"
+      },
+      "iconPosition": "right"
+    }
+  },
+
+  "submenu#itemListManufacturer-1": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "manufacturer-sub-menu-l2"
+    },
+    "children": ["flex-layout.row#manufacturer-sub-menu-row-l2-1"]
+  },
+  "flex-layout.row#manufacturer-sub-menu-row-l2-1": {
+    "children":[
+      "image-new#manufacturerL2Image-1",
+      "menu#manufacturerSubmenu-1"
+    ],
+    "props": {
+      "blockClass": "manufacturer-sub-menu-row-l2"
+    }
+  },
+  "image-new#manufacturerL2Image-1": {
+    "props":{
+      "src": "https://biscoind.vtexassets.com/arquivos/ids/1509387/Southco-logo.jpg",
+      "blockClass": "manufacturer-image"
+    }
+  },
+  "menu#manufacturerSubmenu-1": {
+    "children": [
+      "menu-item#Man1Dep1",
+      "menu-item#Man1Dep2",
+      "menu-item#Man1Dep3",
+      "menu-item#Man1Dep4",
+      "menu-item#Man1Dep5",
+      "menu-item#Man1Dep6",
+      "menu-item#Man1Dep7",
+      "menu-item#Man1Dep8",
+      "menu-item#Man1Dep9"
+      ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "manufacturer-menu-l2",
+      "items":[]
+    }
+  },
+
+  "menu-item#Man1Dep1": {
+    "title":"Category 1",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/southco/door-and-access-hardware/latches?_q=Southco&map=b",
+        "noFollow": false,
+        "tagTitle": "Latches",
+        "text": "Latches"
+      }
+    }
+  },
+  "menu-item#Man1Dep2": {
+    "title":"Category 2",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/door-and-access-hardware/access-hardware/southco?_q=Southco&map=b",
+        "noFollow": false,
+        "tagTitle": "Access Hardware",
+        "text": "Access Hardware"
+      }
+    }
+  },
+  "menu-item#Man1Dep3": {
+    "title":"Category 3",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/southco/door-and-access-hardware/hinges?map=b",
+        "noFollow": false,
+        "tagTitle": "Hinges",
+        "text": "Hinges"
+      }
+    }
+  },
+  "menu-item#Man1Dep4": {
+    "title":"Category 4",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/southco/door-and-access-hardware/handles?map=b",
+        "noFollow": false,
+        "tagTitle": "Handles",
+        "text": "Handles"
+      }
+    }
+  },
+  "menu-item#Man1Dep5": {
+    "title":"Category 5",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/southco/door-and-access-hardware/locks?map=b",
+        "noFollow": false,
+        "tagTitle": "Locks",
+        "text": "Locks"
+      }
+    }
+  },
+  "menu-item#Man1Dep6": {
+    "title":"Category 6",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/southco/optoelectronics-indication-and-display/display-modules?map=b",
+        "noFollow": false,
+        "tagTitle": "Display Modules",
+        "text": "Display Modules"
+      }
+    }
+  },
+  "menu-item#Man1Dep7": {
+    "title":"Category 7",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fasteners/screws-and-bolts/southco?map=b",
+        "noFollow": false,
+        "tagTitle": "Screws & Bolts",
+        "text": "Screws & Bolts"
+      }
+    }
+  },
+  "menu-item#Man1Dep8": {
+    "title":"Category 8",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/southco/fasteners/inserts?map=b",
+        "noFollow": false,
+        "tagTitle": "Inserts",
+        "text": "Inserts"
+      }
+    }
+  },
+  "menu-item#Man1Dep9": {
+    "title":"View All",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "viewAll-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/southco",
+        "noFollow": false,
+        "tagTitle": "View-all",
+        "text": "View All"
+      }
+    }
+  },
+//End of Manufacturer-1
+
+//Beging of manufacturer-2
+  "menu-item#manufacturer-2": {
+    "blocks": ["submenu#itemListManufacturer-2"],
+    "title":"Brand 2",
+    "props": {
+      "id": "menu-item-manufacturer-2",
+      "blockClass": "manufacturer-menu-item-l1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kato",
+        "noFollow": false,
+        "tagTitle": "kato",
+        "text": "KATO"
+      },
+    "iconProps": {
+      "id": "nav-caret--right",
+      "size": 12,
+      "viewBox": "0 0 16 16",
+      "mutedClassName": "c-action-primary",
+      "iconPosition":"right"
+    },
+    "iconPosition": "right"
+    }
+  },
+
+  "submenu#itemListManufacturer-2": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "manufacturer-sub-menu-l2"
+    },
+    "children": ["flex-layout.row#manufacturer-sub-menu-row-l2-2"]
+  },
+
+  "flex-layout.row#manufacturer-sub-menu-row-l2-2": {
+    "children":[
+      "image-new#manufacturerL2Image-2",
+      "menu#manufacturerSubmenu-2"
+    ],
+    "props": {
+      "blockClass": "manufacturer-sub-menu-row-l2"
+    }
+  },
+
+  "image-new#manufacturerL2Image-2": {
+    "props": {
+      "src": "https://biscoind.vtexassets.com/arquivos/ids/1510622/kato-logo.jpg",
+      "blockClass": "manufacturer-image"
+    }
+  },
+
+  "menu#manufacturerSubmenu-2": {
+    "children": [
+      "menu-item#Man2Dep1",
+      "menu-item#Man2Dep2",
+      "menu-item#Man2Dep3",
+      "menu-item#Man2Dep4",
+      "menu-item#Man2Dep5",
+      "menu-item#Man2Dep6"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "manufacturer-menu-l2"
+    }
+  },
+
+  "menu-item#Man2Dep1": {
+    "title":"Category 1",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kato/fasteners/inserts?map=b",
+        "noFollow": false,
+        "tagTitle": "Inserts",
+        "text": "Inserts"
+      }
+    }
+  },
+  "menu-item#Man2Dep2": {
+    "title":"Category 2",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kato/tools/installation-tools?map=b",
+        "noFollow": false,
+        "tagTitle": "Installation Tools",
+        "text": "Installation Tools"
+      }
+    }
+  },
+  "menu-item#Man2Dep3": {
+    "title":"Category 3",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kato/fasteners/locknuts?map=b",
+        "noFollow": false,
+        "tagTitle": "Locknuts",
+        "text": "Locknuts"
+      }
+    }
+  },
+  "menu-item#Man2Dep4": {
+    "title":"Category 4",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kato/door-and-access-hardware/hinges?map=b",
+        "noFollow": false,
+        "tagTitle": "Hinges",
+        "text": "Hinges"
+      }
+    }
+  },
+  "menu-item#Man2Dep5": {
+    "title":"Category 5",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kato/enclosures-racks-and-cabinets/enclosure-and-rack-components?map=b",
+        "noFollow": false,
+        "tagTitle": "Enclosure and Rack Components",
+        "text": "Enclosure and Rack Components"
+      }
+    }
+  },
+  "menu-item#Man2Dep6": {
+    "title":"View All",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "viewAll-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kato",
+        "noFollow": false,
+        "tagTitle": "View-all",
+        "text": "View All"
+      }
+    }
+  },
+  //End of Manufacturer-2
+
+//Beging of manufacturer-3
+  "menu-item#manufacturer-3": {
+    "blocks": ["submenu#itemListManufacturer-3"],
+    "title":"Brand 3",
+    "props": {
+      "id": "menu-item-manufacturer-3",
+      "blockClass": "manufacturer-menu-item-l1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nvent-schroff",
+        "noFollow": false,
+        "tagTitle": "nVent SCHROFF",
+        "text": "nVent SCHROFF"
+      },
+      "iconProps": {
+        "id": "nav-caret--right",
+        "size": 12,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary",
+        "iconPosition":"right"
+      },
+      "iconPosition": "right"
+    }
+  },
+
+  "submenu#itemListManufacturer-3": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "manufacturer-sub-menu-l2"
+    },
+    "children": ["flex-layout.row#manufacturer-sub-menu-row-l2-3"]
+  },
+
+
+  "flex-layout.row#manufacturer-sub-menu-row-l2-3": {
+    "children":[
+      "image-new#manufacturerL2Image-3",
+      "menu#manufacturerSubmenu-3"
+    ],
+    "props": {
+      "blockClass": "manufacturer-sub-menu-row-l2"
+    }
+  },
+
+  "image-new#manufacturerL2Image-3": {
+    "props": {
+      "src": "https://biscoind.vtexassets.com/arquivos/ids/1509191/schroff-logo.jpg",
+      "blockClass": "manufacturer-image"
+    }
+  },
+
+  "menu#manufacturerSubmenu-3": {
+    "children": [
+      "menu-item#Man3Dep1",
+      "menu-item#Man3Dep2",
+      "menu-item#Man3Dep3",
+      "menu-item#Man3Dep4",
+      "menu-item#Man3Dep5",
+      "menu-item#Man3Dep6",
+      "menu-item#Man3Dep7",
+      "menu-item#Man3Dep8"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "manufacturer-menu-l2"
+    }
+  },
+
+
+  "menu-item#Man3Dep1": {
+    "title":"Category 1",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nvent-schroff/enclosures-racks-and-cabinets/card-guides-and-retainers?map=b",
+        "noFollow": false,
+        "tagTitle": "Card Guides and Retainers",
+        "text": "Card Guides and Retainers"
+      }
+    }
+  },
+
+  "menu-item#Man3Dep2": {
+    "title":"Category 2",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nvent-schroff/enclosures-racks-and-cabinets/subracks-and-subrack-accessories?map=b",
+        "noFollow": false,
+        "tagTitle": "Subracks and Subrack Accessories",
+        "text": "Subracks and Subrack Accessories"
+      }
+    }
+  },
+  "menu-item#Man3Dep3": {
+    "title":"Category 3",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nvent-schroff/enclosures-racks-and-cabinets/enclosure-and-rack-components?map=b",
+        "noFollow": false,
+        "tagTitle": "Enclosure and Rack Components",
+        "text": "Enclosure and Rack Components"
+      }
+    }
+  },
+  "menu-item#Man3Dep4": {
+    "title":"Category 4",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nvent-schroff/enclosures-racks-and-cabinets/cabinets?map=b",
+        "noFollow": false,
+        "tagTitle": "Cabinets",
+        "text": "Cabinets"
+      }
+    }
+  },
+  "menu-item#Man3Dep5": {
+    "title":"Category 5",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nvent-schroff/enclosures-racks-and-cabinets/cases?map=b",
+        "noFollow": false,
+        "tagTitle": "Cases",
+        "text": "Cases"
+      }
+    }
+  },
+  "menu-item#Man3Dep6": {
+    "title":"Category 6",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nvent-schroff/fasteners/screws-and-bolts?map=b",
+        "noFollow": false,
+        "tagTitle": "Screws and Bolts",
+        "text": "Screws and Bolts"
+      }
+    }
+  },
+  "menu-item#Man3Dep7": {
+    "title":"Category 7",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nvent-schroff/door-and-access-hardware/handles?map=b",
+        "noFollow": false,
+        "tagTitle": "Handles",
+        "text": "Handles"
+      }
+    }
+  },
+  "menu-item#Man3Dep8": {
+    "title":"View All",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "viewAll-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nvent-schroff",
+        "noFollow": false,
+        "tagTitle": "View-all",
+        "text": "View All"
+      }
+    }
+  },
+  //End of Manufacturer-3
+
+//Beging of manufacturer-4
+  "menu-item#manufacturer-4": {
+    "blocks": ["submenu#itemListManufacturer-4"],
+    "title":"Brand 4",
+    "props": {
+      "id": "menu-item-manufacturer-4",
+      "blockClass": "manufacturer-menu-item-l1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/raf-electronic-hardware",
+        "noFollow": false,
+        "tagTitle": "RAF Electronic Hardware",
+        "text": "RAF Electronic Hardware"
+      },
+      "iconProps": {
+        "id": "nav-caret--right",
+        "size": 12,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary",
+        "iconPosition":"right"
+      },
+      "iconPosition": "right"
+    }
+  },
+
+  "submenu#itemListManufacturer-4": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "manufacturer-sub-menu-l2"
+    },
+    "children": ["flex-layout.row#manufacturer-sub-menu-row-l2-4"]
+  },
+
+  "flex-layout.row#manufacturer-sub-menu-row-l2-4": {
+    "children":[
+      "image-new#manufacturerL2Image-4",
+      "menu#manufacturerSubmenu-4"
+    ],
+    "props": {
+      "blockClass": "manufacturer-sub-menu-row-l2"
+    }
+  },
+
+  "image-new#manufacturerL2Image-4": {
+    "props": {
+      "src": "https://biscoind.vtexassets.com/arquivos/ids/1509216/raf-logo.jpg",
+      "blockClass": "manufacturer-image"
+    }
+  },
+
+  "menu#manufacturerSubmenu-4": {
+    "children": [
+      "menu-item#Man4Dep1",
+      "menu-item#Man4Dep2",
+      "menu-item#Man4Dep3",
+      "menu-item#Man4Dep4",
+      "menu-item#Man4Dep5",
+      "menu-item#Man4Dep6"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "manufacturer-menu-l2"
+    }
+  },
+
+  "menu-item#Man4Dep1": {
+    "title":"Category 1",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/raf-electronic-hardware/fasteners/spacers?map=b",
+        "noFollow": false,
+        "tagTitle": "Spacers",
+        "text": "Spacers"
+      }
+    }
+  },
+  "menu-item#Man4Dep2": {
+    "title":"Category 2",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/raf-electronic-hardware/fasteners/standoffs?map=b",
+        "noFollow": false,
+        "tagTitle": "Standoffs",
+        "text": "Standoffs"
+      }
+    }
+  },
+  "menu-item#Man4Dep3": {
+    "title":"Category 3",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/raf-electronic-hardware/fasteners/washers?map=b",
+        "noFollow": false,
+        "tagTitle": "Washers",
+        "text": "Washers"
+      }
+    }
+  },
+  "menu-item#Man4Dep4": {
+    "title":"Category 4",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/raf-electronic-hardware/fasteners/screws-and-bolts?map=b",
+        "noFollow": false,
+        "tagTitle": "Screws and Bolts",
+        "text": "Screws and Bolts"
+      }
+    }
+  },
+  "menu-item#Man4Dep5": {
+    "title":"Category 5",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "manufacturer-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/raf-electronic-hardware/fasteners/screws-and-bolts?map=b",
+        "noFollow": false,
+        "tagTitle": "Handles",
+        "text": "Handles"
+      }
+    }
+  },
+  "menu-item#Man4Dep6": {
+    "title":"View All",
+    "props": {
+      "id": "menu-item-heading",
+      "blockClass": "viewAll-menu-item-l2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/raf-electronic-hardware",
+        "noFollow": false,
+        "tagTitle": "View-all",
+        "text": "View All"
+      }
+    }
+  },
+  //End of Manufacturer-4
+
+//Beging of manufacturer-5
+"menu-item#manufacturer-5": {
+  "blocks": ["submenu#itemListManufacturer-5"],
+  "title":"Brand 5",
+  "props": {
+    "id": "menu-item-manufacturer-5",
+    "blockClass": "manufacturer-menu-item-l1",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/essentra-components",
+      "noFollow": false,
+      "tagTitle": "Essentra Components",
+      "text": "Essentra Components"
+    },
+    "iconProps": {
+      "id": "nav-caret--right",
+      "size": 12,
+      "viewBox": "0 0 16 16",
+      "mutedClassName": "c-action-primary",
+      "iconPosition":"right"
+    },
+    "iconPosition": "right"
+  }
+},
+
+"submenu#itemListManufacturer-5": {
+  "props": {
+    "orientation": "vertical",
+    "blockClass": "manufacturer-sub-menu-l2"
+  },
+  "children": ["flex-layout.row#manufacturer-sub-menu-row-l2-5"]
+},
+
+"flex-layout.row#manufacturer-sub-menu-row-l2-5": {
+  "children":[
+    "image-new#manufacturerL2Image-5",
+    "menu#manufacturerSubmenu-5"
+  ],
+  "props": {
+    "blockClass": "manufacturer-sub-menu-row-l2"
+  }
+},
+
+"image-new#manufacturerL2Image-5": {
+  "props": {
+    "src": "https://biscoind.vtexassets.com/arquivos/ids/1515966/Color2-copy.jpg",
+    "blockClass": "manufacturer-image"
+  }
+},
+
+"menu#manufacturerSubmenu-5": {
+  "children": [
+    "menu-item#Man5Dep1",
+    "menu-item#Man5Dep2",
+    "menu-item#Man5Dep3",
+    "menu-item#Man5Dep4",
+    "menu-item#Man5Dep5",
+    "menu-item#Man5Dep6",
+    "menu-item#Man5Dep7",
+    "menu-item#Man5Dep8",
+    "menu-item#Man5Dep9"
+  ],
+  "props": {
+    "orientation": "vertical",
+    "blockClass": "manufacturer-menu-l2"
+  }
+},
+
+"menu-item#Man5Dep1": {
+  "title":"Category 1",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/essentra-components/wire-and-cable/wire-and-cable-accessories?initialMap=b&initialQuery=essentra-components&map=b",
+      "noFollow": false,
+      "tagTitle": "Wire and Cable Accessories",
+      "text": "Wire and Cable Accessories"
+    }
+  }
+},
+"menu-item#Man5Dep2": {
+  "title":"Category 2",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/essentra-components/wire-and-cable/clips?initialMap=b&initialQuery=essentra-components&map=b",
+      "noFollow": false,
+      "tagTitle": "Wire Clips",
+      "text": "Wire Clips"
+    }
+  }
+},
+"menu-item#Man5Dep3": {
+  "title":"Category 3",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/essentra-components/wire-and-cable/clamps?initialMap=b&initialQuery=essentra-components&map=b",
+      "noFollow": false,
+      "tagTitle": "Wire Clamps",
+      "text": "Wire Clamps"
+    }
+  }
+},
+"menu-item#Man5Dep4": {
+  "title":"Category 4",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/essentra-components/wire-and-cable/strain-relief?initialMap=b&initialQuery=essentra-components&map=b",
+      "noFollow": false,
+      "tagTitle": "Strain Relief",
+      "text": "Strain Relief"
+    }
+  }
+},
+"menu-item#Man5Dep5": {
+  "title":"Category 5",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/essentra-components/fasteners/rivets?initialMap=b&initialQuery=essentra-components&map=b",
+      "noFollow": false,
+      "tagTitle": "Rivets",
+      "text": "Rivets"
+    }
+  }
+},
+"menu-item#Man5Dep6": {
+  "title":"Category 5",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/essentra-components/fasteners/washers?initialMap=b&initialQuery=essentra-components&map=b",
+      "noFollow": false,
+      "tagTitle": "Washers",
+      "text": "Washers"
+    }
+  }
+},
+"menu-item#Man5Dep7": {
+  "title":"Category 5",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/essentra-components/hardware/circuit-board-hardware?initialMap=b&initialQuery=essentra-components&map=b",
+      "noFollow": false,
+      "tagTitle": "Circuit Board Hardware",
+      "text": "Circuit Board Hardware"
+    }
+  }
+},
+"menu-item#Man5Dep8": {
+  "title":"Category 5",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/essentra-components/enclosures-racks-and-cabinets/card-guides-and-retainers?initialMap=b&initialQuery=essentra-components&map=b",
+      "noFollow": false,
+      "tagTitle": "Card Guides and Retainers",
+      "text": "Card Guides and Retainers"
+    }
+  }
+},
+"menu-item#Man5Dep9": {
+  "title":"View All",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "viewAll-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/essentra-components",
+      "noFollow": false,
+      "tagTitle": "View-all",
+      "text": "View All"
+    }
+  }
+},
+//End of Manufacturer-5
+
+//Beging of manufacturer-6
+"menu-item#manufacturer-6": {
+  "blocks": ["submenu#itemListManufacturer-6"],
+  "title":"Brand 6",
+  "props": {
+    "id": "menu-item-manufacturer-6",
+    "blockClass": "manufacturer-menu-item-l1",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/molex",
+      "noFollow": false,
+      "tagTitle": "Molex",
+      "text": "Molex"
+    },
+    "iconProps": {
+      "id": "nav-caret--right",
+      "size": 12,
+      "viewBox": "0 0 16 16",
+      "mutedClassName": "c-action-primary",
+      "iconPosition":"right"
+    },
+    "iconPosition": "right"
+  }
+},
+
+"submenu#itemListManufacturer-6": {
+  "props": {
+    "orientation": "vertical",
+    "blockClass": "manufacturer-sub-menu-l2"
+  },
+  "children": ["flex-layout.row#manufacturer-sub-menu-row-l2-6"]
+},
+
+"flex-layout.row#manufacturer-sub-menu-row-l2-6": {
+  "children":[
+    "image-new#manufacturerL2Image-6",
+    "menu#manufacturerSubmenu-6"
+  ],
+  "props": {
+    "blockClass": "manufacturer-sub-menu-row-l2"
+  }
+},
+
+"image-new#manufacturerL2Image-6": {
+  "props": {
+    "src": "https://biscoind.vtexassets.com/arquivos/ids/1508289/molex-logo-vtex.jpg",
+    "blockClass": "manufacturer-image"
+  }
+},
+
+"menu#manufacturerSubmenu-6": {
+  "children": [
+    "menu-item#Man6Dep1",
+    "menu-item#Man6Dep2",
+    "menu-item#Man6Dep3",
+    "menu-item#Man6Dep4",
+    "menu-item#Man6Dep5",
+    "menu-item#Man6Dep6",
+    "menu-item#Man6Dep7"
+  ],
+  "props": {
+    "orientation": "vertical",
+    "blockClass": "manufacturer-menu-l2"
+  }
+},
+
+"menu-item#Man6Dep1": {
+  "title":"Category 1",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/molex/electronic-connectors/terminal-blocks?initialMap=b&initialQuery=molex&map=b",
+      "noFollow": false,
+      "tagTitle": "Terminal Blocks",
+      "text": "Terminal Blocks"
+    }
+  }
+},
+"menu-item#Man6Dep2": {
+  "title":"Category 2",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/molex/electronic-connectors/rf-and-commercial-connectors?initialMap=b&initialQuery=molex&map=b",
+      "noFollow": false,
+      "tagTitle": "RF & Commercial Connectors",
+      "text": "RF & Commercial Connectors"
+    }
+  }
+},
+"menu-item#Man6Dep3": {
+  "title":"Category 3",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/molex/electronic-connectors/board-to-board-connectors?initialMap=b&initialQuery=molex&map=b",
+      "noFollow": false,
+      "tagTitle": "Board to Board Connectors",
+      "text": "Board to Board Connectors"
+    }
+  }
+},
+"menu-item#Man6Dep4": {
+  "title":"Category 4",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/molex/electronic-connectors/pcb-connectors?initialMap=b&initialQuery=molex&map=b",
+      "noFollow": false,
+      "tagTitle": "PCB Connectors",
+      "text": "PCB Connectors"
+    }
+  }
+},
+
+"menu-item#Man6Dep5": {
+  "title":"Category 5",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/molex/wire-and-cable/cables?initialMap=b&initialQuery=molex&map=b",
+      "noFollow": false,
+      "tagTitle": "Cables",
+      "text": "Cables"
+    }
+  }
+},
+"menu-item#Man6Dep6": {
+  "title":"Category 6",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/molex/tools/crimping-tools?initialMap=b&initialQuery=molex&map=b",
+      "noFollow": false,
+      "tagTitle": "Crimping Tools",
+      "text": "Crimping Tools"
+    }
+  }
+},
+"menu-item#Man6Dep7": {
+  "title":"View All",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "viewAll-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/molex",
+      "noFollow": false,
+      "tagTitle": "View-all",
+      "text": "View All"
+    }
+  }
+},
+//End of Manufacturer-6
+
+//Beging of manufacturer-7
+"menu-item#manufacturer-7": {
+  "blocks": ["submenu#itemListManufacturer-7"],
+  "title":"Brand 7",
+  "props": {
+    "id": "menu-item-manufacturer-7",
+    "blockClass": "manufacturer-menu-item-l1",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/nvent-schroff",
+      "noFollow": false,
+      "tagTitle": "nvent-schroff",
+      "text": "nVent-Schroff"
+    },
+    "iconProps": {
+      "id": "nav-caret--right",
+      "size": 12,
+      "viewBox": "0 0 16 16",
+      "mutedClassName": "c-action-primary",
+      "iconPosition":"right"
+    },
+    "iconPosition": "right"
+  }
+},
+
+"submenu#itemListManufacturer-7": {
+  "props": {
+    "orientation": "vertical",
+    "blockClass": "manufacturer-sub-menu-l2"
+  },
+  "children": ["flex-layout.row#manufacturer-sub-menu-row-l2-7"]
+},
+
+"flex-layout.row#manufacturer-sub-menu-row-l2-7": {
+  "children":[
+    "image-new#manufacturerL2Image-7",
+    "menu#manufacturerSubmenu-7"
+  ],
+  "props": {
+    "blockClass": "manufacturer-sub-menu-row-l2"
+  }
+},
+
+"image-new#manufacturerL2Image-7": {
+  "props": {
+    "src": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/dbb8dc24-a997-4de4-88f6-de4a5cd39877___c32cae5f9f11abb6747e09618d1e828e.png",
+    "blockClass": "manufacturer-image"
+  }
+},
+
+"menu#manufacturerSubmenu-7": {
+  "children": [
+    "menu-item#Man7Dep1",
+    "menu-item#Man7Dep2",
+    "menu-item#Man7Dep3",
+    "menu-item#Man7Dep4",
+    "menu-item#Man7Dep5",
+    "menu-item#Man7Dep6",
+    "menu-item#Man7Dep7"
+  ],
+  "props": {
+    "orientation": "vertical",
+    "blockClass": "manufacturer-menu-l2"
+  }
+},
+
+"menu-item#Man7Dep1": {
+  "title":"Category 1",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/enclosures-racks-and-cabinets/nvent-schroff?initialMap=b&initialQuery=nvent-schroff&map=category-1,brand",
+      "noFollow": false,
+      "tagTitle": "Enclosures, Racks, and Cabinets",
+      "text": "Enclosures, Racks, and Cabinets"
+    }
+  }
+},
+"menu-item#Man7Dep2": {
+  "title":"Category 2",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/door-and-access-hardware/nvent-schroff?initialMap=b&initialQuery=nvent-schroff&map=category-1,brand",
+      "noFollow": false,
+      "tagTitle": "Door and Access Hardware",
+      "text": "Door and Access Hardware"
+    }
+  }
+},
+"menu-item#Man7Dep3": {
+  "title":"Category 3",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/electronic-connectors/nvent-schroff?initialMap=b&initialQuery=nvent-schroff&map=category-1,brand",
+      "noFollow": false,
+      "tagTitle": "Electronic Connectors",
+      "text": "Electronic Connectors"
+    }
+  }
+},
+"menu-item#Man7Dep4": {
+  "title":"Category 4",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/fasteners/nvent-schroff?initialMap=b&initialQuery=nvent-schroff&map=category-1,b",
+      "noFollow": false,
+      "tagTitle": "Fasteners",
+      "text": "Fasteners"
+    }
+  }
+},
+"menu-item#Man7Dep5": {
+  "title":"Category 5",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/thermal-management/nvent-schroff?initialMap=b&initialQuery=nvent-schroff&map=category-1,brand",
+      "noFollow": false,
+      "tagTitle": "Thermal Management",
+      "text": "Thermal Management"
+    }
+  }
+},
+"menu-item#Man7Dep6": {
+  "title":"Category 6",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/optoelectronics-indication-and-display/nvent-schroff?initialMap=b&initialQuery=nvent-schroff&map=category-1,brand",
+      "noFollow": false,
+      "tagTitle": "Optoelectronics, Indication, and Display",
+      "text": "Optoelectronics, Indication, and Display"
+    }
+  }
+},
+"menu-item#Man7Dep7": {
+  "title":"View All",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "viewAll-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/nvent-schroff?initialMap=b&initialQuery=nvent-schroff&map=brand",
+      "noFollow": false,
+      "tagTitle": "View-all",
+      "text": "View All"
+    }
+  }
+},
+
+//Beging of manufacturer-8
+"menu-item#manufacturer-8": {
+  "blocks": ["submenu#itemListManufacturer-8"],
+  "title":"Brand 8",
+  "props": {
+    "id": "menu-item-manufacturer-8",
+    "blockClass": "manufacturer-menu-item-l1",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "https://www.biscoind.com/electronic-hardware-corp",
+      "noFollow": false,
+      "tagTitle": "EHC",
+      "text": "EHC"
+    },
+    "iconProps": {
+      "id": "nav-caret--right",
+      "size": 12,
+      "viewBox": "0 0 16 16",
+      "mutedClassName": "c-action-primary",
+      "iconPosition":"right"
+    },
+    "iconPosition": "right"
+  }
+},
+
+"submenu#itemListManufacturer-8": {
+  "props": {
+    "orientation": "vertical",
+    "blockClass": "manufacturer-sub-menu-l2"
+  },
+  "children": ["flex-layout.row#manufacturer-sub-menu-row-l2-8"]
+},
+
+"flex-layout.row#manufacturer-sub-menu-row-l2-8": {
+  "children":[
+    "image-new#manufacturerL2Image-8",
+    "menu#manufacturerSubmenu-8"
+  ],
+  "props": {
+    "blockClass": "manufacturer-sub-menu-row-l2"
+  }
+},
+
+"image-new#manufacturerL2Image-8": {
+  "props": {
+    "src": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/ff27ca04-2fc0-4c62-8418-634f84292b38___de1dcdfe83be177f951633e40044fd86.jpg?width=710&height=384&aspect=true",
+    "blockClass": "manufacturer-image"
+  }
+},
+
+"menu#manufacturerSubmenu-8": {
+  "children": [
+    "menu-item#Man8Dep1",
+    "menu-item#Man8Dep2",
+    "menu-item#Man8Dep3",
+    "menu-item#Man8Dep4",
+    "menu-item#Man8Dep5",
+    "menu-item#Man8Dep6",
+    "menu-item#Man8Dep7"
+  ],
+  "props": {
+    "orientation": "vertical",
+    "blockClass": "manufacturer-menu-l2"
+  }
+},
+
+"menu-item#Man8Dep1": {
+  "title":"Category 1",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/control-knobs/electronic-hardware-corp?initialMap=b&initialQuery=electronic-hardware-corp&map=category-3,brand",
+      "noFollow": false,
+      "tagTitle": "Control Knobs",
+      "text": "Control Knobs"
+    }
+  }
+},
+"menu-item#Man8Dep2": {
+  "title":"Category 2",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/mil-spec-knobs/electronic-hardware-corp?initialMap=b&initialQuery=electronic-hardware-corp&map=category-3,brand",
+      "noFollow": false,
+      "tagTitle": "Mil-Spec Knobs",
+      "text": "Mil-Spec Knobs"
+    }
+  }
+},
+"menu-item#Man8Dep3": {
+  "title":"Category 3",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/ball-knobs/electronic-hardware-corp?initialMap=b&initialQuery=electronic-hardware-corp&map=category-3,brand",
+      "noFollow": false,
+      "tagTitle": "Ball Knobs",
+      "text": "Ball Knobs"
+    }
+  }
+},
+"menu-item#Man8Dep4": {
+  "title":"Category 4",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/#",
+      "noFollow": false,
+      "tagTitle": "sub test 4",
+      "text": ""
+    }
+  }
+},
+"menu-item#Man8Dep5": {
+  "title":"Category 5",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/#",
+      "noFollow": false,
+      "tagTitle": "sub test 5",
+      "text": ""
+    }
+  }
+},
+"menu-item#Man8Dep6": {
+  "title":"Category 6",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/#",
+      "noFollow": false,
+      "tagTitle": "sub test 6",
+      "text": ""
+    }
+  }
+},
+"menu-item#Man8Dep7": {
+  "title":"View All",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "viewAll-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "https://www.biscoind.com/electronic-hardware-corp",
+      "noFollow": false,
+      "tagTitle": "View-all",
+      "text": "View All"
+    }
+  }
+},
+//Beging of manufacturer-9
+"menu-item#manufacturer-9": {
+  "blocks": ["submenu#itemListManufacturer-9"],
+  "title":"Brand 9",
+  "props": {
+    "id": "menu-item-manufacturer-9",
+    "blockClass": "manufacturer-menu-item-l1",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/panduit",
+      "noFollow": false,
+      "tagTitle": "Panduit",
+      "text": "Panduit"
+    },
+    "iconProps": {
+      "id": "nav-caret--right",
+      "size": 12,
+      "viewBox": "0 0 16 16",
+      "mutedClassName": "c-action-primary",
+      "iconPosition":"right"
+    },
+    "iconPosition": "right"
+  }
+},
+
+"submenu#itemListManufacturer-9": {
+  "props": {
+    "orientation": "vertical",
+    "blockClass": "manufacturer-sub-menu-l2"
+  },
+  "children": ["flex-layout.row#manufacturer-sub-menu-row-l2-9"]
+},
+
+"flex-layout.row#manufacturer-sub-menu-row-l2-9": {
+  "children":[
+    "image-new#manufacturerL2Image-9",
+    "menu#manufacturerSubmenu-9"
+  ],
+  "props": {
+    "blockClass": "manufacturer-sub-menu-row-l2"
+  }
+},
+
+"image-new#manufacturerL2Image-9": {
+  "props": {
+    "src": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/5f076482-b8a3-4d07-8473-7a38dc80e54f___187591d93b598f2cfef5f244b9a9bd89.png?width=710&height=384&aspect=true",
+    "blockClass": "manufacturer-image"
+  }
+},
+
+"menu#manufacturerSubmenu-9": {
+  "children": [
+    "menu-item#Man9Dep1",
+    "menu-item#Man9Dep2",
+    "menu-item#Man9Dep3",
+    "menu-item#Man9Dep4",
+    "menu-item#Man9Dep5",
+    "menu-item#Man9Dep6",
+    "menu-item#Man9Dep7"
+  ],
+  "props": {
+    "orientation": "vertical",
+    "blockClass": "manufacturer-menu-l2"
+  }
+},
+
+"menu-item#Man9Dep1": {
+  "title":"Category 1",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/split-wrap-braided-sleeving/panduit?initialMap=b&initialQuery=panduit&map=category-3,brand",
+      "noFollow": false,
+      "tagTitle": "Braided Sleeving",
+      "text": "Braided Sleeving"
+    }
+  }
+},
+"menu-item#Man9Dep2": {
+  "title":"Category 2",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/printers-and-label-makers/panduit?initialMap=b&initialQuery=panduit&map=category-2,brand",
+      "noFollow": false,
+      "tagTitle": "Printers and Accessories",
+      "text": "Printers and Accessories"
+    }
+  }
+},
+"menu-item#Man9Dep3": {
+  "title":"Category 3",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/lugs/panduit?initialMap=b&initialQuery=panduit&map=category-2,brand",
+      "noFollow": false,
+      "tagTitle": "Lugs",
+      "text": "Lugs"
+    }
+  }
+},
+"menu-item#Man9Dep4": {
+  "title":"Category 4",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/cable-ties/panduit?initialMap=b&initialQuery=panduit&map=category-2,brand",
+      "noFollow": false,
+      "tagTitle": "Cable ties",
+      "text": "Cable ties"
+    }
+  }
+},
+"menu-item#Man9Dep5": {
+  "title":"Category 5",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/terminals/panduit?initialMap=b&initialQuery=panduit&map=category-2,brand",
+      "noFollow": false,
+      "tagTitle": "Terminals",
+      "text": "Terminals"
+    }
+  }
+},
+"menu-item#Man9Dep6": {
+  "title":"Category 6",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "manufacturer-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/wire-ducts/panduit?initialMap=b&initialQuery=panduit&map=category-3,brand",
+      "noFollow": false,
+      "tagTitle": "Wire Ducts",
+      "text": "Wire Ducts"
+    }
+  }
+},
+"menu-item#Man9Dep7": {
+  "title":"View All",
+  "props": {
+    "id": "menu-item-heading",
+    "blockClass": "viewAll-menu-item-l2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/panduit",
+      "noFollow": false,
+      "tagTitle": "View-all",
+      "text": "View All"
+    }
+  }
+}
+}

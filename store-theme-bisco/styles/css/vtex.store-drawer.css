@@ -1,0 +1,19 @@
+.closeIconContainer {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+@media only screen and (min-width: 64.125em) {
+  .openIconContainer::before {
+    content: 'ALL PRODUCTS';
+    vertical-align: super;
+    margin-right: 0.6rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 82.25em) {
+  .openIconContainer::before {
+    font-size: 1rem;
+  }
+}

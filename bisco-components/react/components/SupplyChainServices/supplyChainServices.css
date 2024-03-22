@@ -1,0 +1,110 @@
+:root {
+  --main-blue-color: #00449e;
+  --main-gray-color: #707070;
+  --main-black-color: #000;
+}
+.supplyChainContainer {
+}
+
+.supplyChainTitleContainer {
+}
+.supplyChainTitleContainer h2 {
+  color: var(--main-gray-color);
+  font-size: 1.125rem;
+  border-bottom: 1px solid var(--main-gray-color);
+  padding-bottom: 10px;
+}
+.supplyChainTitleContainer p {
+  font-size: 0.875rem;
+  color: var(--main-gray-color);
+}
+.supplyChainServiceContainer {
+}
+
+.supplierChainServiceTitleContainer {
+  outline: none;
+  color: var(--main-blue-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  border-bottom: 1px solid var(--main-gray-color);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  width: 75%;
+}
+
+.supplierChainServiceBodyContainer {
+  outline: none;
+  border: 1px solid transparent;
+  padding-top: 10px;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.supplierChainServiceBodyContainer:hover {
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.4);
+  border: 1px solid var(--main-blue-color);
+}
+.supplierChainServiceBodyContainer > div > div:nth-child(3) {
+  border-right: 1px solid var(--main-gray-color);
+  border-left: 1px solid var(--main-gray-color);
+}
+.supplierChainServiceImageContainer {
+  width: 25%;
+}
+
+.supplierChainServiceDetailListContainer {
+  width: 25%;
+  padding: 0 4% 0 4%;
+  min-height: 206px;
+}
+@media screen and (max-width: 767px) {
+  .supplierChainServiceImageContainer {
+    width: 100%;
+  }
+  .supplierChainServiceDetailListContainer {
+    width: 100%;
+    min-height: 100px;
+    padding-left: 10px;
+  }
+  .supplierChainServiceBodyContainer > div > div:nth-child(2),
+  .supplierChainServiceBodyContainer > div > div:nth-child(3) {
+    border-right: 0;
+    border-left: 0;
+  }
+}
+
+.supplierChainServiceDetailListHeaderContainer {
+}
+.supplierChainServiceDetailListHeaderContainer span {
+  color: var(--main-black-color-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.supplierChainServiceDetailListWrapper {
+  padding: 0;
+}
+
+.supplierChainServiceDetailList {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+  line-height: 24px;
+  list-style: none;
+  font-size: 0.875rem;
+  color: var(--main-gray-color);
+}
+.supplierChainServiceDetailList li::before {
+  content: '\2022';
+  color: var(--main-blue-color);
+  font-weight: bold;
+  font-size: 0.875rem;
+  display: inline-block;
+  width: 1em;
+}
+
+.supplierChainServiceDetailListItem {
+}

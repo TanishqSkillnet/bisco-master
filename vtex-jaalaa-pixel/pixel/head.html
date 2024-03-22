@@ -1,0 +1,128 @@
+<script>
+  // (function() {
+    // var appId = "{{settings.gtmId}}";
+    // if (!appId) {
+    //   console.error('Warning: No APP NAME ID is defined. Please configure it in the apps admin.');
+    //   return
+    // }
+
+    window.addInteractionQuote = function(prc, partNumber, quantity, unitPrice, cookie, firstName, lastName, emailAddress, phoneNumber, companyName, address, postalCode, country, targetPrice, totalPrice, note, dateNeeded, brand, unitOfMeasure) {
+      var xhr = new XMLHttpRequest()
+      xhr.open('POST', 'https://api.biscoind.jaalaa.net/v1/web-touchpoint', true)
+      xhr.setRequestHeader('Content-Type', 'application/json')
+      xhr.send(JSON.stringify({
+        firstName: firstName,
+        lastName: lastName,
+        emailAddress: emailAddress,
+        companyName: companyName,
+        phone: phoneNumber,
+        address: address,
+        postalCode: postalCode,
+        country: country,
+        targetPrice: targetPrice,
+        totalPrice: totalPrice,
+        note: note,
+        cookie: cookie,
+        dateNeeded: dateNeeded,
+        type: 'QUOTE',
+        items: [
+          {
+            biscoPartNumber: partNumber,
+            prc: prc,
+            partNumber: partNumber,
+            quantity: quantity,
+            targetPrice: targetPrice,
+            unitPrice: unitPrice,
+            brandName: brand,
+            unitOfMeasure: unitOfMeasure,
+          }
+        ]
+      }))
+    }
+
+    window.addInteractionOrder = function(products, cookie, firstName, lastName, emailAddress, phoneNumber, companyName, address, postalCode, country, targetPrice, totalPrice, note) {
+      var xhr = new XMLHttpRequest()
+      xhr.open('POST', 'https://api.biscoind.jaalaa.net/v1/web-touchpoint', true)
+      xhr.setRequestHeader('Content-Type', 'application/json')
+      xhr.send(JSON.stringify({
+        firstName: firstName,
+        lastName: lastName,
+        emailAddress: emailAddress,
+        companyName: companyName,
+        address: address,
+        postalCode: postalCode,
+        country: country,
+        targetPrice: targetPrice,
+        totalPrice: totalPrice,
+        note: note,
+        cookie: cookie,
+        type: 'ORDER',
+        items: products,
+      }))
+    }
+
+    window.addUbQuote = function(prc, partNumber, quantity, unitPrice, cookie, firstName, lastName, emailAddress, phoneNumber, companyName, address, postalCode, country, brandName) {
+      var xhr = new XMLHttpRequest()
+      xhr.open('POST', 'https://api-ub.biscomarketing.com/webapp/createRecord', true)
+      xhr.setRequestHeader('Content-Type', 'application/json')
+      xhr.send(JSON.stringify({
+        firstName: firstName,
+        lastName: lastName,
+        emailAddress: emailAddress,
+        companyName: companyName,
+        address: address,
+        zipCode: postalCode,
+        type: 'QUOTE',
+        country: country,
+        items: [
+          {
+            prc: prc,
+            partNumber: partNumber,
+            quantity: quantity,
+            unitPrice: unitPrice,
+            brandName: brandName,
+          }
+        ],
+        request: {
+          cookieId: cookie,
+        },
+      }))
+    }
+
+    window.addUbOrder = function(products, cookie, firstName, lastName, emailAddress, phoneNumber, companyName, address, postalCode, country) {
+      var xhr = new XMLHttpRequest()
+      xhr.open('POST', 'https://api-ub.biscomarketing.com/webapp/createRecord', true)
+      xhr.setRequestHeader('Content-Type', 'application/json')
+      xhr.send(JSON.stringify({
+        firstName: firstName,
+        lastName: lastName,
+        emailAddress: emailAddress,
+        companyName: companyName,
+        address: address,
+        zipCode: postalCode,
+        type: 'ORDER',
+        country: country,
+        items: products,
+        request: {
+          cookieId: cookie,
+        },
+      }))
+    }
+
+    (function() {
+      var gtmId = "{{settings.gtmId}}";
+      if (!gtmId) {
+        console.error('Warning: No Google Tag Manager ID is defined. Please configure it in the apps admin.');
+      } else {
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({ 'gtm.blacklist': {{ blacklist }} });
+        // GTM script snippet. Taken from: https://developers.google.com/tag-manager/quickstart
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer',gtmId)
+      }
+    })()
+  // })()
+</script>

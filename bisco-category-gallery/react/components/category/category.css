@@ -1,0 +1,63 @@
+.categoryImageContainer {
+  width: 150px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: thin solid #000;
+}
+
+.categoryImageContainer:hover{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 1px solid #008dd9;
+}
+
+.searchResultCategoryGalleryContainer .categoryImageContainer {
+  width: 150px;
+  height: 148px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.categoryImage {
+  max-width: 150px;
+  max-height: 146px;
+  margin: auto;
+}
+
+.categoryName {
+  display: block;
+  font-size: 0.95rem;
+  text-align: center;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  /*font-weight: bold;*/
+}
+
+/*.categoryNameContainer::after {*/
+/*  content: ' ';*/
+/*  display: inline-block;*/
+/*  width: 75px;*/
+/*  height: 5px;*/
+/*  margin-bottom: 10px;*/
+/*  background-color: #ffdb0a;*/
+/*  bottom: 0px;*/
+/*  left: 0px;*/
+/*}*/
+
+.cardLink {
+  color: unset;
+  max-width: 300px;
+}
+
+.cardNotClickable {
+  cursor: default;
+}
+
+.cardContainer{
+  width: 150px;
+  padding-top: 1rem;
+}

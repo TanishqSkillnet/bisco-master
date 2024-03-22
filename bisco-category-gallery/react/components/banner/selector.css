@@ -1,0 +1,37 @@
+.categorySelectorDropDown :global(.vtex-dropdown__arrow) svg {
+  height: 21px;
+  width: 25px;
+}
+
+.categorySelectorDropDown :global(.vtex-dropdown__caption) {
+  font-size: 2rem;
+  color: black;
+}
+
+.categorySelectorDropDown :global(vtex-styleguide-9-x-dropdown) {
+  font-size: 1.75rem;
+  width: 100%;
+  color: #4d4f49;
+}
+
+.categorySelectionImage {
+  max-height: 250px;
+  object-fit: contain;
+  margin: auto;
+  border: 1px solid #efefef;
+}
+
+@media screen and (max-width: 640px) {
+  .categorySelectorContainer {
+    flex-direction: column;
+  }
+
+  .categorySelectorImageContainer {
+    width: 100%;
+  }
+  .categorySelectionImage {
+    max-width: 250px;
+    max-height: 250px;
+    object-fit: contain;
+  }
+}

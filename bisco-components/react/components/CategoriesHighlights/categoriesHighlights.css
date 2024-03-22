@@ -1,0 +1,97 @@
+.squaredCategoriesHighlights:only-child,
+.rectangularCategoriesHighlights:only-child {
+  display: block;
+}
+
+:global(.vtex-carousel) + .squared,
+:global(.vtex-carousel) + .rectangular {
+  top: -5.625rem;
+}
+
+.squaredCard,
+.rectangularCard {
+  height: 18.75rem;
+}
+
+.squaredCard {
+  width: 18.75rem;
+}
+
+.rectangularCard {
+  width: 37.5rem;
+}
+
+.squaredCardImage,
+.rectangularCardImage {
+  height: 80%;
+}
+
+.cardName {
+  height: 20%;
+  margin: 0;
+}
+
+.cardLink {
+  text-decoration: none;
+}
+
+.squaredCardImage {
+  width: 18.75rem;
+}
+
+.rectangularCardImage {
+  width: 37.5rem;
+}
+
+.rowBlock {}
+
+@media only screen and (min-width: 20em) and (max-width: 50em) {
+  :global(.vtex-carousel) + .squaredCategoriesHighlights {
+    top: -3.125rem;
+  }
+
+  :global(.vtex-carousel) + .rectangularCategoriesHighlights {
+    top: 0;
+  }
+
+  .squaredCard,
+  .squaredCardImage {
+    width: 9.375rem;
+  }
+
+  .squaredCard {
+    height: 9.375rem;
+  }
+
+  .rectangularCard,
+  .rectangularCardImage {
+    width: 100%;
+  }
+
+  .rectangularCard {
+    height: 12.5rem;
+  }
+}
+
+@media only screen and (min-width: 50em) and (max-width: 64em) {
+  :global(.vtex-carousel) + .squaredCategoriesHighlights,
+  :global(.vtex-carousel) + .rectangularCategoriesHighlights {
+    top: -4.375rem;
+  }
+
+  .squaredCard,
+  .rectangularCard {
+    margin: 0;
+    height: 12.5rem;
+  }
+
+  .squaredCard,
+  .squaredCardImage {
+    width: 12.5rem;
+  }
+
+  .rectangularCard,
+  .rectangularCardImage {
+    width: 25rem;
+  }
+}

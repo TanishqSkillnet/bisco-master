@@ -1,0 +1,2066 @@
+{
+  "store.home.biscoind": {
+    "blocks": [
+      "notification.bar#messagebar",
+      "list-context.image-list#main-slider",
+      "list-context.image-list#brand-slider",
+      "image-new#full-width-banner",
+      "list-context.image-list#banner-slider",
+      "flex-layout.row#first-dept",
+      "flex-layout.row#fasteners",
+      "__fold__",
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#second-dept",
+      "flex-layout.row#electronic-connectors",
+      "flex-layout.row#third-dept",
+      "flex-layout.row#hardware"
+    ]
+  },
+  "flex-layout.row#first-dept":{
+    "children":[
+      "rich-text#first-dept"
+    ],
+    "props":{
+      "blockClass":"dept-title-row-1"
+    }
+  },
+  "flex-layout.row#second-dept":{
+    "children":[
+      "rich-text#second-dept"
+    ],
+    "props":{
+      "blockClass":"dept-title-row-1"
+    }
+  },
+  "flex-layout.row#third-dept":{
+    "children":[
+      "rich-text#third-dept"
+    ],
+    "props":{
+      "blockClass":"dept-title-row-1"
+    }
+  },
+  "rich-text#first-dept": {
+    "props":{
+      "text": "Fasteners",
+      "blockClass": "fist-department"
+    }
+  },
+  "rich-text#second-dept": {
+    "props":{
+      "text": "Electronic Connectors",
+      "blockClass": "second-department"
+    }
+  },
+  "rich-text#third-dept": {
+    "props":{
+      "text": "Hardware",
+      "blockClass": "third-department"
+    }
+  },
+  "notification.bar#messagebar": {
+    "props": {
+      "content": "SAME DAY SHIPPING UNTIL 9AM EST",
+      "blockClass": "home-message"
+    }
+  },
+  "list-context.image-list#main-slider": {
+    "children": [
+      "slider-layout#main-images"
+    ],
+    "props": {
+      "height": 500,
+      "images": [
+        {
+          "image": "https://cdn.biscoind.com/static/vtex-banner-home-1.jpg",
+          "mobileImage": "https://cdn.biscoind.com/static/vtex-banner-home-1.jpg",
+          "description": "main image",
+          "height": 500
+        }
+      ]
+    }
+  },
+  "slider-layout#main-images": {
+    "props": {
+      "blockClass": "main-image-slider",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never"
+    }
+  },
+  "list-context.image-list#brand-slider": {
+    "children": [
+      "slider-layout#brand-images"
+    ],
+    "props": {
+      "height": 185,
+      "width": 225,
+      "images": [
+        {
+          "image": "https://cdn.biscoind.com/static/southco-icon.jpg",
+          "mobileImage": "https://cdn.biscoind.com/static/southco-icon.jpg",
+          "link": {
+            "url": "/Southco"
+          },
+          "description": "Southco",
+          "height": 185
+        },
+        {
+          "image": "https://cdn.biscoind.com/static/raf-icon.jpg",
+          "mobileImage": "https://cdn.biscoind.com/static/raf-icon.jpg",
+          "link": {
+            "url": "/raf-electronic-hardware"
+          },
+          "description": "RAF",
+          "height": 185
+        },
+        {
+          "image": "https://cdn.biscoind.com/static/nvent-icon.jpg",
+          "mobileImage": "https://cdn.biscoind.com/static/nvent-icon.jpg",
+          "link": {
+            "url": "/nvent-schroff"
+          },
+          "description": "Nvent",
+          "height": 185
+        },
+        {
+          "image": "https://cdn.biscoind.com/static/molex-icon.jpg",
+          "mobileImage": "https://cdn.biscoind.com/static/molex-icon.jpg",
+          "link": {
+            "url": "/molex"
+          },
+          "description": "Molex",
+          "height": 185
+        },
+        {
+          "image": "https://cdn.biscoind.com/static/heyco-icon.jpg",
+          "mobileImage": "https://cdn.biscoind.com/static/heyco-icon.jpg",
+          "link": {
+            "url": "/heyco"
+          },
+          "description": "Heyco",
+          "height": 185
+        },
+        {
+          "image": "https://cdn.biscoind.com/static/aavid-icon.jpg",
+          "mobileImage": "https://cdn.biscoind.com/static/aavid-icon.jpg",
+          "link": {
+            "url": "/aavid"
+          },
+          "description": "Avvid",
+          "height": 185
+        }
+      ]
+    }
+  },
+  "image-new#full-width-banner": {
+    "props": {
+      "src": "https://biscoind.vteximg.com.br/arquivos/MW Components&RAF Homepage Banner 1627x397 _ V1.jpg",
+      "blockClass": "full-width-image-banner"
+    }
+  },
+  "slider-layout#brand-images": {
+    "props": {
+      "blockClass": "brand-image-slider",
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never"
+    }
+  },
+  "list-context.image-list#banner-slider": {
+    "children": [
+      "slider-layout#banner-images"
+    ],
+    "props": {
+      "height": 183,
+      "images": [
+        {
+          "image": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/6ff91f52-349d-49ac-9119-4e1975d1e346___0479fa24d40f98a4673a03d43bb3af72.jpg",
+          "mobileImage": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/6ff91f52-349d-49ac-9119-4e1975d1e346___0479fa24d40f98a4673a03d43bb3af72.jpg",
+          "description": "Banner 1",
+          "height": 183
+        },
+        {
+          "image": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/5838f6f3-e5fe-4457-96ce-ef1af900a24d___4267de8855c1822269214eb95045a57d.jpg",
+          "mobileImage": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/5838f6f3-e5fe-4457-96ce-ef1af900a24d___4267de8855c1822269214eb95045a57d.jpg",
+          "description": "Banner 2",
+          "height": 183
+        }
+      ],
+      "blockClass": "home-page-banners-2"
+    }
+  },
+  "slider-layout#banner-images": {
+    "props": {
+      "blockClass": [
+        "banner-image-slider",
+        "banner-image-slider-2"
+      ],
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never"
+    }
+  },
+  "store.product.biscoind": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "__fold__",
+      "__fold__.experimentalLazyAssets",
+      "rich-text#index-buttons",
+      "flex-layout.row#index-buttons",
+      "rich-text#specifications",
+      "product-specifications",
+      "rich-text#documents-and-media",
+      "rich-text#documents-media",
+      "product-media-links",
+      "rich-text#description",
+      "product-description",
+      "shelf.relatedProducts#accessories",
+      "shelf.relatedProducts#similar",
+      "shelf.relatedProducts#buy",
+      "scroll-up-button#product-details"
+    ]
+  },
+  "rich-text#index-buttons": {
+    "props": {
+      "htmlId": "index-button-group",
+      "text": "",
+      "blockClass": "indexButtonGroup"
+    }
+  },
+  "scroll-up-button#product-details": {
+    "props": {
+      "location": "#index-button-group"
+    }
+  },
+  "flex-layout.row#index-buttons": {
+    "children": [
+      "button#specifications",
+      "button#documents-and-media",
+      "button#description"
+    ],
+    "props": {
+      "rowGap": 2,
+      "colGap": 2,
+      "preventHorizontalStretch": true,
+      "marginTop": 5,
+      "marginBottom": 5
+    }
+  },
+  "rich-text#specifications": {
+    "props": {
+      "htmlId": "product-specifications",
+      "text": "",
+      "blockClass": "indexSpecifications"
+    }
+  },
+  "button#specifications": {
+    "props": {
+      "location": "#product-specifications",
+      "text": "Specifications",
+      "blockClass": "productDetails"
+    }
+  },
+  "rich-text#documents-and-media": {
+    "props": {
+      "htmlId": "indexDocumentsAndMedia",
+      "text": "",
+      "blockClass": "indexDocumentsAndMedia"
+    }
+  },
+  "button#documents-and-media": {
+    "props": {
+      "location": "#indexDocumentsAndMedia",
+      "text": "Documents & Media",
+      "blockClass": "productDetails"
+    }
+  },
+  "rich-text#documents-media": {
+    "props": {
+      "htmlId": "documents-media",
+      "text": "Documents & Media",
+      "font": "t-heading-5",
+      "blockClass": "product-documents-media"
+    }
+  },
+  "rich-text#description": {
+    "props": {
+      "htmlId": "product-description",
+      "text": "",
+      "blockClass": "indexDescription"
+    }
+  },
+  "button#description": {
+    "props": {
+      "location": "#product-description",
+      "text": "Description",
+      "blockClass": "productDetails"
+    }
+  },
+  "rich-text#related-products": {
+    "props": {
+      "htmlId": "related-products",
+      "text": "",
+      "blockClass": "indexRelatedProducts"
+    }
+  },
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4
+    },
+    "children": [
+      "breadcrumb"
+    ]
+  },
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7
+    },
+    "children": [
+      "flex-layout.col#product-image",
+      "flex-layout.col#product-price",
+      "flex-layout.col#product-price-breaks"
+    ]
+  },
+  "flex-layout.col#product-image": {
+    "props": {
+      "width": "40%",
+      "rowGap": 0
+    },
+    "children": [
+      "product-images"
+    ]
+  },
+  "flex-layout.col#product-price": {
+    "props": {
+      "preventVerticalStretch": true,
+      "width": "30%",
+      "rowGap": 0,
+      "blockClass": "product-price-info-column"
+    },
+    "children": [
+      "flex-layout.col#brand-content",
+      "vtex.store-components:product-name:product-name",
+      "product-field-highlights#info",
+      "product-description#info",
+      "product-rating-summary",
+      "rich-text#contract-rep",
+      "product-shipping-calculator",
+      "product-separator",
+      "availability-subscriber",
+      "pixel.bisco-ecad-component"
+    ]
+  },
+  "flex-layout.col#brand-content": {
+    "children": [
+      "flex-layout.row#brand-logo",
+      "flex-layout.row#brand-name"
+    ]
+  },
+  "flex-layout.row#brand-logo": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "product-brand-logo-column"
+    },
+    "children": [
+      "vtex.store-components:product-brand#logo"
+    ]
+  },
+  "flex-layout.row#brand-name": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "product-brand-name-column"
+    },
+    "children": [
+      "vtex.store-components:product-brand#name"
+    ]
+  },
+  "vtex.store-components:product-brand#logo": {
+    "props": {
+      "displayMode": "logo",
+      "fallbackToText": false,
+      "height": 80,
+      "logoWithLink": true
+    }
+  },
+  "vtex.store-components:product-brand#name": {
+    "props": {
+      "displayMode": "text",
+      "blockClass": "product-brand-name"
+    }
+  },
+  "product-field-highlights#info": {
+    "props": {
+      "fieldNames": [
+        "RefId"
+      ]
+    }
+  },
+  "product-description#info": {
+    "props": {
+      "collapseContent": false,
+      "blockClass": "product-info-description"
+    }
+  },
+  "rich-text#contract-rep": {
+    "props": {
+      "text": "Product Certifications including Mfg CofC, Chem & Phys, RoHS, etc. may be available for this product. Please email [certifications@biscoind.com](mailto:certifications@biscoind.com) inquire about available certifications.",
+      "blockClass": "contact-rep-certs"
+    }
+  },
+  "product-price#product-details": {
+    "props": {
+      "showInstallments": true,
+      "showSavings": true
+    }
+  },
+  "rich-text#description-pdp": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "*Non-stock pricing and lead time may be subject to change based on manufacturing availability.",
+      "textColor": "c-on-base",
+      "font": "t-heading-5",
+      "blockClass": "text-message-pdp"
+    }
+  },
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7,
+      "blockClass": "product-buy-button-section",
+      "rowGap": 2
+    },
+    "children": [
+      "product-quantity",
+      "flex-layout.col#add-to-cart",
+      "product-quote"
+    ]
+  },
+  "flex-layout.col#product-price-breaks": {
+    "children": [
+      "product-price-breaks",
+      "rich-text#description-pdp",
+      "flex-layout.row#buy-button",
+      "biscoind.bisco-components:quantity-selector"
+    ],
+    "props": {
+      "width": "30%",
+      "preventVerticalStretch": false,
+      "blockClass": "pdp-col3"
+    }
+  },
+  "product-summary.shelf.biscoind#card": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name-custom",
+      "product-summary-space",
+      "product-summary-column#price-button"
+    ],
+    "props": {
+      "showProductReference": false,
+      "showBrandName": false,
+      "showSku": false,
+      "tag": "h3",
+      "blockClass": "recommendations"
+    }
+  },
+  "product-summary-column#price-button": {
+    "children": [
+      "product-summary-price#recommendations",
+      "add-to-cart-wrapper"
+    ],
+    "props": {
+      "blockClass": "recommendations-price-button"
+    }
+  },
+  "add-to-cart-wrapper": {
+    "blocks": [
+      "add-to-cart-button"
+    ]
+  },
+  "product-summary-price#recommendations": {
+    "props": {
+      "blockClass": "recommendations"
+    }
+  },
+  "list-context.product-list#card": {
+    "blocks": [
+      "product-summary.shelf.biscoind#card"
+    ],
+    "props": {
+      "hideUnavailableItems": true
+    }
+  },
+  "shelf.relatedProducts#similar": {
+    "blocks": [
+      "product-summary.shelf.biscoind#card"
+    ],
+    "props": {
+      "recommendation": "editor.relatedProducts.similars",
+      "skusFilter": "FIRST_AVAILABLE",
+      "productList": {
+        "maxItems": 24,
+        "itemsPerPage": 4,
+        "arrows": true,
+        "titleText": "Similar Products"
+      }
+    }
+  },
+  "shelf.relatedProducts#view": {
+    "blocks": [
+      "product-summary.shelf.biscoind#card"
+    ],
+    "props": {
+      "recommendation": "editor.relatedProducts.view",
+      "skusFilter": "FIRST_AVAILABLE",
+      "productList": {
+        "maxItems": 24,
+        "itemsPerPage": 6,
+        "arrows": true,
+        "titleText": "People Also Viewed"
+      }
+    }
+  },
+  "shelf.relatedProducts#buy": {
+    "blocks": [
+      "product-summary.shelf.biscoind#card"
+    ],
+    "props": {
+      "recommendation": "editor.relatedProducts.buy",
+      "skusFilter": "FIRST_AVAILABLE",
+      "productList": {
+        "maxItems": 24,
+        "itemsPerPage": 6,
+        "arrows": true,
+        "titleText": "Customers Also Bought"
+      }
+    }
+  },
+  "shelf.relatedProducts#accessories": {
+    "blocks": [
+      "product-summary.shelf.biscoind#card"
+    ],
+    "props": {
+      "recommendation": "editor.relatedProducts.accessories",
+      "skusFilter": "FIRST_AVAILABLE",
+      "productList": {
+        "maxItems": 24,
+        "itemsPerPage": 4,
+        "arrows": true,
+        "titleText": "Accessories Recommended For You"
+      }
+    }
+  },
+  "shelf.relatedProducts#viewAndBought": {
+    "blocks": [
+      "product-summary.shelf.biscoind#card"
+    ],
+    "props": {
+      "recommendation": "editor.relatedProducts.viewAndBought",
+      "skusFilter": "FIRST_AVAILABLE",
+      "productList": {
+        "maxItems": 24,
+        "itemsPerPage": 4,
+        "arrows": true,
+        "titleText": "People Viewed this also Bought"
+      }
+    }
+  },
+  "shelf.relatedProducts#suggestions": {
+    "blocks": [
+      "product-summary.shelf.biscoind#card"
+    ],
+    "props": {
+      "recommendation": "editor.relatedProducts.suggestions",
+      "skusFilter": "FIRST_AVAILABLE",
+      "productList": {
+        "maxItems": 24,
+        "itemsPerPage": 4,
+        "arrows": true,
+        "titleText": "Suggestions Recommended For You"
+      }
+    }
+  },
+  "store.custom.biscoind#contact": {
+    "blocks": [
+      "contact-form"
+    ]
+  },
+  "store.account": {
+    "blocks": [
+      "my-account"
+    ],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+  "store.login": {
+    "blocks": [
+      "login-content#default"
+    ]
+  },
+  "store.orderplaced": {
+    "blocks": [
+      "order-placed"
+    ]
+  },
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-3-desktop"
+    ],
+    "props": {
+      "rowGap": 7
+    }
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#company-info",
+      "flex-layout.col#quality-info",
+      "flex-layout.col#website-info",
+      "flex-layout.col#support-info",
+      "flex-layout.col#social-networks"
+    ],
+    "props": {
+      "blockClass": "footer-menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3,
+      "colGap": 3
+    }
+  },
+  "flex-layout.col#company-info": {
+    "children": [
+      "rich-text#footer-company-info",
+      "vtex.menu@2.x:menu#company-info"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer-company-info": {
+    "props": {
+      "text": "COMPANY INFO",
+      "blockClass": "footer-menu-title"
+    }
+  },
+  "vtex.menu@2.x:menu#company-info": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#locations",
+      "menu-item#careers",
+      "menu-item#blog",
+      "menu-item#manufacturers"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about",
+        "noFollow": false,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#locations": {
+    "props": {
+      "id": "menu-item-locations",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/locations",
+        "noFollow": false,
+        "tagTitle": "Locations",
+        "text": "Locations"
+      }
+    }
+  },
+  "menu-item#careers": {
+    "props": {
+      "id": "menu-item-careers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://careers-biscoind.icims.com/jobs/intro",
+        "noFollow": false,
+        "tagTitle": "Careers",
+        "text": "Careers"
+      }
+    }
+  },
+  "menu-item#blog": {
+    "props": {
+      "id": "menu-item-blog",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://press.biscoind.com",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    }
+  },
+  "menu-item#manufacturers": {
+    "props": {
+      "id": "menu-item-manufacturers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/manufacturers",
+        "noFollow": false,
+        "tagTitle": "Manufacturers",
+        "text": "Manufacturers"
+      }
+    }
+  },
+  "flex-layout.col#quality-info": {
+    "children": [
+      "rich-text#footer-quality-info",
+      "vtex.menu@2.x:menu#quality-info"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer-quality-info": {
+    "props": {
+      "text": "QUALITY",
+      "blockClass": "footer-menu-title"
+    }
+  },
+  "vtex.menu@2.x:menu#quality-info": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#terms",
+      "menu-item#as9100",
+      "menu-item#as9120",
+      "menu-item#ac-00-56b"
+    ]
+  },
+  "menu-item#terms": {
+    "props": {
+      "id": "menu-item-terms",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-conditions",
+        "noFollow": false,
+        "tagTitle": "Terms and Conditions",
+        "text": "Terms and Conditions"
+      }
+    }
+  },
+  "menu-item#as9100": {
+    "props": {
+      "id": "menu-item-as9100",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/as9100-certificate",
+        "noFollow": false,
+        "tagTitle": "AS9100 Certification",
+        "text": "AS9100 Certification"
+      }
+    }
+  },
+  "menu-item#as9120": {
+    "props": {
+      "id": "menu-item-as9120",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/as9120-certificate",
+        "noFollow": false,
+        "tagTitle": "AS9120 Certification",
+        "text": "AS9120 Certification"
+      }
+    }
+  },
+  "menu-item#ac-00-56b": {
+    "props": {
+      "id": "menu-item-ac-00-56b",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ac0056b-certificate",
+        "noFollow": false,
+        "tagTitle": "AC 00-56B Certification",
+        "text": "AC 00-56B Certification"
+      }
+    }
+  },
+  "flex-layout.col#website-info": {
+    "children": [
+      "rich-text#footer-website-info",
+      "vtex.menu@2.x:menu#website-info"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer-website-info": {
+    "props": {
+      "text": "WEBSITE INFO",
+      "blockClass": "footer-menu-title"
+    }
+  },
+  "vtex.menu@2.x:menu#website-info": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#privacy"
+    ]
+  },
+  "menu-item#privacy": {
+    "props": {
+      "id": "menu-item-privacy",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/privacy-policy",
+        "noFollow": false,
+        "tagTitle": "Privacy Policy",
+        "text": "Privacy Policy"
+      }
+    }
+  },
+  "flex-layout.col#support-info": {
+    "children": [
+      "rich-text#footer-support-info",
+      "vtex.menu@2.x:menu#support-info"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer-support-info": {
+    "props": {
+      "text": "SUPPORT",
+      "blockClass": "footer-menu-title"
+    }
+  },
+  "vtex.menu@2.x:menu#support-info": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#contact",
+      "menu-item#aog-service",
+      "menu-item#supply-chain-service"
+    ]
+  },
+  "menu-item#contact": {
+    "props": {
+      "id": "menu-item-contact",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact",
+        "noFollow": false,
+        "tagTitle": "Contact",
+        "text": "Contact"
+      }
+    }
+  },
+  "menu-item#aog-service": {
+    "props": {
+      "id": "menu-item-aog-service",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "AOG Service",
+        "text": "AOG Service"
+      }
+    }
+  },
+  "menu-item#supply-chain-service": {
+    "props": {
+      "id": "menu-item-supply-chain-service",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/services",
+        "noFollow": false,
+        "tagTitle": "Supply Chain Services",
+        "text": "Supply Chain Services"
+      }
+    }
+  },
+  "flex-layout.col#social-networks": {
+    "children": [
+      "rich-text#social-networks",
+      "social-networks"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#social-networks": {
+    "props": {
+      "text": "SOCIAL NETWORKS",
+      "blockClass": "social-network-title"
+    }
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/biscoindustries/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/biscoindustries/"
+        },
+        {
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/company/bisco-industries/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/biscoindustries"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/channel/UCZ3jhOfPAxgcy0WaqQD1vmQ"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "flex-layout.col#credit",
+      "flex-layout.col#payment-terms"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "colGap": 3,
+      "blockClass": "payment-terms"
+    }
+  },
+  "flex-layout.col#credit": {
+    "children": [
+      "rich-text#credit-title",
+      "accepted-payment-methods"
+    ]
+  },
+  "rich-text#credit-title": {
+    "props": {
+      "text": "CREDIT",
+      "blockClass": "creditTitle"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": [
+        "MasterCard",
+        "Visa",
+        "Diners Club"
+      ]
+    }
+  },
+  "flex-layout.col#payment-terms": {
+    "children": [
+      "rich-text#payment-term-title",
+      "flex-layout.row#payment-terms"
+    ]
+  },
+  "rich-text#payment-term-title": {
+    "props": {
+      "text": "",
+      "blockClass": "paymentTermTitle"
+    }
+  },
+  "flex-layout.row#payment-terms": {
+    "children": [
+      "image#amex-card"
+    ],
+    "props": {
+      "blockClass": "payment-method-images"
+    }
+  },
+  "image#30-days": {
+    "props": {
+      "src": "https://cdn.biscoind.com/static/30-day-footer-icon.svg",
+      "blockClass": "footerPaymentTermThirtyDays"
+    }
+  },
+  "image#net-30": {
+    "props": {
+      "src": "https://cdn.biscoind.com/static/30-net-icon-footer.svg",
+      "blockClass": "footerPaymentTerm"
+    }
+  },
+  "image#net-60": {
+    "props": {
+      "src": "https://cdn.biscoind.com/static/60-net-icon-footer.svg",
+      "blockClass": "footerPaymentTerm"
+    }
+  },
+  "image#amex-card": {
+    "props": {
+      "src": "https://biscoind.vteximg.com.br/arquivos/Amex_Card_Logo___footer.png",
+      "blockClass": "footerPaymentTerm"
+    }
+  },
+  "flex-layout.row#footer-3-desktop": {
+    "children": [
+      "powered-by"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-1-mobile",
+      "flex-layout.row#footer-2-mobile",
+      "flex-layout.row#footer-3-mobile",
+      "flex-layout.row#footer-4-mobile"
+    ],
+    "props": {
+      "rowGap": 2
+    }
+  },
+  "flex-layout.row#footer-1-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-menu-mobile"
+    ],
+    "props": {
+      "blockClass": "footer-menu-row-mobile"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-menu-mobile": {
+    "children": [
+      "menu-item#footer-company-info",
+      "menu-item#footer-quality-info",
+      "menu-item#footer-website-info",
+      "menu-item#footer-support-info"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#footer-company-info": {
+    "props": {
+      "id": "menu-item-footer-company-info",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "mobile-footer-menu-title",
+      "iconPosition": "right",
+      "title": {
+        "accordion": true
+      },
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "COMPANY INFO",
+        "text": "COMPANY INFO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#company-info"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#company-info": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#company-info"
+    ]
+  },
+  "menu-item#footer-quality-info": {
+    "props": {
+      "id": "menu-item-footer-quality-info",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "mobile-footer-menu-title",
+      "iconPosition": "right",
+      "title": {
+        "accordion": true
+      },
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "QUALITY",
+        "text": "QUALITY"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#quality-info"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#quality-info": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#quality-info"
+    ]
+  },
+  "menu-item#footer-website-info": {
+    "props": {
+      "id": "menu-item-footer-website-info",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "mobile-footer-menu-title",
+      "iconPosition": "right",
+      "title": {
+        "accordion": true
+      },
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "WEBSITE INFO",
+        "text": "WEBSITE INFO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#website-info"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#website-info": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#website-info"
+    ]
+  },
+  "menu-item#footer-support-info": {
+    "props": {
+      "id": "menu-item-footer-support-info",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "mobile-footer-menu-title",
+      "iconPosition": "right",
+      "title": {
+        "accordion": true
+      },
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "SUPPORT",
+        "text": "SUPPORT"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#support-info"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#support-info": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#support-info"
+    ]
+  },
+  "flex-layout.row#footer-2-mobile": {
+    "children": [
+      "flex-layout.col#social-networks"
+    ]
+  },
+  "flex-layout.row#footer-3-mobile": {
+    "children": [
+      "flex-layout.col#credit",
+      "flex-layout.col#payment-terms-mobile"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "colGap": 3,
+      "blockClass": "payment-terms",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#payment-terms-mobile": {
+    "children": [
+      "rich-text#payment-term-title",
+      "flex-layout.row#payment-terms-mobile"
+    ]
+  },
+  "flex-layout.row#payment-terms-mobile": {
+    "children": [
+      "image#amex-card"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "colSizing": "equal",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "payment-method-images"
+    }
+  },
+  "flex-layout.row#footer-4-mobile": {
+    "children": [
+      "powered-by"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text.title#dept1": {
+    "props": {
+      "content": "Fasteners",
+      "level": 3
+    }
+  },
+  "flex-layout.row#fasteners": {
+    "children":[
+      "flex-layout.row#sub1-fasteners",
+      "flex-layout.row#sub2-fasteners",
+      "flex-layout.row#sub3-fasteners"
+    ],
+    "props":{
+      "blockClass": "fasteners-main-row"
+    }
+  },
+
+  "flex-layout.row#sub1-fasteners": {
+    "children":[
+      "info-card#fasteners1",
+      "info-card#fasteners2"
+    ],
+    "props": {
+      "blockClass": "sub-row1"
+    }
+  },
+
+  "flex-layout.row#sub2-fasteners": {
+    "children":[
+      "info-card#fasteners3",
+      "info-card#fasteners4"
+    ],
+    "props": {
+      "blockClass": "sub-row2"
+    }
+  },
+
+  "flex-layout.row#sub3-fasteners": {
+    "children":[
+      "info-card#fasteners5",
+      "info-card#fasteners6"
+    ],
+    "props": {
+      "blockClass": "sub-row3"
+    }
+  },
+
+  "info-card#fasteners1": {
+    "props": {
+      "id": "info-card-fasteners-1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/screws-2___89582bce56d16a9164f7c156beb3cccb.jpg",
+      "imageActionUrl": "/fasteners/screws-and-bolts",
+      "subhead": "Srews and Bolts",
+      "blockClass": "info-card-fasteners-1",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#fasteners2": {
+    "props": {
+      "id": "info-card-fasteners-2",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/inserts-1A_272x166___07883df2bc9d1eadd80ac687b3ad4747.jpg",
+      "imageActionUrl": "/Fasteners/Inserts",
+      "subhead": "Inserts",
+      "blockClass": "info-card-fasteners-2",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#fasteners3": {
+    "props": {
+      "id": "info-card-fasteners-3",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/washers-2___7cb453242fe22b03ca0fa90f2a6eacee.jpg",
+      "imageActionUrl": "/Fasteners/washers",
+      "subhead": "Washers",
+      "blockClass": "info-card-fasteners-3",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#fasteners4": {
+    "props": {
+      "id": "info-card-fasteners-4",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/nuts-2___fced78d42436f71d7b811b3eb8376a67.jpg",
+      "imageActionUrl": "/Fasteners/nuts",
+      "subhead": "Nuts",
+      "blockClass": "info-card-fasteners-4",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#fasteners5": {
+    "props": {
+      "id": "info-card-fasteners-5",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/spacers-web2019___a5b6a22ccbc9b28f443cadf068c28be8.jpg",
+      "imageActionUrl": "/fasteners/spacers",
+      "subhead": "Spacers",
+      "blockClass": "info-card-fasteners-5",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#fasteners6": {
+    "props": {
+      "id": "info-card-fasteners-6",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/standoffs-web2019___3d633dbb911ce839989611bdbb964575.jpg",
+      "imageActionUrl": "/fasteners/standoffs",
+      "subhead": "Standoffs",
+      "blockClass": "info-card-fasteners-6",
+      "textAlignment": "center"
+    }
+  },
+
+  "flex-layout.row#electronic-connectors": {
+    "children":[
+      "flex-layout.row#sub1-electronic-connectors",
+      "flex-layout.row#sub2-electronic-connectors",
+      "flex-layout.row#sub3-electronic-connectors"
+    ],
+    "props":{
+      "blockClass": "electronic-connectors-main-row"
+    }
+  },
+
+  "flex-layout.row#sub1-electronic-connectors": {
+    "children":[
+      "info-card#electronic-connectors1",
+      "info-card#electronic-connectors2"
+    ],
+    "props": {
+      "blockClass": "sub-row1"
+    }
+  },
+
+  "flex-layout.row#sub2-electronic-connectors": {
+    "children":[
+      "info-card#electronic-connectors3",
+      "info-card#electronic-connectors4"
+    ],
+    "props": {
+      "blockClass": "sub-row2"
+    }
+  },
+
+  "flex-layout.row#sub3-electronic-connectors": {
+    "children":[
+      "info-card#electronic-connectors5",
+      "info-card#electronic-connectors6"
+    ],
+    "props": {
+      "blockClass": "sub-row3"
+    }
+  },
+
+  "info-card#electronic-connectors1": {
+    "props": {
+      "id": "info-card-electronic-connectors-1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/pcbConnctrs-web2019___cbb7862964e6740ce271eae3c6e0cadf.jpg",
+      "imageActionUrl": "/electronic-connectors/pcb-connectors",
+      "subhead": "PCB Connectors",
+      "blockClass": "info-card-electronic-connectors-1",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#electronic-connectors2": {
+    "props": {
+      "id": "info-card-electronic-connectors-2",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/terminals-web2019___96a8039e513fc1e4b24165323f7f86d0.jpg",
+      "imageActionUrl": "/electronic-connectors/terminals",
+      "subhead": "Terminals",
+      "blockClass": "info-card-electronic-connectors-2",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#electronic-connectors3": {
+    "props": {
+      "id": "info-card-electronic-connectors-3",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/126532a8-0522-482a-baa1-79bc61bffd0e___41134c324a950e8568242c9f506a7a24.jpg",
+      "imageActionUrl": "/electronic-connectors/board-to-board-connectors",
+      "subhead": "Boards and Connectors",
+      "blockClass": "info-card-electronic-connectors-3",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#electronic-connectors4": {
+    "props": {
+      "id": "info-card-electronic-connectors-4",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/rfConnectors-web2019___eab42e75905c799463b7734e8e01b81d.jpg",
+      "imageActionUrl": "/electronic-connectors/rf-and-commercial-connectors",
+      "subhead": "RF and Commercial Connectors",
+      "blockClass": "info-card-electronic-connectors-4",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#electronic-connectors5": {
+    "props": {
+      "id": "info-card-electronic-connectors-5",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/circConnectrs-web2019___7f68fc584c01bf89f7e6f49bb8d61b4c.jpg",
+      "imageActionUrl": "/electronic-connectors/circular-connectors",
+      "subhead": "Circular Connectors",
+      "blockClass": "info-card-electronic-connectors-5",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#electronic-connectors6": {
+    "props": {
+      "id": "info-card-electronic-connectors-6",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/powerConnect-web2019___037efc9dafd64e36bbe77659bb142bde.jpg",
+      "imageActionUrl": "/electronic-connectors/power-connectors",
+      "subhead": "Power Connectors",
+      "blockClass": "info-card-electronic-connectors-6",
+      "textAlignment": "center"
+    }
+  },
+
+  "flex-layout.row#hardware": {
+    "children":[
+      "flex-layout.row#sub1-hardware",
+      "flex-layout.row#sub2-hardware",
+      "flex-layout.row#sub3-hardware"
+    ],
+    "props":{
+      "blockClass": "hardware-main-row"
+    }
+  },
+
+  "flex-layout.row#sub1-hardware": {
+    "children":[
+      "info-card#hardware1",
+      "info-card#hardware2"
+    ],
+    "props": {
+      "blockClass": "sub-row1"
+    }
+  },
+
+  "flex-layout.row#sub2-hardware": {
+    "children":[
+      "info-card#hardware3",
+      "info-card#hardware4"
+    ],
+    "props": {
+      "blockClass": "sub-row2"
+    }
+  },
+
+  "flex-layout.row#sub3-hardware": {
+    "children":[
+      "info-card#hardware5",
+      "info-card#hardware6"
+    ],
+    "props": {
+      "blockClass": "sub-row3"
+    }
+  },
+
+  "info-card#hardware1": {
+    "props": {
+      "id": "info-card-hardware-1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/din-rails-accessories___a82252136c51330fd7d9dd0fede30530.jpg",
+      "imageActionUrl": "/hardware/din-rails-and-rail-accessories",
+      "subhead": "Din Rails and Rail Accessories",
+      "blockClass": "info-card-hardware-1",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#hardware2": {
+    "props": {
+      "id": "info-card-hardware-2",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/mountHrdwre-web2019___5cca3db8363a294fd9d017499b1b0086.jpg",
+      "imageActionUrl": "/hardware/mounting-hardware",
+      "subhead": "Mounting Hardware",
+      "blockClass": "info-card-hardware-2",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#hardware3": {
+    "props": {
+      "id": "info-card-hardware-3",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/293a85d9-2eac-492a-8ad7-fd7729e896d9___7ac3b74c130dd4a7f12459f47defdc5a.jpg",
+      "imageActionUrl": "/hardware/knobs-and-levers",
+      "subhead": "Knobs and Levers",
+      "blockClass": "info-card-hardware-3",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#hardware4": {
+    "props": {
+      "id": "info-card-hardware-4",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/bumpersFeets-web2019___1a276956ea0cba4bed6f2e3f4a46e9a7.jpg",
+      "imageActionUrl": "/hardware/bumpers-and-feet",
+      "subhead": "Bumpers and Feet",
+      "blockClass": "info-card-hardware-4",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#hardware5": {
+    "props": {
+      "id": "info-card-hardware-5",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/247a0cec-21c2-4821-a4fc-174bc532af2c___0d28fd04755c7cb2e433b869b0913240.jpg",
+      "imageActionUrl": "/hardware/springs",
+      "subhead": "Springs",
+      "blockClass": "info-card-hardware-5",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#hardware6": {
+    "props": {
+      "id": "info-card-hardware-6",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/pins-ejectors-web2019___46db773acfc555b364bc03d6b79cf0c0.jpg",
+      "imageActionUrl": "/hardware/pins-ejectors",
+      "subhead": "Pins/Ejectors",
+      "blockClass": "info-card-hardware-6",
+      "textAlignment": "center"
+    }
+  },
+
+  "categories-highlights#dept1": {
+    "props": {
+      "categoriesHighlighted": {
+        "categoryX": {
+          "name": "Bolts",
+          "image": "#",
+          "to": "Fasteners/Bolts"
+        },
+        "categoryY": {
+          "name": "Screws",
+          "image": "#",
+          "to": "Fasteners/Screws"
+        },
+        "categoryA": {
+          "name": "Nuts",
+          "image": "#",
+          "to": "Fasteners/nuts"
+        },
+        "categoryB": {
+          "name": "Washers",
+          "image": "#",
+          "to": "Fasteners/washers"
+        },
+        "categoryC": {
+          "name": "Rods and Studs",
+          "image": "#",
+          "to": "Fasteners/rods-and-studs"
+        },
+        "categoryD": {
+          "name": "Bearings and Bushings",
+          "image": "#",
+          "to": "hardware/bearings-and-bushings"
+        }
+      },
+      "showCategoriesHighlighted": true,
+      "quantityOfItems": 6,
+      "cardShape": "rectangular"
+    }
+  },
+  "rich-text.title#dept2": {
+    "props": {
+      "content": "Electronic Components",
+      "level": 3
+    }
+  },
+  "categories-highlights#dept2": {
+    "props": {
+      "categoriesHighlighted": {
+        "categoryX": {
+          "name": "Fans",
+          "image": "#",
+          "to": "thermal-management/fans"
+        },
+        "categoryY": {
+          "name": "Heat Sinks",
+          "image": "#",
+          "to": "thermal-management/heat-sinks"
+        },
+        "categoryA": {
+          "name": "Switches",
+          "image": "#",
+          "to": "switches"
+        },
+        "categoryB": {
+          "name": "Test Points",
+          "image": "#",
+          "to": "test-and-measurement/test-points"
+        },
+        "categoryC": {
+          "name": "Fuse and Fuse Holders",
+          "image": "#",
+          "to": "circuit-protection/fuses"
+        },
+        "categoryD": {
+          "name": "Battery and Battery Accessories",
+          "image": "#",
+          "to": "battery-and-battery-accessories"
+        }
+      },
+      "showCategoriesHighlighted": true,
+      "quantityOfItems": 6,
+      "cardShape": "rectangular"
+    }
+  },
+  "rich-text.title#dept3": {
+    "props": {
+      "content": "Hardware",
+      "level": 3
+    }
+  },
+  "categories-highlights#dept3": {
+    "props": {
+      "categoriesHighlighted": {
+        "categoryX": {
+          "name": "Clamps",
+          "image": "#",
+          "to": "wire-and-cable/clamps"
+        },
+        "categoryY": {
+          "name": "Hose, Fittings, Valves, Couplers",
+          "image": "#",
+          "to": "pipe-tubing-hose-and-fittings"
+        },
+        "categoryA": {
+          "name": "Socket Products",
+          "image": "#",
+          "to": "fasteners/screws/socket-screws"
+        },
+        "categoryB": {
+          "name": "Mil-Spec Hardware",
+          "image": "#",
+          "to": ""
+        },
+        "categoryC": {
+          "name": "Pre-Positioned Fasteners",
+          "image": "#",
+          "to": ""
+        },
+        "categoryD": {
+          "name": "Capitve and 1/4 Fasteners",
+          "image": "#",
+          "to": "fasteners/captive-fasteners"
+        }
+      },
+      "showCategoriesHighlighted": true,
+      "quantityOfItems": 6,
+      "cardShape": "rectangular"
+    }
+  },
+  "shelf#home": {
+    "blocks": [
+      "product-summary.shelf.biscoind#card"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 4,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "New collection",
+        "summary": {
+          "isOneClickBuy": false,
+          "showBadge": true,
+          "badgeText": "OFF",
+          "buyButtonText": "Comprar",
+          "displayBuyButton": "displayButtonHover",
+          "showCollections": false,
+          "labelListPrice": null,
+          "labelSellingPrice": null,
+          "showListPrice": true,
+          "showLabels": false,
+          "showInstallments": false,
+          "showSavings": true,
+          "name": {
+            "showBrandName": false,
+            "showSku": false,
+            "showProductReference": false,
+            "tag": "h3"
+          }
+        }
+      }
+    }
+  },
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "store.custom.biscoind#supplierChain": {
+    "blocks": [
+      "supply-chain-services#services"
+    ]
+  },
+  "supply-chain-services#services": {
+    "props": {
+      "pageTitle": "Value Added Services",
+      "pageTitleDescription": "bisco's Value Added Services provide solutions for streamlining all steps of your procurement process, from designing in to shipping out. We offer a wide range of value added services that will streamline your purchasing and supply chain operations. These services can lower your purchasing, receiving, and accounting costs drastically while allowing your employees to concentrate on more important job functions. Whether your company uses an MRP, Kan Ban, or Just-In-Time system, bisco industries, can integrate a value added program to save your company time and money. Most importantly, we understand that your needs are specific to your organization and we tailor our programs to meet your unique requirements. By deriving your program from one of the below programs or generating an original one, bisco industries will establish a value added program that works for you. Call your local sales office for more details about setting up a value added service with your company.",
+      "numberOfSupplierChainServices": 5,
+      "maxNumberOfDetailListing": 3,
+      "supplierChainServices": {
+        "supplierChainService0": {
+          "serviceTitle": "PROCUREMENT AND ENGINEERING",
+          "image": "https://cdn.biscoind.com/static/services-1.png",
+          "supplierChainDetails": {
+            "supplierChainList0": {
+              "title": "WHEN YOU",
+              "listContent": "Source Product|Check Pricing|Place Order|Design In"
+            },
+            "supplierChainList1": {
+              "title": "bisco PROVIDES",
+              "listContent": "One-Stop-Shop|Global Sourcing|Rapid Quote Turnaround|Long-Term Pricing"
+            },
+            "supplierChainList2": {
+              "title": "TO HELP WITH",
+              "listContent": "Consolidating Orders|Sourcing Productivity|Cost Saving"
+            }
+          }
+        },
+        "supplierChainService1": {
+          "serviceTitle": "WAREHOUSE AND QUALITY",
+          "image": "https://cdn.biscoind.com/static/services-2.png",
+          "supplierChainDetails": {
+            "supplierChainList0": {
+              "title": "WHEN YOU",
+              "listContent": "Plan Logistics|Receive Goods|Assure Quality"
+            },
+            "supplierChainList1": {
+              "title": "bisco PROVIDES",
+              "listContent": "Local Inventory|Dock-to-Stock|Quality Control|Bonded Inventory|Bar Coding|Just-in-Time"
+            },
+            "supplierChainList2": {
+              "title": "TO HELP WITH",
+              "listContent": "Cash Flow|Warehousing Optimization|Quality Management"
+            }
+          }
+        },
+        "supplierChainService2": {
+          "serviceTitle": "MANUFACTURING AND ASSEMBLY LINE",
+          "image": "https://cdn.biscoind.com/static/services-3.png",
+          "supplierChainDetails": {
+            "supplierChainList0": {
+              "title": "WHEN YOU",
+              "listContent": "Manufacture Products|Assemble Products"
+            },
+            "supplierChainList1": {
+              "title": "bisco PROVIDES",
+              "listContent": "Assembly|Kitting|Custom Packaging"
+            },
+            "supplierChainList2": {
+              "title": "TO HELP WITH",
+              "listContent": "Faster Part-Picking|Manufacturing Speed|Decreased Inventory Waste"
+            }
+          }
+        },
+        "supplierChainService3": {
+          "serviceTitle": "INVENTORY MANAGEMENT",
+          "image": "https://cdn.biscoind.com/static/services-4.png",
+          "supplierChainDetails": {
+            "supplierChainList0": {
+              "title": "WHEN YOU",
+              "listContent": "Optimize Inventory"
+            },
+            "supplierChainList1": {
+              "title": "bisco PROVIDES",
+              "listContent": "Vendor Managed Inventory|Consignment Inventory|Bin Stocking|Long-Term Agreements Kanban"
+            },
+            "supplierChainList2": {
+              "title": "TO HELP WITH",
+              "listContent": "Cash Flow|Reduced Receiving Time|Limiting Line Down Scenarios"
+            }
+          }
+        },
+        "supplierChainService4": {
+          "serviceTitle": "ACCOUNTING",
+          "image": "https://cdn.biscoind.com/static/services-5.png",
+          "supplierChainDetails": {
+            "supplierChainList0": {
+              "title": "WHEN YOU",
+              "listContent": "Forecast Costs|Manage Payables"
+            },
+            "supplierChainList1": {
+              "title": "bisco PROVIDES",
+              "listContent": "Special Payment Terms|EDI|Consolidated Billing|Rebate Programs|Special Freight Terms"
+            },
+            "supplierChainList2": {
+              "title": "TO HELP WITH",
+              "listContent": "Accounting Efficiency|Cost Reduction|Long-Term Cost Stability"
+            }
+          }
+        }
+      }
+    }
+  },
+  "store.custom.biscoind#warehouseLocations": {
+    "blocks": [
+      "iframe#Map",
+      "rich-text#warehouseLocationsParagraph",
+      "warehouse-locations"
+    ]
+  },
+  "rich-text#warehouseLocationsParagraph": {
+    "props": {
+      "text": "49 North American locations and 7 strategically placed warehouses. ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "locations-message"
+    }
+  },
+  "iframe#Map": {
+    "props": {
+      "src": "https://www.google.com/maps/d/embed?mid=1i5gmUnMWswOS05pWIxmJ4pVlUIfcw3u3",
+      "width": "1440",
+      "height": "450"
+    }
+  },
+  "store.custom.biscoind#manufacturers": {
+    "blocks": [
+      "manufacturers"
+    ]
+  },
+  "store.custom.biscoind#about": {
+    "blocks": [
+      "iframe",
+      "flex-layout.row#aboutUs"
+    ]
+  },
+  "iframe": {
+    "props": {
+      "src": "https://www.youtube.com/embed/iRdufmddVQQ",
+      "width": "675",
+      "height": "325",
+      "blockClass": "aboutUs-video"
+    }
+  },
+  "flex-layout.row#aboutUs": {
+    "children": [
+      "flex-layout.col#text-about-us-section"
+    ]
+  },
+  "flex-layout.col#text-about-us-section": {
+    "children": [
+      "rich-text#about-us-section"
+    ],
+    "props": {
+      "blockClass": "aboutUs-column"
+    }
+  },
+  "rich-text#about-us-section": {
+    "props": {
+      "text": "this is some about us content",
+      "blockClass": "about-us-content"
+    }
+  },
+  "store.custom.biscoind#as9100": {
+    "blocks": [
+      "rich-text#as9100"
+    ]
+  },
+  "rich-text#as9100": {
+    "props": {
+      "text": "(<iframe src=\"https://www.biscoind.com/docs/Bisco-Industries-Inc-AS9100-ISO9001-Certificate-K.pdf\"></iframe>)",
+      "blockClass": "as-certifications"
+    }
+  },
+  "store.custom.biscoind#as9120": {
+    "blocks": [
+      "rich-text#as9120"
+    ]
+  },
+  "rich-text#as9120": {
+    "props": {
+      "text": "(<iframe src=\"https://www.biscoind.com/docs/Bisco-Industries-Inc-AS9100-ISO9001-Certificate-K.pdf\"></iframe>)",
+      "blockClass": "as-certifications"
+    }
+  },
+  "store.custom.biscoind#ac0056b": {
+    "blocks": [
+      "rich-text#ac0056b"
+    ]
+  },
+  "rich-text#ac0056b": {
+    "props": {
+      "text": "(<iframe src=\"https://www.biscoind.com/docs/Bisco-Industries-Inc-AS9100-ISO9001-Certificate-K.pdf\"></iframe>)",
+      "blockClass": "as-certifications"
+    }
+  },
+  "store.custom.biscoind#privacy-policy": {
+    "blocks": [
+      "flex-layout.row#privacy-policy"
+    ]
+  },
+  "flex-layout.row#privacy-policy": {
+    "children": [
+      "flex-layout.col#text-privacy-policy"
+    ]
+  },
+  "flex-layout.col#text-privacy-policy": {
+    "children": [
+      "rich-text#title-privacy-policy",
+      "rich-text#privacy-policy"
+    ],
+    "props": {
+      "blockClass": "privacyColumn ",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-privacy-policy": {
+    "props": {
+      "text": "THIS IS A TITLE TEST",
+      "blockClass": "privacy-title"
+    }
+  },
+  "rich-text#privacy-policy": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "blockClass": "privacy-description"
+    }
+  },
+  "store.custom.biscoind#terms-conditions": {
+    "blocks": [
+      "flex-layout.row#terms-conditions"
+    ]
+  },
+  "flex-layout.row#terms-conditions": {
+    "children": [
+      "flex-layout.col#text-terms-conditions"
+    ]
+  },
+  "flex-layout.col#text-terms-conditions": {
+    "children": [
+      "rich-text#title-terms-conditions",
+      "rich-text#terms-conditions"
+    ],
+    "props": {
+      "blockClass": "termsColumn ",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-terms-conditions": {
+    "props": {
+      "text": "THIS IS A TITLE TEST",
+      "blockClass": "terms-title"
+    }
+  },
+  "rich-text#terms-conditions": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "blockClass": "terms-conditions"
+    }
+  },
+  "store.custom.biscoind#conflict-minerals": {
+    "blocks": [
+      "rich-text#conflict-minerals"
+    ]
+  },
+  "rich-text#conflict-minerals": {
+    "props": {
+      "text": "(<iframe src=\"https://bisco-s3.s3.amazonaws.com/pdf/z2-Conflict-Minerals-All-Bisco-Statement-2020.pdf\"></iframe>)",
+      "blockClass": "conflict-minerals-statement"
+    }
+  }
+}

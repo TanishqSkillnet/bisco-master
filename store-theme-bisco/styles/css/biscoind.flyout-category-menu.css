@@ -1,0 +1,30 @@
+.firstLevelLink {
+  font-weight: bold;
+}
+
+.secondLevelLink {
+  margin-left: 0.5rem;
+}
+
+.sidebarContainer{
+  height: 64px;
+  width: 172px;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  border-right: 1px solid #e3e4e6;
+  padding-right: 17px;
+  margin-right: 1rem;
+}
+
+.allDepartments span {
+  margin-right: 10px;
+}
+
+.mobile {
+  width: unset;
+  height: unset;
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+  padding-right: .5rem;
+  margin-right: 0;
+}

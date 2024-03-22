@@ -1,0 +1,24 @@
+{
+  "name": "manufacturers",
+  "vendor": "biscoind",
+  "version": "0.1.6",
+  "title": "Manufacturers",
+  "description": "Manufacturers",
+  "scripts": {
+    "prereleasy": "bash pre.sh"
+  },
+  "builders": {
+    "messages": "1.x",
+    "store": "0.x",
+    "react": "3.x"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.store-graphql": "2.x"
+  },
+  "mustUpdateAt": "2020-04-16",
+  "registries": [
+    "smartcheckout"
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

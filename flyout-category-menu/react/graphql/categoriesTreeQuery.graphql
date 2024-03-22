@@ -1,0 +1,28 @@
+query categoriesTreeQuery(
+$treeLevel: Int,
+$locale: String
+) {
+  categoriesTree(
+    treeLevel: $treeLevel,
+    locale: $locale
+    ) {
+    id
+    name
+    href
+    slug
+    hasChildren
+    children {
+      id
+      name
+      href
+      slug
+      hasChildren
+      children {
+        id
+        name
+        href
+        slug
+      }
+    }
+  }
+}

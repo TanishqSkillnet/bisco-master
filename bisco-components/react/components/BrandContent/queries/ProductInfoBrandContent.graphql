@@ -1,0 +1,29 @@
+query ProductInfoBrandContent($identifier: ProductUniqueIdentifier) {
+  product(identifier: $identifier)
+  @context(provider: "vtex.search-graphql"){
+    productName
+    productId
+    linkText
+    items {
+      itemId
+      name
+      referenceId {
+        Key
+        Value
+      }
+      images(quantity: 10) {
+        imageId
+        imageUrl
+      }
+      sellers {
+        sellerId
+        sellerName
+        commertialOffer {
+          Price
+          ListPrice
+          AvailableQuantity
+        }
+      }
+    }
+  }
+}

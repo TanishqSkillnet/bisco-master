@@ -1,0 +1,16 @@
+{
+  "store/contact-form.form.company": "store/contact-form.form.company",
+  "store/contact-form.form.country": "store/contact-form.form.country",
+  "store/contact-form.form.email": "store/contact-form.form.email",
+  "store/contact-form.form.firstName": "store/contact-form.form.firstName",
+  "store/contact-form.form.lastName": "store/contact-form.form.lastName",
+  "store/contact-form.form.message": "store/contact-form.form.message",
+  "store/contact-form.form.phoneNumber": "store/contact-form.form.phoneNumber",
+  "store/contact-form.form.postalCode": "store/contact-form.form.postalCode",
+  "store/contact-form.form.topic": "store/contact-form.form.topic",
+  "store/contact-form.form.submit": "store/contact-form.form.submit",
+  "store/contact-form.form.success": "store/contact-form.form.success",
+  "store/contact-form.form.error": "store/contact-form.form.error",
+  "store/contact-form.form.corporate-office": "store/contact-form.form.corporate-office",
+  "store/contact-form.form.contact-us": "store/contact-form.form.contact-us"
+}

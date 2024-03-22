@@ -1,0 +1,21 @@
+{
+  "test": "test",
+  "alert.success": "引用符が正常に追加されました。",
+  "alert.error": "引用の追加中に問題が発生しました。",
+  "bisco-quick-quote.quick-quote": "簡単な見積もり",
+  "bisco-quick-quote.submit": "送信",
+  "bisco-quick-quote.get-a-quick-response": "Bisco からの迅速な対応を得る",
+  "bisco-quick-quote.first-name":"ファーストネーム",
+  "bisco-quick-quote.need-by-date": "必要期限",
+  "bisco-quick-quote.quantity": "数量(1個あたり)",
+  "bisco-quick-quote.competitor": "競合他社選手",
+  "bisco-quick-quote.target-price": "目標価格（1個あたり）",
+  "bisco-quick-quote.brand-name": "ブランド名",
+  "bisco-quick-quote.product-name":"商品名",
+  "bisco-quick-quote.postal-code":"郵便番号",
+  "bisco-quick-quote.country": "国",
+  "bisco-quick-quote.company": "会社",
+  "bisco-quick-quote.phone": "電話",
+  "bisco-quick-quote.email": "Eメール",
+  "bisco-quick-quote.last-name": "苗字"
+}

@@ -1,0 +1,13 @@
+{
+  "admin/category-gallery.title": "Categoría Galería",
+  "admin/category-gallery.description": "Categoría Galería",
+  "admin/category-gallery.tree-level.title": "Nivel de árbol",
+  "admin/editor.category-gallery.title": "Categoría Galería Imagen de marcador de posición",
+  "admin/editor.category-gallery.description": "Imagen de marcador de posición",
+  "admin/editor.category-gallery.image-placeholder.title": "URL de la imagen",
+  "admin/category-gallery.cards-per-page.title": "Artículos por página",
+  "store/category-gallery.product-not-found": "Productos no encontrados para esta categoría",
+  "admin/category-gallery.category-card.title": "Tarjeta de categoría",
+  "admin/category-gallery.category-card.description": "Configuraciones de tarjetas de categoría",
+  "admin/category-gallery.category-card.isClickable.title": "Se puede hacer clic"
+}
