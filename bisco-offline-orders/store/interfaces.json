@@ -1,8 +1,0 @@
-{
-  "my-account-link.offline-orders-link": {
-    "component": "OfflineOrdersLink"
-  },
-  "my-account-page.offline-orders-page": {
-    "component": "OfflineOrdersPage"
-  }
-}

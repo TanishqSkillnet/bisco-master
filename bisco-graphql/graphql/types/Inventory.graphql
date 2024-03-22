@@ -1,4 +1,0 @@
-type AvailableInventory {
-  skuId: String
-  totalAvailableInventory: Float
-}

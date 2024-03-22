@@ -1,9 +1,0 @@
-query brands {
-  brands {
-    cacheId
-    id
-    name
-    slug
-    active
-  }
-}

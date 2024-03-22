@@ -1,1 +1,0 @@
-export const DEFAULT_PAGE_DATA = { 1300: 5, 1100: 4, 900: 3, 700: 2, 300: 1 }

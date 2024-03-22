@@ -1,3 +1,0 @@
-mutation googleTranslation($targetLanguage: String, $text:String) {
-  googleTranslation(targetLanguage: $targetLanguage, text: $text)
-}
