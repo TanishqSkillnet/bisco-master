@@ -11,6 +11,7 @@
   "scripts": {
     "postreleasy": "vtex publish --verbose"
   },
+
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
@@ -39,6 +40,7 @@
     "vtex.product-summary": "2.x",
     "vtex.slider-layout": "0.x",
     "vtex.store-image": "0.x",
+    "vtex.recommendation-shelf": "1.x",
     "vtex.store-drawer": "0.x",
     "vtex.product-quantity": "1.x",
     "vtex.product-identifier": "0.x",
@@ -61,6 +63,9 @@
     "biscoind.bisco-ecad-pixel": "1.x",
     "vtex.locale-switcher": "0.x",
     "biscoind.binding-selector": "0.x"
+  },
+  "peerDependencies": {
+    "vtex.shelf-components": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

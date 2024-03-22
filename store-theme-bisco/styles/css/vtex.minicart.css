@@ -10,3 +10,8 @@ width: 4rem;
   height: 64px;
   width: 64px;
 }
+
+
+.openIconContainer{
+  padding: 0 !important;
+}

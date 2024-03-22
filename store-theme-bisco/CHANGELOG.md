@@ -7,14 +7,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-### Changed
-
-- Change the possition of the logging menu component
-
-### Added
-
-- Added custom home page category gallery items with VTEX components
-
 ## [2.7.39] - 2023-11-20
 
 ### Fixed

@@ -56,6 +56,20 @@
   font-size: 1.25rem;
 }
 
+.container--discountclass {
+    color: #727273 !important;
+}
+
+.paragraph--discountclass{
+  font-size: 1.5rem !important;
+
+}
+
+.paragraph--newrich {
+  font-size: 50px !important;
+}
+
+
 .paragraph--product-documents-media {
   font-size: 1.25rem;
 }
@@ -306,7 +320,6 @@
   margin-bottom: 0;
   margin-top: 0;
 }
-
 .paragraph--fist-department,
 .paragraph--second-department,
 .paragraph--third-department {
@@ -323,3 +336,4 @@
 .container--third-department {
   border-bottom: 1px solid #e3e4e6;
 }
+

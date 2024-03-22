@@ -105,3 +105,32 @@
 .myBanner{
   height: 100px;
 }
+
+/* Filter scroll bar */
+.filtersWrapper--search-result-facets{
+  height: 100rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 17.7rem;
+}
+
+.filtersWrapper--search-result-facets::-webkit-scrollbar {
+  width: 7px; /* Adjust width as needed */
+  border-radius: 2rem;
+}
+.filtersWrapper--search-result-facets::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Adjust track color */
+}
+
+.filtersWrapper--search-result-facets::-webkit-scrollbar-thumb {
+  background: #888; /* Adjust thumb color */
+  border-radius: 2rem;
+}
+
+.filtersWrapper--search-result-facets::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Adjust hover color */
+}
+
+.galleryItem--search-gallary{
+  margin-left: 2rem;
+}

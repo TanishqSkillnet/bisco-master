@@ -2,6 +2,7 @@
   "store.search": {
     "blocks": [
       "search-result-layout"
+
     ],
     "props": {
       "context": {
@@ -12,6 +13,9 @@
       }
     }
   },
+
+
+
   "store.search#brand": {
     "blocks": [
       "search-result-layout"
@@ -67,6 +71,8 @@
       "search-result-layout.desktop.biscoind",
       "search-result-layout.mobile.biscoind",
       "search-not-found-layout"
+
+
     ]
   },
   "search-result-layout.desktop.biscoind": {
@@ -130,6 +136,11 @@
       "preventHorizontalStretch": false,
       "fullWidth": true,
       "blockClass": "search-result-layout-desktop"
+    }
+  },
+  "filter-navigator.v3":{
+    "props":{
+      "blockClass":"search-result-facets"
     }
   },
   "flex-layout.col#filter": {
@@ -297,19 +308,232 @@
       "blockClass": "switcherMobileCol"
     }
   },
+  "rich-text#trysomebestdiscountproducts":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Try our some best discount products**",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass":"discountclass"
+    }
+  },
   "search-not-found-layout": {
     "children": [
       "flex-layout.row#searchbread",
       "flex-layout.row#notfound"
     ]
   },
+
+  "rich-text#error":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "This is custom error message na",
+      "font": "t-heading-5",
+      "blockClass": "help-message"
+    }
+  },
+  "flex-layout.row#collection":{
+    "children":["list-context.product-list#collections"],
+    "props":{
+      "blockClass":"search-result-collections"
+    }
+  },
+  "list-context.product-list#collections":{
+    "blocks": ["product-summary.shelf#collections"],
+    "children": ["slider-layout#shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "318",
+      "paginationDotsVisibility": "desktopOnly"
+    }
+  },
+  "product-summary.shelf#collections":{
+    "children":[
+      "product-summary-image",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "slider-layout#shelf": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
+      }
+    }
+  },
   "flex-layout.row#notfound": {
     "children": [
-      "not-found"
+      "flex-layout.col#collection"
     ],
     "props": {
       "fullWidth": true
     }
+  },
+  "categories-highlights#dept1":{
+    "props": {
+      "categoriesHighlighted": {
+        "categoryX": {
+          "name": "Bolts",
+          "image": "#",
+          "to": "Fasteners/Bolts"
+        },
+        "categoryY": {
+          "name": "Screws",
+          "image": "#",
+          "to": "Fasteners/Screws"
+        },
+        "categoryA": {
+          "name": "Nuts",
+          "image": "#",
+          "to": "Fasteners/nuts"
+        },
+        "categoryB": {
+          "name": "Washers",
+          "image": "#",
+          "to": "Fasteners/washers"
+        },
+        "categoryC": {
+          "name": "Rods and Studs",
+          "image": "#",
+          "to": "Fasteners/rods-and-studs"
+        },
+        "categoryD": {
+          "name": "Bearings and Bushings",
+          "image": "#",
+          "to": "hardware/bearings-and-bushings"
+        }
+      },
+      "showCategoriesHighlighted": true,
+      "quantityOfItems": 6,
+      "cardShape": "rectangular"
+    }
+  },
+  "rich-text.title#dept1": {
+    "props": {
+      "content": "Fasteners",
+      "level": 3
+    }
+  },
+  "categories-highlights#dept2": {
+    "props": {
+      "categoriesHighlighted": {
+        "categoryX": {
+          "name": "Fans",
+          "image": "#",
+          "to": "thermal-management/fans"
+        },
+        "categoryY": {
+          "name": "Heat Sinks",
+          "image": "#",
+          "to": "thermal-management/heat-sinks"
+        },
+        "categoryA": {
+          "name": "Switches",
+          "image": "#",
+          "to": "switches"
+        },
+        "categoryB": {
+          "name": "Test Points",
+          "image": "#",
+          "to": "test-and-measurement/test-points"
+        },
+        "categoryC": {
+          "name": "Fuse and Fuse Holders",
+          "image": "#",
+          "to": "circuit-protection/fuses"
+        },
+        "categoryD": {
+          "name": "Battery and Battery Accessories",
+          "image": "#",
+          "to": "battery-and-battery-accessories"
+        }
+      },
+      "showCategoriesHighlighted": true,
+      "quantityOfItems": 6,
+      "cardShape": "rectangular"
+    }
+  },
+  "rich-text.title#dept2": {
+    "props": {
+      "content": "Electronic Components",
+      "level": 3
+    }
+  },
+  "categories-highlights#dept3": {
+    "props": {
+      "categoriesHighlighted": {
+        "categoryX": {
+          "name": "Clamps",
+          "image": "#",
+          "to": "wire-and-cable/clamps"
+        },
+        "categoryY": {
+          "name": "Hose, Fittings, Valves, Couplers",
+          "image": "#",
+          "to": "pipe-tubing-hose-and-fittings"
+        },
+        "categoryA": {
+          "name": "Socket Products",
+          "image": "#",
+          "to": "fasteners/screws/socket-screws"
+        },
+        "categoryB": {
+          "name": "Mil-Spec Hardware",
+          "image": "#",
+          "to": ""
+        },
+        "categoryC": {
+          "name": "Pre-Positioned Fasteners",
+          "image": "#",
+          "to": ""
+        },
+        "categoryD": {
+          "name": "Capitve and 1/4 Fasteners",
+          "image": "#",
+          "to": "fasteners/captive-fasteners"
+        }
+      },
+      "showCategoriesHighlighted": true,
+      "quantityOfItems": 6,
+      "cardShape": "rectangular"
+    }
+  },
+  "rich-text.title#dept3": {
+    "props": {
+      "content": "Hardware",
+      "level": 3
+    }
+  },
+  "rich-text.title#topcategories":{
+    "props": {
+      "content": "Search within our top categories below.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-5",
+      "blockClass":"topCategoriesText"
+    }
+  },
+  "flex-layout.col#collection":{
+    "children":[
+      "not-found",
+      "rich-text.title#topcategories",
+      "rich-text.title#dept1",
+      "categories-highlights#dept1",
+      "rich-text.title#dept2",
+      "categories-highlights#dept2",
+      "rich-text.title#dept3",
+      "categories-highlights#dept3",
+      "collection-search",
+      "rich-text#trysomebestdiscountproducts",
+      "flex-layout.row#collection"
+    ]
   },
   "breadcrumb": {
     "props": {
@@ -331,7 +555,8 @@
     ],
     "props": {
       "maxItemsPerRow": 1,
-      "width": "100%"
+      "width": "100%",
+      "blockClass":"search-gallary"
     }
   },
   "product-summary.shelf#listItem": {

@@ -1,7 +1,7 @@
 .headerRowContainer--top-menu {
-  background-color: black;
+  background-color: #008dd9;
   justify-content: flex-end;
-  height: 2.5rem;
+  height: 2.8rem;
 }
 
 .headerRowContainer--top-menu :global(.vtex-menu-2-x-styledLink) {
@@ -10,6 +10,10 @@
   font-size: 14px;
   font-weight: 600;
   font-family: 'Segoe UI', Roboto, Helvetica Neue, sans-serif;
+}
+
+.headerStickyRow--main-header {
+  top: 0 !important;
 }
 
 .headerRowContainer--top-menu :global(.vtex-menu-2-x-styledLinkContainer) {
@@ -42,13 +46,8 @@
   width: unset;
 }
 
-.headerRowContainer > nav > ul > li > div > a,
-:global(.vtex-flex-layout-0-x-flexRow--department-menu-flex-row)
-  nav
-  > ul
-  > li
-  > div
-  > a {
+.headerRowContainer>nav>ul>li>div>a,
+:global(.vtex-flex-layout-0-x-flexRow--department-menu-flex-row) nav>ul>li>div>a {
   font-family: AvenirDemi, Arial, sans-serif;
 }
 
@@ -64,7 +63,7 @@
   height: 89px;
 }
 
-.headerRowContainer--main-header{
+.headerRowContainer--main-header {
   height: 65px;
   border-top: 1px solid #e3e4e6;
 }
