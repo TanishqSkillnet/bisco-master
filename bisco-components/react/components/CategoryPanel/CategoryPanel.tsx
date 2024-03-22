@@ -143,7 +143,6 @@ class CategoryPanel extends Component<Props> {
 
           return (
             <div className={`${styles.categoryPanelContainer}`}>
-              <h1>udsahdsaudsdshjdshjbdashbj</h1>
               {tree.sort((a,b)=>a.name.localeCompare(b.name)).map(category => {
                 return this.renderCategoryShelf(
                   category,
