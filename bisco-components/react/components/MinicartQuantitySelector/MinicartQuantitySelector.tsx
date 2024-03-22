@@ -10,6 +10,7 @@ const MinicartQuantitySelector = () => {
     variables: {
       identifier: { field: 'id', value: item.productId },
     },
+    fetchPolicy: 'cache-and-network',
   })
   console.log(productError)
   const postalCode = localStorage.getItem('userPostalCode')

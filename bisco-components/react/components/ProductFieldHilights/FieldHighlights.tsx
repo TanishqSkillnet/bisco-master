@@ -31,12 +31,12 @@ const FieldHighlights = (props: any) => {
               const selectedField = getField(field, selectedProduct) as any
               return selectedField ? (
                 <div className={styles.productFieldHighlightsFieldWrapper}>
-                  <span className={styles.productFieldHighlightsFieldName}>
+                  <span>
                     {selectedField.name === 'Reference # : ' && intl.formatMessage(messages.referencehash)}
                     {selectedField.name === 'Reference : ' && intl.formatMessage(messages.reference)}
                     {selectedField.name === 'Brand : ' && intl.formatMessage(messages.brand)}
                   </span>
-                  <span className={styles.productFieldHighlightsFieldValue}>{selectedField.value}</span>
+                  <span>{selectedField.value}</span>
                 </div>
               ) : (
                 <div />

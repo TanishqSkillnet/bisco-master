@@ -43,7 +43,9 @@ const ProductPriceBreaksWrapper = () => {
 
   const { loading, error, data } = useQuery(GET_PRICE_BREAKS, {
     variables: { itemId, sellerId, tradePolicyId: '1', postalCode: zipCode },
+    fetchPolicy: 'cache-and-network',
   })
+
 
   const updatePostalCode = useCallback(
     (zip: string) => {

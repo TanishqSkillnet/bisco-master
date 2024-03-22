@@ -15,12 +15,13 @@ const ProductSummaryAvailableInventory = () => {
 
   const { loading, data } = useQuery(AvailableQuantity, {
     variables: { identifier: { field: 'id', value: productId } },
+    fetchPolicy: 'cache-and-network',
   })
 
   useEffect(() => {
     const items = pathOr([], ['product', 'items'], data)
     const selectedItem = find(propEq('itemId', itemId))(items)
-    setSellers(pathOr([], ['sellers'], selectedItem)) 
+    setSellers(pathOr([], ['sellers'], selectedItem))
   }, [data])
 
   const preventPropagation = (e: any) => {

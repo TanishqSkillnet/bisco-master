@@ -2,7 +2,7 @@ import React, { SyntheticEvent } from 'react'
 import { Button as VTEXButton } from 'vtex.styleguide'
 import styles from './button.css'
 import { generateBlockClass } from '@vtex/css-handles'
-import {descriptionMessage, documentMediaMessage, specificationMessage} from './MessageTypes'
+import {descriptionMessage, documentMediaMessage, specificationMessage} from './messageTypes'
 
 type Props = {
   location: string

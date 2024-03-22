@@ -97,10 +97,10 @@ const ProductSliderItem = ({ productId }: Props) => {
     styles.productCardContainer,
     'overflow-hidden br3 h-100 w-100 flex flex-column justify-between center tc'
   )
-  const elementClasses = classNames(`${styles.element} pointer pt3 pb4 flex flex-column h-100`)
+  const elementClasses = classNames(`${styles.element} pointer pt3 pb4 flex flex-column h-60`)
   const imageOuterContainerClasses = classNames(styles.imageOuterContainer, 'db w-100 center')
-  const imageInnerContainerClasses = classNames(styles.imageInnerContainer, 'dib h-100 relative')
-  const imageClasses = classNames(styles.productImage, 'h-100')
+  const imageInnerContainerClasses = classNames(styles.imageInnerContainer, 'dib h-60 relative')
+  const imageClasses = classNames(styles.productImage, 'h-60')
   const infoContainerClasses = classNames(
     styles.infoContainer,
     'flex flex-column justify-between'
@@ -113,9 +113,12 @@ const ProductSliderItem = ({ productId }: Props) => {
     <Query
       query={product}
       variables={{ identifier: { field: 'id', value: productId } }}
+      fetchPolicy="cache-and-network"
       errorPolicy="all">
       {({ data, loading, error }: ProductResult) => {
+
         if (loading) {
+
           return <ProductSliderItemLoader />
         }
         if (error) {
@@ -130,14 +133,13 @@ const ProductSliderItem = ({ productId }: Props) => {
         }
 
         const product = normalizeProduct(data.product)
-
         if (!product) {
           return <div />
         }
         return (
           <section className={containerClasses}>
             <Link
-              className={`${styles.clearLink} h-100 flex flex-column`}
+              className={`${styles.clearLink} h-60 flex flex-column`}
               page={'store.product'}
               params={{
                 slug: product && product.linkText,
@@ -159,6 +161,9 @@ const ProductSliderItem = ({ productId }: Props) => {
                       <span className={nameClasses}>{product.productName}</span>
                     </h2>
                   </div>
+                  <h2 className={nameHeadingClasses}>
+                    <span className={nameClasses}>{product.description}</span>
+                  </h2>
                 </div>
               </div>
             </Link>

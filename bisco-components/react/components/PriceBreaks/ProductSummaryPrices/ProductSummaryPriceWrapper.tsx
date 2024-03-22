@@ -48,6 +48,7 @@ const ProductSummaryPriceWrapper = ({ showLeadTimes }: Props) => {
 
   const { loading, error, data } = useQuery(GET_PRICE_BREAKS, {
     variables: { itemId, sellerId, tradePolicyId: '1', postalCode: zipCode },
+    fetchPolicy: 'cache-and-network',
   })
 
   const skipCondition = skipOnMobile && (isMobile ?? false)

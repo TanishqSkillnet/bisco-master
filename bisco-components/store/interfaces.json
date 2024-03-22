@@ -2,9 +2,15 @@
   "brand-content": {
     "component": "BrandContent"
   },
+
+  "search-result": {
+    "component": "SearchResult"
+  },
   "brand-content.search": {
     "component": "BrandContentSearchResultWrapper"
   },
+
+
   "categories-highlights": {
     "component": "CategoriesHighlights"
   },
@@ -74,5 +80,11 @@
   },
   "minicart-quantity-selector":{
     "component": "MinicartQuantitySelector"
+  },
+  "collection-search":{
+    "component": "CollectionWrapper"
+  },
+  "page-title":{
+    "component": "PageTitle"
   }
 }

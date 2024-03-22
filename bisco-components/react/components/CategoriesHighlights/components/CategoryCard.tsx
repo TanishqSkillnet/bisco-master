@@ -1,9 +1,9 @@
 import React, { FunctionComponent } from 'react'
 import { Link } from 'vtex.render-runtime'
 
-import { SQUARED } from '../utils/constants'
-import rectangularPlaceholder from '../images/rectangular-placeholder.svg'
-import squaredPlaceholder from '../images/squared-placeholder.svg'
+// import { SQUARED } from '../utils/Constants'
+// import rectangularPlaceholder from '../images/rectangular-placeholder.svg'
+// import squaredPlaceholder from '../images/squared-placeholder.svg'
 
 import categoriesHighlights from '../categoriesHighlights.css'
 
@@ -45,12 +45,13 @@ const CategoryCard: FunctionComponent<Props> = ({
       {image ? (
         <img src={image} alt={name} className={`${categoriesHighlights[`${shape}CardImage`]}`} width="215" height="158"/>
       ) : (
-        <img
-          src={shape === SQUARED ? squaredPlaceholder : rectangularPlaceholder}
-          alt=""
-          className={`${categoriesHighlights[`${shape}CardImage`]}`}
-          width="215" height="158"
-        />
+        // <img
+        //   src={shape === SQUARED ? squaredPlaceholder : rectangularPlaceholder}
+        //   alt=""
+        //   className={`${categoriesHighlights[`${shape}CardImage`]}`}
+        //   width="215" height="158"
+        // />
+        ""
       )}
       <span className={`c-muted-1 ${categoriesHighlights.cardName}`}>{name}</span>
     </Link>

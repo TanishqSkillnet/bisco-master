@@ -23,7 +23,7 @@
 }
 
 .brandGalleryProductShelf {
-  height: 35rem;
+  height: 25rem;
 }
 
 .brandGalleryDescriptionTextContent {
@@ -48,7 +48,6 @@
 .container {
   min-height: 0.625rem;
   min-width: 0.625rem;
-  padding: 5rem 0;
 }
 
 .containerImg {
@@ -63,12 +62,6 @@
 .arrowsContainer, brandContentArrowsContainer {
   box-sizing: content-box;
 }
-
-.arrowLeft {}
-
-.arrowRight {}
-
-.sliderRoot {}
 
 .sliderFrame {
   -webkit-box-pack: start;
@@ -112,18 +105,24 @@
   transform: scale(1.05);
 }
 
-.imageInnerContainer {}
+.brandImage{
+  margin-top: 2rem;
+}
 
 .productImage {
   max-height: 100%;
-  height: 20rem;
+  height: 15rem;
   object-fit: contain;
 }
+
+.imageOuterContainer {}
+
+.imageInnerContainer {}
+
+.infoContainer {}
 
 .nameContainer {}
 
 .nameHeading {}
 
 .nameSpan {}
-
-.brandName {}

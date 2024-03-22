@@ -5,5 +5,5 @@ query QuantityPriceBreaks($itemId: String, $sellerId: String, $tradePolicyId: St
     maxQuantity
     price
     leadTime
-  }
+  }   
 }

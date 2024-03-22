@@ -7,10 +7,6 @@
   width: 100%;
 }
 
-.productPriceTable table, tr {
-
-}
-
 .colGroupQuantityBreak{
   width: 30%;
 }
@@ -27,8 +23,6 @@
   padding: 7px;
 }
 
-.productPriceTableMainHeader{
-}
 
 .productPriceTableHeader{
   color: black;
@@ -60,7 +54,6 @@
 table, tr {
 }
 
-.productPriceTableDataRow {}
 
 .productPriceQuantityDataColumn {
   min-height: 26px;

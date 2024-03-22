@@ -131,7 +131,7 @@ class CategoryPanel extends Component<Props> {
       where: `facetType=category`,
     }
     return canUseDOM ? (
-      <Query query={FACET_IMAGES} variables={facetProductParams}>
+      <Query query={FACET_IMAGES} variables={facetProductParams}  fetchPolicy="cache-and-network" >
         {({ loading, error, data }: MDSearchResult) => {
           if (loading) return <Loader />
 

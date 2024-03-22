@@ -64,7 +64,7 @@ const PostalCodeSelector = ({ postalCode, updatePostalCode }: Props) => {
   }
 
   return (
-    <div onClick={postalCodePopupClicked}>
+    <section onClick={postalCodePopupClicked}>
       <div className={styles.postalCodeLink}>
 
         { postalCode && (<span className="b">{postalCode} </span>)}
@@ -87,7 +87,7 @@ const PostalCodeSelector = ({ postalCode, updatePostalCode }: Props) => {
           </div>
         </div>
       )}
-    </div>
+    </section>
   )
 }
 

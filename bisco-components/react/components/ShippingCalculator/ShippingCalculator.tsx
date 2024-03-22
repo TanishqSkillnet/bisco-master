@@ -46,7 +46,9 @@ const ShippingCalculator = ({
   const { data, loading, error } = useQuery(GET_LEAD_TIME, {
     skip: !itemId,
     variables: { itemId, quantity, postalCode, sellerId },
+    fetchPolicy: 'cache-and-network',
   })
+
   const leadTime = pathOr('', ['leadTime', 'leadTime'], data)
   const splitArray = leadTime ? leadTime.split('b') : []
   const numberOfDays: number | undefined = splitArray.length > 0 ? Number(splitArray[0]) : undefined
