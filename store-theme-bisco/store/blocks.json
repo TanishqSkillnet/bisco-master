@@ -6,61 +6,18 @@
       "list-context.image-list#brand-slider",
       "image-new#full-width-banner",
       "list-context.image-list#banner-slider",
-      "flex-layout.row#first-dept",
-      "flex-layout.row#fasteners",
       "__fold__",
-      "__fold__.experimentalLazyAssets",
-      "flex-layout.row#second-dept",
-      "flex-layout.row#electronic-connectors",
-      "flex-layout.row#third-dept",
-      "flex-layout.row#hardware"
+      "rich-text.title#dept1",
+      "categories-highlights#dept1",
+      "rich-text.title#dept2",
+      "categories-highlights#dept2",
+      "rich-text.title#dept3",
+      "categories-highlights#dept3"
     ]
-  },
-  "flex-layout.row#first-dept":{
-    "children":[
-      "rich-text#first-dept"
-    ],
-    "props":{
-      "blockClass":"dept-title-row-1"
-    }
-  },
-  "flex-layout.row#second-dept":{
-    "children":[
-      "rich-text#second-dept"
-    ],
-    "props":{
-      "blockClass":"dept-title-row-1"
-    }
-  },
-  "flex-layout.row#third-dept":{
-    "children":[
-      "rich-text#third-dept"
-    ],
-    "props":{
-      "blockClass":"dept-title-row-1"
-    }
-  },
-  "rich-text#first-dept": {
-    "props":{
-      "text": "Fasteners",
-      "blockClass": "fist-department"
-    }
-  },
-  "rich-text#second-dept": {
-    "props":{
-      "text": "Electronic Connectors",
-      "blockClass": "second-department"
-    }
-  },
-  "rich-text#third-dept": {
-    "props":{
-      "text": "Hardware",
-      "blockClass": "third-department"
-    }
   },
   "notification.bar#messagebar": {
     "props": {
-      "content": "SAME DAY SHIPPING UNTIL 9AM EST",
+      "content": "SAME DAY SHIPPING UNTIL 9AM EST Sachin",
       "blockClass": "home-message"
     }
   },
@@ -70,12 +27,14 @@
     ],
     "props": {
       "height": 500,
+      "width":1579,
       "images": [
         {
           "image": "https://cdn.biscoind.com/static/vtex-banner-home-1.jpg",
           "mobileImage": "https://cdn.biscoind.com/static/vtex-banner-home-1.jpg",
           "description": "main image",
           "height": 500
+
         }
       ]
     }
@@ -86,6 +45,7 @@
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,
+
         "phone": 1
       },
       "infinite": true,
@@ -220,6 +180,7 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
+      "page-title",
       "__fold__",
       "__fold__.experimentalLazyAssets",
       "rich-text#index-buttons",
@@ -1277,348 +1238,6 @@
       "level": 3
     }
   },
-  "flex-layout.row#fasteners": {
-    "children":[
-      "flex-layout.row#sub1-fasteners",
-      "flex-layout.row#sub2-fasteners",
-      "flex-layout.row#sub3-fasteners"
-    ],
-    "props":{
-      "blockClass": "fasteners-main-row"
-    }
-  },
-
-  "flex-layout.row#sub1-fasteners": {
-    "children":[
-      "info-card#fasteners1",
-      "info-card#fasteners2"
-    ],
-    "props": {
-      "blockClass": "sub-row1"
-    }
-  },
-
-  "flex-layout.row#sub2-fasteners": {
-    "children":[
-      "info-card#fasteners3",
-      "info-card#fasteners4"
-    ],
-    "props": {
-      "blockClass": "sub-row2"
-    }
-  },
-
-  "flex-layout.row#sub3-fasteners": {
-    "children":[
-      "info-card#fasteners5",
-      "info-card#fasteners6"
-    ],
-    "props": {
-      "blockClass": "sub-row3"
-    }
-  },
-
-  "info-card#fasteners1": {
-    "props": {
-      "id": "info-card-fasteners-1",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/screws-2___89582bce56d16a9164f7c156beb3cccb.jpg",
-      "imageActionUrl": "/fasteners/screws-and-bolts",
-      "subhead": "Srews and Bolts",
-      "blockClass": "info-card-fasteners-1",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#fasteners2": {
-    "props": {
-      "id": "info-card-fasteners-2",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/inserts-1A_272x166___07883df2bc9d1eadd80ac687b3ad4747.jpg",
-      "imageActionUrl": "/Fasteners/Inserts",
-      "subhead": "Inserts",
-      "blockClass": "info-card-fasteners-2",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#fasteners3": {
-    "props": {
-      "id": "info-card-fasteners-3",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/washers-2___7cb453242fe22b03ca0fa90f2a6eacee.jpg",
-      "imageActionUrl": "/Fasteners/washers",
-      "subhead": "Washers",
-      "blockClass": "info-card-fasteners-3",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#fasteners4": {
-    "props": {
-      "id": "info-card-fasteners-4",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/nuts-2___fced78d42436f71d7b811b3eb8376a67.jpg",
-      "imageActionUrl": "/Fasteners/nuts",
-      "subhead": "Nuts",
-      "blockClass": "info-card-fasteners-4",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#fasteners5": {
-    "props": {
-      "id": "info-card-fasteners-5",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/spacers-web2019___a5b6a22ccbc9b28f443cadf068c28be8.jpg",
-      "imageActionUrl": "/fasteners/spacers",
-      "subhead": "Spacers",
-      "blockClass": "info-card-fasteners-5",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#fasteners6": {
-    "props": {
-      "id": "info-card-fasteners-6",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/standoffs-web2019___3d633dbb911ce839989611bdbb964575.jpg",
-      "imageActionUrl": "/fasteners/standoffs",
-      "subhead": "Standoffs",
-      "blockClass": "info-card-fasteners-6",
-      "textAlignment": "center"
-    }
-  },
-
-  "flex-layout.row#electronic-connectors": {
-    "children":[
-      "flex-layout.row#sub1-electronic-connectors",
-      "flex-layout.row#sub2-electronic-connectors",
-      "flex-layout.row#sub3-electronic-connectors"
-    ],
-    "props":{
-      "blockClass": "electronic-connectors-main-row"
-    }
-  },
-
-  "flex-layout.row#sub1-electronic-connectors": {
-    "children":[
-      "info-card#electronic-connectors1",
-      "info-card#electronic-connectors2"
-    ],
-    "props": {
-      "blockClass": "sub-row1"
-    }
-  },
-
-  "flex-layout.row#sub2-electronic-connectors": {
-    "children":[
-      "info-card#electronic-connectors3",
-      "info-card#electronic-connectors4"
-    ],
-    "props": {
-      "blockClass": "sub-row2"
-    }
-  },
-
-  "flex-layout.row#sub3-electronic-connectors": {
-    "children":[
-      "info-card#electronic-connectors5",
-      "info-card#electronic-connectors6"
-    ],
-    "props": {
-      "blockClass": "sub-row3"
-    }
-  },
-
-  "info-card#electronic-connectors1": {
-    "props": {
-      "id": "info-card-electronic-connectors-1",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/pcbConnctrs-web2019___cbb7862964e6740ce271eae3c6e0cadf.jpg",
-      "imageActionUrl": "/electronic-connectors/pcb-connectors",
-      "subhead": "PCB Connectors",
-      "blockClass": "info-card-electronic-connectors-1",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#electronic-connectors2": {
-    "props": {
-      "id": "info-card-electronic-connectors-2",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/terminals-web2019___96a8039e513fc1e4b24165323f7f86d0.jpg",
-      "imageActionUrl": "/electronic-connectors/terminals",
-      "subhead": "Terminals",
-      "blockClass": "info-card-electronic-connectors-2",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#electronic-connectors3": {
-    "props": {
-      "id": "info-card-electronic-connectors-3",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/126532a8-0522-482a-baa1-79bc61bffd0e___41134c324a950e8568242c9f506a7a24.jpg",
-      "imageActionUrl": "/electronic-connectors/board-to-board-connectors",
-      "subhead": "Boards and Connectors",
-      "blockClass": "info-card-electronic-connectors-3",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#electronic-connectors4": {
-    "props": {
-      "id": "info-card-electronic-connectors-4",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/rfConnectors-web2019___eab42e75905c799463b7734e8e01b81d.jpg",
-      "imageActionUrl": "/electronic-connectors/rf-and-commercial-connectors",
-      "subhead": "RF and Commercial Connectors",
-      "blockClass": "info-card-electronic-connectors-4",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#electronic-connectors5": {
-    "props": {
-      "id": "info-card-electronic-connectors-5",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/circConnectrs-web2019___7f68fc584c01bf89f7e6f49bb8d61b4c.jpg",
-      "imageActionUrl": "/electronic-connectors/circular-connectors",
-      "subhead": "Circular Connectors",
-      "blockClass": "info-card-electronic-connectors-5",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#electronic-connectors6": {
-    "props": {
-      "id": "info-card-electronic-connectors-6",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/powerConnect-web2019___037efc9dafd64e36bbe77659bb142bde.jpg",
-      "imageActionUrl": "/electronic-connectors/power-connectors",
-      "subhead": "Power Connectors",
-      "blockClass": "info-card-electronic-connectors-6",
-      "textAlignment": "center"
-    }
-  },
-
-  "flex-layout.row#hardware": {
-    "children":[
-      "flex-layout.row#sub1-hardware",
-      "flex-layout.row#sub2-hardware",
-      "flex-layout.row#sub3-hardware"
-    ],
-    "props":{
-      "blockClass": "hardware-main-row"
-    }
-  },
-
-  "flex-layout.row#sub1-hardware": {
-    "children":[
-      "info-card#hardware1",
-      "info-card#hardware2"
-    ],
-    "props": {
-      "blockClass": "sub-row1"
-    }
-  },
-
-  "flex-layout.row#sub2-hardware": {
-    "children":[
-      "info-card#hardware3",
-      "info-card#hardware4"
-    ],
-    "props": {
-      "blockClass": "sub-row2"
-    }
-  },
-
-  "flex-layout.row#sub3-hardware": {
-    "children":[
-      "info-card#hardware5",
-      "info-card#hardware6"
-    ],
-    "props": {
-      "blockClass": "sub-row3"
-    }
-  },
-
-  "info-card#hardware1": {
-    "props": {
-      "id": "info-card-hardware-1",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/din-rails-accessories___a82252136c51330fd7d9dd0fede30530.jpg",
-      "imageActionUrl": "/hardware/din-rails-and-rail-accessories",
-      "subhead": "Din Rails and Rail Accessories",
-      "blockClass": "info-card-hardware-1",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#hardware2": {
-    "props": {
-      "id": "info-card-hardware-2",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/mountHrdwre-web2019___5cca3db8363a294fd9d017499b1b0086.jpg",
-      "imageActionUrl": "/hardware/mounting-hardware",
-      "subhead": "Mounting Hardware",
-      "blockClass": "info-card-hardware-2",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#hardware3": {
-    "props": {
-      "id": "info-card-hardware-3",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/293a85d9-2eac-492a-8ad7-fd7729e896d9___7ac3b74c130dd4a7f12459f47defdc5a.jpg",
-      "imageActionUrl": "/hardware/knobs-and-levers",
-      "subhead": "Knobs and Levers",
-      "blockClass": "info-card-hardware-3",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#hardware4": {
-    "props": {
-      "id": "info-card-hardware-4",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/bumpersFeets-web2019___1a276956ea0cba4bed6f2e3f4a46e9a7.jpg",
-      "imageActionUrl": "/hardware/bumpers-and-feet",
-      "subhead": "Bumpers and Feet",
-      "blockClass": "info-card-hardware-4",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#hardware5": {
-    "props": {
-      "id": "info-card-hardware-5",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/247a0cec-21c2-4821-a4fc-174bc532af2c___0d28fd04755c7cb2e433b869b0913240.jpg",
-      "imageActionUrl": "/hardware/springs",
-      "subhead": "Springs",
-      "blockClass": "info-card-hardware-5",
-      "textAlignment": "center"
-    }
-  },
-  "info-card#hardware6": {
-    "props": {
-      "id": "info-card-hardware-6",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://biscoind.vtexassets.com/assets/vtex.file-manager-graphql/images/pins-ejectors-web2019___46db773acfc555b364bc03d6b79cf0c0.jpg",
-      "imageActionUrl": "/hardware/pins-ejectors",
-      "subhead": "Pins/Ejectors",
-      "blockClass": "info-card-hardware-6",
-      "textAlignment": "center"
-    }
-  },
-
   "categories-highlights#dept1": {
     "props": {
       "categoriesHighlighted": {

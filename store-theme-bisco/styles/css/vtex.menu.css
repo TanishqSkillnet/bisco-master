@@ -423,7 +423,7 @@
 :global(.vtex-store-header-2-x-headerRowContainer--top-menu)
   .menuItem--top-menu-manufacturers:hover {
   outline: none;
-  background: #6d6d6d;
+  background: #17aeff;
   cursor: default;
 }
 

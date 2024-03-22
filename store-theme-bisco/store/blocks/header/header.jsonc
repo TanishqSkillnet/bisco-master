@@ -3,6 +3,7 @@
     "blocks": [
       "header-layout.desktop",
       "header-layout.mobile"
+
     ]
   },
   "header.full": {
@@ -40,9 +41,9 @@
       "logo#desktop",
       "header-spacer",
       "search-bar",
+      "login#withIcon",
       "binding-selector",
       "locale-switcher",
-      "login#withIcon",
       "minicart.v2#new"
     ],
     "props": {

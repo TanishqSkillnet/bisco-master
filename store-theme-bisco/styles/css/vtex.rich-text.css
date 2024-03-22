@@ -56,6 +56,20 @@
   font-size: 1.25rem;
 }
 
+.container--discountclass {
+    color: #727273 !important;
+}
+
+.paragraph--discountclass{
+  font-size: 1.5rem !important;
+
+}
+
+.paragraph--newrich {
+  font-size: 50px !important;
+}
+
+
 .paragraph--product-documents-media {
   font-size: 1.25rem;
 }
@@ -305,21 +319,4 @@
   font-size: 16px;
   margin-bottom: 0;
   margin-top: 0;
-}
-
-.paragraph--fist-department,
-.paragraph--second-department,
-.paragraph--third-department {
-  font-size: 1.75rem;
-  font-weight: 700;
-  margin-left: 1.2rem;
-  margin-bottom: 0.5rem;
-  line-height: 28px;
-  color: #727273;
-}
-
-.container--fist-department,
-.container--second-department,
-.container--third-department {
-  border-bottom: 1px solid #e3e4e6;
 }
