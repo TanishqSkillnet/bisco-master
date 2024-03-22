@@ -1,7 +1,0 @@
-#import './bindingInfoFragment.gql'
-
-query bindingInfo {
-  bindingInfo @context(provider: "biscoind.binding-selector") {
-    ...BindingInfoFragment
-  }
-}

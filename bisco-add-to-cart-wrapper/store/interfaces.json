@@ -1,6 +1,0 @@
-{
-  "add-to-cart-wrapper": {
-    "component": "AddToCartWrapper",
-    "allowed": ["add-to-cart-button"]
-  }
-}

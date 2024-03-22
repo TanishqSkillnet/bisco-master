@@ -1,1 +1,0 @@
-# VTEX Contact Form Component

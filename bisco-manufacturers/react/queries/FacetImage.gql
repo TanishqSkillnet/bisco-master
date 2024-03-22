@@ -1,9 +1,0 @@
-query FacetImage($facetType: String!, $facetId: String!) {
-  facetImage(facetType: $facetType, facetId: $facetId) {
-    id
-    cacheId
-    facetType
-    facetId
-    imageUrl
-  }
-}
