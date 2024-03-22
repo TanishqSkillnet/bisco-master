@@ -1,7 +1,7 @@
 {
   "vendor": "biscoind",
   "name": "store-theme",
-  "version": "2.9.1",
+  "version": "2.9.0",
   "builders": {
     "react": "3.x",
     "styles": "1.x",
@@ -61,9 +61,7 @@
     "vtex.product-list": "0.x",
     "biscoind.bisco-ecad-pixel": "1.x",
     "vtex.locale-switcher": "0.x",
-    "biscoind.binding-selector": "0.x"
-  },
-  "peerDependencies": {
+    "biscoind.binding-selector": "0.x",
     "vtex.shelf-components": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
