@@ -163,7 +163,7 @@ const BrandContent = ({
                   )}
                 </div>
               </Tab>
-              {videos.length > 0 ?
+              {videos?.length > 0 ?
                 <Tab label={intl.formatMessage(messages.brandContentVideo)} active={currentTab === 2} onClick={() => handleTabChange(2)}>
                   <div className={styles.brandGalleryVideos}>
                     {videos && (
